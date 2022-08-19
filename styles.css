@@ -5,6 +5,10 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1em;
+    border-top-style: solid;
+    border-top-width: 13px;
+    border-top-color: #0a3641;
 }
 
 .logo {
@@ -16,7 +20,9 @@
     color: #0a3641;
 }
 
-/*inspirational quote */
+/*body*/
+
+
 
 .inspiration {
     text-align: center;
