@@ -1,5 +1,4 @@
 /* header */
-
 .header_wrapper {
     display: flex;
     justify-content: space-between;
@@ -17,9 +16,14 @@
 }
 
 /*body*/
-
 body {
-    font-family: ;
+    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 14pt;
+    font-weight: 300;
+    color: #222222;
 }
 
 .inspiration {
@@ -27,12 +31,13 @@ body {
 }
 
 .highlighted {
+    font-size: 16pt;
+    font-weight: 400;
     text-transform: uppercase;
     color: #0a3641;
 }
 
 /* gender categories */
-
 .container {
     float: left;
     width: 45%;
