@@ -15,6 +15,11 @@
     color: #0a3641;
 }
 
+.screenreader-text {
+    position: absolute;
+    left: -10000px;
+}
+
 /*body*/
 body {
     font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
