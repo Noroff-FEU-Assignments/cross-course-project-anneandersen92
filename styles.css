@@ -5,9 +5,6 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    border-top-style: solid;
-    border-top-width: 13px;
-    border-top-color: #0a3641;
 }
 
 .logo {
@@ -21,7 +18,9 @@
 
 /*body*/
 
-
+body {
+    font-family: ;
+}
 
 .inspiration {
     text-align: center;
