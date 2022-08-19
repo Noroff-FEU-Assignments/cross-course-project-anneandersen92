@@ -11,15 +11,10 @@
     width: 100px;
 }
 
-nav a {
+.material-icons-outlined {
+    font-size: 20px;
     color: #0a3641;
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
-    background-size: auto;
 }
-
-
 
 /*inspirational quote */
 
