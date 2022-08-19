@@ -22,11 +22,11 @@
 
 /*body*/
 body {
-    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 300;
     color: #222222;
 }
@@ -36,7 +36,7 @@ p {
 }
 
 .highlighted {
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: 400;
     text-transform: uppercase;
     color: #0a3641;
