@@ -27,7 +27,7 @@
 
 /*body*/
 body {
-    font-family: "Roboto Condensed" ;
+    font-family: "Roboto Condensed" , Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
