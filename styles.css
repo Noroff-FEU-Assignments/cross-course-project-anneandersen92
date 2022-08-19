@@ -45,14 +45,9 @@ h1 {
 }
 
 /*main*/
-.promo-picture {
-    background-image: url(images/hiking.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.promo-image {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
-    margin: none;
+    max-height: auto;
 }
 
 .inspiration {
@@ -72,15 +67,18 @@ h1 {
 /* gender categories */
 .category-container {
     float: left;
-    width: 50%;
+    width: 48%;
     position: relative;
     text-align: center;
 }
 
 .category-container img {
     width: 100%;
-    max-width: 232px;
-    min-width: none;
+    max-width: auto;
+}
+
+.women-container {
+    margin: 0 4% 0 0;
 }
 
 .category {
