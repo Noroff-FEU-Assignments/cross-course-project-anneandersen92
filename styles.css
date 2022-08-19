@@ -4,7 +4,8 @@
 }
 
 body,
-h1 {
+h1,
+h4 {
     font-family: "Roboto Condensed" , Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -15,9 +16,15 @@ body {
 }
 
 h1 {
-    font-size: 36pt;
+    font-size: 32pt;
     font-weight: 500;
     color: #ffffff;
+}
+
+h4 {
+    font-size: 20;
+    font-weight: 400;
+    color: #222222;
 }
 
 /* header */
@@ -27,6 +34,11 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     padding: 16px 8px 16px 8px;
+}
+
+header {
+    background-color: #ffffff;
+    position: sticky; top: 0;
 }
 
 .logo {
@@ -93,4 +105,27 @@ h1 {
     content: "";
     clear: both;
     display: table;
+}
+
+/*new in*/
+
+.product-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px 8px 16px 8px;
+}
+
+.product-wrapper img {
+    width: 30%;
+    max-width: 160px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 11px;
 }
