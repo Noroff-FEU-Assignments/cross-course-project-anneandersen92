@@ -39,6 +39,7 @@ h4 {
 header {
     background-color: #ffffff;
     position: sticky; top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -83,6 +84,7 @@ header {
     width: 48%;
     position: relative;
     text-align: center;
+    z-index: 950;
 }
 
 .category-container img {
@@ -109,17 +111,29 @@ header {
 
 /*new in*/
 
-.product-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 16px 8px 16px 8px;
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 32px;
 }
 
-.product-wrapper img {
-    width: 30%;
-    max-width: 160px;
+.news-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    width: auto;
+}
+
+.news-container img {
+    float: left;
+    width: 100%;
+    max-height: auto;
+    object-fit: fill;
+    margin-bottom: 16px;
 }
 
 .upper {
@@ -128,4 +142,10 @@ header {
 
 .description {
     font-size: 11px;
+}
+
+.news-container::after {
+    content: "";
+    clear: both;
+    display: table;
 }
