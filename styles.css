@@ -13,6 +13,8 @@ body {
     font-size: 12pt;
     font-weight: 300;
     color: #222222;
+    width: 100%;
+    margin: 0;
 }
 
 h1 {
@@ -34,7 +36,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 16px 8px 0px 8px;
+    padding: 16px 16px 0px 16px;
 }
 
 header {
@@ -68,7 +70,7 @@ header {
     padding: 8px 16px 8px 16px;
     border: solid 1px #222222;
     border-radius: 50px;
-    margin: 8px 0 8px 0;
+    margin: 8px;
 }
 
 .search-wrapper input {
@@ -79,6 +81,7 @@ header {
     padding: 0 0 0 8px;
     width: 100%;
     border: none;
+    outline: none;
     background: #ffffff;
 }
 
@@ -167,6 +170,7 @@ header {
     justify-content: flex-start;
     align-content: stretch;
     text-align: left;
+    margin: 0 2px 0 2px;
 }
 
 .news-container img {
@@ -188,6 +192,10 @@ header {
     font-size: 10pt;
     height: 2rem;
     margin-top: 0.2rem;
+}
+
+.news-container p {
+    margin-left: 0px;
 }
 
 .news-container {
