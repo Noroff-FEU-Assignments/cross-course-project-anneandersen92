@@ -129,6 +129,7 @@ header {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: stretch;
+    text-align: left;
 }
 
 .news-container img {
