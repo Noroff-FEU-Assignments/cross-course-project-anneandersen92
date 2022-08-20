@@ -34,13 +34,14 @@ h3 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 16px 8px 16px 8px;
+    padding: 16px 8px 0px 8px;
 }
 
 header {
     background-color: #ffffff;
     position: sticky; top: 0;
     z-index: 1000;
+    padding-bottom: 2px;
 }
 
 .logo {
@@ -59,6 +60,41 @@ header {
     left: -10000px;
 }
 
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 8px 16px 8px 16px;
+    border: solid 1px #222222;
+    border-radius: 50px;
+    margin: 8px 0 8px 0;
+}
+
+.search-wrapper input {
+    font-family: 'Roboto Condensed';
+    font-size: 11pt;
+    font-weight: 100;
+    color: #3a3a3d;
+    padding: 0 0 0 8px;
+    width: 100%;
+    border: none;
+    background: #ffffff;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #222222;
+    padding: 0;
+}
+
+::placeholder {
+    font-family: 'Roboto Condensed';
+    font-size: 11pt;
+    font-weight: 100;
+    color: #3a3a3d;
+}
+
 /*main*/
 .promo-image {
     width: 100%;
@@ -69,7 +105,7 @@ header {
     text-align: center;
     background-color: #6ca9b330;
     padding: 8px 0px 8px 0px;
-    margin: 32px 0px 32px 0px;
+    margin: 16px 0px 16px 0px;
 }
 
 .highlighted {
@@ -120,7 +156,7 @@ header {
     font-size: 20px;
     font-weight: 400;
     color: #222222;
-    margin-top: 40px;
+    margin-top: 32px;
     margin-bottom: 16px;
 }
 
@@ -168,7 +204,6 @@ footer {
     padding-top: 56px;
     padding-bottom: 56px;
     margin-top: 32px;
-    width: 100%;
 }
 
 footer ul {
