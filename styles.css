@@ -19,6 +19,7 @@ h1 {
     font-size: 32pt;
     font-weight: 500;
     color: #ffffff;
+    text-shadow: 0px 3px 5px #222222;
 }
 
 h3 {
@@ -158,5 +159,27 @@ header {
     flex-direction: row;
     justify-content: space-between;
     gap: 8px;
-    width: auto;
+    width: fit-content;
+}
+
+/*Footer*/
+footer {
+    background-color: #0a3641;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    margin-top: 32px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer li {
+    margin-bottom: 16px;
+}
+
+footer a, a:visited {
+    text-decoration: none;
+    color: #ffffff;
 }
