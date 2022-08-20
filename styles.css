@@ -168,11 +168,13 @@ footer {
     padding-top: 56px;
     padding-bottom: 56px;
     margin-top: 32px;
+    width: 100%;
 }
 
 footer ul {
     list-style: none;
     text-align: center;
+    padding-left: 0;
 }
 
 footer li {
