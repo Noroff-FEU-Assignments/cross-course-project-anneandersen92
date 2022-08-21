@@ -153,7 +153,6 @@ header {
 
 .promo-container {
     position: relative;
-    text-align: left;
 }
 
 .promo-container img {
@@ -162,14 +161,14 @@ header {
 }
 
 .promo-text{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
-    position: absolute;
+    justify-content: flex-start;
     width: 100%;
-    top: 5%;
     left: 2px;
+    bottom: 10%;
 }
 
 .promo-heading {
@@ -179,11 +178,11 @@ header {
     padding: 4px 16px 4px 16px;
     text-shadow: none;
     font-weight: 600;
-    font-size: 28pt;
+    font-size: 16pt;
 }
 
 .promo-info {
-    font-size: 14pt;
+    font-size: 12pt;
     color: #ffffff;
     background: #0a3641;
     padding: 4px 16px 4px 16px;
@@ -191,7 +190,7 @@ header {
 
 .promo-container button {
     font-family: 'Roboto Condensed';
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 600;
     text-transform: uppercase;
     color: #0a3641;
@@ -337,10 +336,5 @@ footer a:visited {
     color: #ffffff;
 }
 
+@media only screen and (min-width: 769px)
 
-@media
-
-.hamnav label,
-.hamburger {
-    display: none;
-}
