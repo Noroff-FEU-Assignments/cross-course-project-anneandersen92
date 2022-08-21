@@ -150,6 +150,7 @@ header {
 }
 
 /*promo and categories*/
+
 .promo-container {
     position: relative;
     text-align: left;
@@ -160,6 +161,17 @@ header {
     max-height: auto;
 }
 
+.promo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    left: 2px;
+}
+
 .promo-heading {
     text-transform: uppercase;
     color: #0a3641;
@@ -167,6 +179,7 @@ header {
     padding: 4px 16px 4px 16px;
     text-shadow: none;
     font-weight: 600;
+    font-size: 28pt;
 }
 
 .promo-info {
@@ -196,17 +209,6 @@ header {
 
 .promo-container button:active {
     background: #ffffff;
-}
-
-.promo-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    position: absolute;
-    width: 100%;
-    top: 5%;
-    left: 2px;
 }
 
 .inspiration {
@@ -263,7 +265,7 @@ header {
     font-size: 20px;
     font-weight: 400;
     color: #222222;
-    margin-top: 32px;
+    margin-top: 40px;
     margin-bottom: 16px;
 }
 
