@@ -386,7 +386,7 @@ footer a:visited {
         text-decoration: none;
         text-align: center;
         margin-top: 40px;
-        padding: 0 16px 0 16px;
+        padding: 0 8px 0 8px;
     }
 
     .hamitems a:hover {
@@ -482,6 +482,11 @@ footer a:visited {
 
     html {
         background-color: #f1f1f1;
+    }
+
+    .hamitems a,
+    .hamitems a:visited {
+        padding: 0 24px 0 24px;
     }
 
     .promo-container img {
