@@ -55,6 +55,10 @@ header {
     height: 60px;
 }
 
+.image2 {
+    display: none;
+}
+
 .material-icons-outlined {
     font-size: 26px;
     color: #0a3641;
@@ -178,7 +182,7 @@ header {
     padding: 4px 16px 4px 16px;
     text-shadow: none;
     font-weight: 600;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 .promo-info {
@@ -197,8 +201,9 @@ header {
     background: #ffffff;
     border-radius: 8px;
     padding: 4px 16px 4px 16px;
-    border: 1px solid #0a3641;
+    border: 2px solid #0a3641;
     width: 100%;
+    box-shadow: 3px 3px 5px #222222;
 }
 
 .promo-container button:hover {
@@ -264,8 +269,9 @@ header {
     font-size: 20px;
     font-weight: 400;
     color: #222222;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 16px;
+    text-transform: uppercase;
 }
 
 .news-products {
@@ -310,6 +316,7 @@ header {
     justify-content: space-between;
     gap: 8px;
     width: fit-content;
+    padding-bottom: 32px;
 }
 
 /*footer*/
@@ -317,7 +324,6 @@ footer {
     background-color: #0a3641;
     padding-top: 56px;
     padding-bottom: 56px;
-    margin-top: 32px;
 }
 
 footer ul {
@@ -336,5 +342,153 @@ footer a:visited {
     color: #ffffff;
 }
 
-@media only screen and (min-width: 769px)
+@media only screen and (min-width: 769px) {
+    body {font-size: 16pt;}
 
+    .image1 {display: none;}
+
+    .image2 {display: inline;}
+
+    .menu label {display: none;}
+
+    .header-wrapper {
+        background-color: #0a3641;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px;
+    }
+
+    .logo {order: 1;}
+    .hamnav {order: 2;}
+    .icons {order: 3;}
+
+    .logo {
+        width: auto;
+        height: 80px;
+    }
+
+    .hamnav {
+        display: inline;
+        width: 100%;
+        height: 100%;
+        background: #0a3641;
+    }
+
+    .hamitems {
+        display: flex;
+    }
+
+    .hamitems a,
+    .hamitems a:visited {
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 40px;
+        padding: 0 16px 0 16px;
+    }
+
+    .hamitems a:hover {
+        text-decoration: underline 2px solid #ffffff;
+    }
+
+    .icons {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .material-icons-outlined {
+        font-size: 35px;
+        color: #ffffff;
+    }
+    
+    .material-icons-outlined:hover{
+        text-decoration: underline 2px solid #ffffff;
+    }
+
+    .search-wrapper {
+        padding: 8px 24px 8px 24px;
+        margin: 8px 24px 8px 24px;
+    }
+    
+    .search-wrapper input {
+        font-size: 14pt;
+    }
+
+    ::placeholder {
+        font-size: 14pt;
+    }
+
+    .material-icons-outlined-search {
+        font-size: 30px;
+        color: #222222;
+    }
+
+    .promo-heading {
+        padding: 4px 32px 4px 32px;
+        font-size: 16pt;
+    }
+    
+    .promo-info {
+        font-size: 16pt;
+        padding: 4px 32px 4px 32px;
+    }
+    
+    .promo-container button {
+        font-size: 16pt;
+        padding: 4px 32px 4px 32px;
+    }
+
+    .inspiration {
+        font-size: 16pt;
+    }
+
+    .highlighted {
+        font-size: 18pt;
+        font-weight: 600;
+    }
+
+    .category {
+        font-size: 40pt;
+    }
+
+    .news-heading {
+        font-size: 24pt;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .description {
+        font-size: 12pt;
+    }
+
+    footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    footer li {
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main {
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #6ca9b330;
+    }
+
+    html {
+        background-color: #f1f1f1;
+    }
+
+    .promo-container img {
+        padding-top: 63px;
+    }
+
+    .inspiration {
+        background-color: initial;
+    }
+}
