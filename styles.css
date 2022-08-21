@@ -87,6 +87,7 @@ header {
     width: 100%;
     height: 100%;
     background: #ffffff99;
+    backdrop-filter: blur(12px);
 }
 
 .hamitems a {
@@ -160,33 +161,22 @@ header {
 }
 
 .promo-heading {
-    position: absolute;
-    top: 10%;
-    left: 0;
     text-transform: uppercase;
     color: #0a3641;
     background: #ffffff;
     padding: 4px 16px 4px 16px;
-    margin-left: 1%;
     text-shadow: none;
     font-weight: 600;
 }
 
 .promo-info {
-    position: absolute;
-    top: 40%;
-    left: 0;
     font-size: 14pt;
     color: #ffffff;
     background: #0a3641;
     padding: 4px 16px 4px 16px;
-    margin-left: 1%;
 }
 
 .promo-container button {
-    position: absolute;
-    bottom: 20%;
-    left: 0;
     font-family: 'Roboto Condensed';
     font-size: 14pt;
     font-weight: 600;
@@ -195,13 +185,28 @@ header {
     background: #ffffff;
     border-radius: 8px;
     padding: 4px 16px 4px 16px;
-    margin-left: 1%;
     border: 1px solid #0a3641;
+    width: 100%;
 }
 
 .promo-container button:hover {
     cursor: pointer;
     background: #6ca9b390;
+}
+
+.promo-container button:active {
+    background: #ffffff;
+}
+
+.promo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    left: 2px;
 }
 
 .inspiration {
