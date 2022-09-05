@@ -1,0 +1,155 @@
+@media only screen and (min-width: 769px) {
+    body {font-size: 16pt;}
+
+    .image1 {display: none;}
+
+    .image2 {display: inline;}
+
+    .menu label {display: none;}
+
+    .header-wrapper {
+        background-color: var(--rainydays-blue);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px;
+    }
+
+    .logo {order: 1;}
+    .hamnav {order: 2;}
+    .icons {order: 3;}
+
+    .logo {
+        width: auto;
+        height: 80px;
+    }
+
+    .hamnav {
+        display: inline;
+        width: 100%;
+        height: 100%;
+        background: var(--rainydays-blue);
+    }
+
+    .hamitems {
+        display: flex;
+    }
+
+    .hamitems a,
+    .hamitems a:visited {
+        color: var(--white);
+        text-decoration: none;
+        text-align: center;
+        margin-top: 40px;
+        padding: 0 8px;
+    }
+
+    .hamitems a:hover {
+        text-decoration: underline 2px solid var(--white);
+    }
+
+    .icons {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .material-icons-outlined {
+        font-size: 35px;
+        color: var(--white);
+    }
+    
+    .material-icons-outlined:hover{
+        text-decoration: underline 2px solid var(--white);
+    }
+
+    .search-wrapper {
+        padding: 8px 24px;
+        margin: 8px 24px;
+    }
+    
+    .search-wrapper input {
+        font-size: 14pt;
+    }
+
+    ::placeholder {
+        font-size: 14pt;
+    }
+
+    .material-icons-outlined-search {
+        font-size: 30px;
+        color: var(--raisin-black);
+    }
+
+    .promo-heading {
+        padding: 12px 32px;
+        font-size: 16pt;
+    }
+    
+    .promo-info {
+        font-size: 16pt;
+        padding: 12px 32px;
+    }
+    
+    .promo-container button {
+        font-size: 16pt;
+        padding: 12px 32px;
+    }
+
+    .inspiration {
+        font-size: 16pt;
+    }
+
+    .highlighted {
+        font-size: 18pt;
+        font-weight: 600;
+    }
+
+    .category {
+        font-size: 40pt;
+    }
+
+    .news-heading {
+        font-size: 24pt;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .description {
+        font-size: 12pt;
+    }
+
+    footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    footer li {
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #6ca9b330;
+    }
+
+    html {
+        background-color: #f1f1f1;
+    }
+
+    .hamitems a,
+    .hamitems a:visited {
+        padding: 0 24px;
+    }
+
+    .promo-container img {
+        padding-top: 63px;
+    }
+
+    .inspiration {
+        background-color: initial;
+    }
+}
