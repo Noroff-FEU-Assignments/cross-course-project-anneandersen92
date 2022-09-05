@@ -45,6 +45,7 @@
         padding: 0 8px;
     }
 
+    .hamitems .active,
     .hamitems a:hover {
         text-decoration: underline 2px solid var(--white);
     }
