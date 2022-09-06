@@ -22,9 +22,9 @@
     color: var(--rainydays-blue);
     background: var(--white);
     padding: 12px 16px;
-    text-shadow: none;
     font-weight: 600;
     font-size: 12pt;
+    letter-spacing: 2px;
 }
 
 .promo-info {
@@ -35,7 +35,6 @@
 }
 
 .promo-container button {
-    font-family: 'Roboto Condensed';
     font-size: 12pt;
     font-weight: 600;
     text-transform: uppercase;
@@ -84,7 +83,7 @@
 }
 
 .women-container {
-    margin: 0 4% 0 0;
+    margin-right: 4%;
 }
 
 .category {
@@ -106,12 +105,8 @@
 
 .news-heading {
     display: inline-block;
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--raisin-black);
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 16px;
-    text-transform: uppercase;
 }
 
 .news-products {

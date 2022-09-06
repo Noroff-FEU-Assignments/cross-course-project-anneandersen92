@@ -1,5 +1,24 @@
 @media only screen and (min-width: 769px) {
-    body {font-size: 16pt;}
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .index-main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    html {
+        background-color: var(--white);
+    }
+    
+    
+    h1 {font-size: 40pt;}
+
+    h2 {font-size: 32pt}
+
+    p {font-size: 16pt}
 
     .image1 {display: none;}
 
@@ -27,8 +46,6 @@
 
     .hamnav {
         display: inline;
-        width: 100%;
-        height: 100%;
         background: var(--rainydays-blue);
     }
 
@@ -82,6 +99,12 @@
         color: var(--raisin-black);
     }
 
+    .promo-container img {
+        height: 400px;
+        object-fit: cover;
+        object-position: 0 30%;
+    }
+
     .promo-heading {
         padding: 12px 32px;
         font-size: 16pt;
@@ -99,15 +122,12 @@
 
     .inspiration {
         font-size: 16pt;
+        margin: 24px 0px;
     }
 
     .highlighted {
         font-size: 18pt;
         font-weight: 600;
-    }
-
-    .category {
-        font-size: 40pt;
     }
 
     .news-heading {
@@ -128,12 +148,22 @@
     footer li {
         margin-bottom: 48px;
     }
+
+    footer a,
+    footer a:visited {
+    font-size: 16pt;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     main {
         margin-left: 20%;
         margin-right: 20%;
+        background-color: var(--white);
+        padding: 1px 0;
+    }
+
+    .index-main {
         background-color: #6ca9b330;
     }
 
@@ -143,14 +173,28 @@
 
     .hamitems a,
     .hamitems a:visited {
+        font-size: 18pt;
         padding: 0 24px;
     }
 
     .promo-container img {
-        padding-top: 63px;
+        height: 600px;
+        object-position: 0 25%;
     }
 
     .inspiration {
         background-color: initial;
+    }
+
+    .product-name {
+        font-size: 18pt;
+    }
+
+    .description {
+        font-size: 14pt;
+    }
+
+    .price {
+        font-size: 18pt;
     }
 }
