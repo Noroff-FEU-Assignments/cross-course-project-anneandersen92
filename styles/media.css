@@ -99,12 +99,6 @@
         color: var(--raisin-black);
     }
 
-    .promo-container img {
-        height: 400px;
-        object-fit: cover;
-        object-position: 0 30%;
-    }
-
     .motivation-container {
         font-size: 16pt;
         margin: 24px 0px;
@@ -113,12 +107,6 @@
     .highlighted {
         font-size: 18pt;
         font-weight: 600;
-    }
-
-    .news-heading {
-        font-size: 24pt;
-        font-weight: 600;
-        margin-bottom: 40px;
     }
 
     footer {
@@ -158,20 +146,7 @@
         padding: 0 24px;
     }
 
-    .promo-container img {
-        height: 600px;
-        object-position: 0 25%;
-    }
-
     .motivation-container {
         background: initial;
-    }
-
-    .product-name {
-        font-size: 18pt;
-    }
-
-    .price {
-        font-size: 18pt;
     }
 }
