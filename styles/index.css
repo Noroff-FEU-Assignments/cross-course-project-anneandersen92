@@ -77,10 +77,10 @@
 }
 
 .featured-slider img {
-    height: 250px;
+    height: 260px;
     background: white;
     border-radius: 12px;
-    padding: 16px;
+    padding: 12px;
 }
 
 .name {
