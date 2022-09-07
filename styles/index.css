@@ -1,3 +1,5 @@
+/*PROMO*/
+
 .promo-container {
     position: relative;
 }
@@ -15,8 +17,8 @@
 .promo-text {
     position: absolute;
     bottom: 10%;
-    width: 70%;
-    background-color: #22222280;
+    width: 250px;
+    background: #22222280;
     border-radius: 0 12px 12px 0;
     line-height: 140%;
     padding: 16px;
@@ -44,24 +46,81 @@
 }
 
 .promo-text a:hover {
-    background-color: #ffffff70;
+    background: #ffffff70;
 }
 
-.inspiration {
-    text-align: center;
-    background-color: #6ca9b330;
-    padding: 8px 0;
-    margin-top: 8px;
-    margin-bottom: 32px;
-    line-height: 150%;
+/*FEATURED*/
+
+.featured-container {
+    margin: auto;
+    width: 100%;
+    background: #6ca9b330;
+    padding-top: 16px;
+    margin: 32px 0;
 }
 
-.highlighted {
-    font-size: 14pt;
-    font-weight: 400;
+.featured-heading {
+    margin: 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.featured-slider {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    gap: 20px;
+    padding-left: 16px;
+}
+
+.featured-slider img {
+    height: 300px;
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.name {
     text-transform: uppercase;
-    color: var(--rainydays-blue);
 }
+
+.price {
+    font-weight: bold;
+}
+
+.featured button {
+    font-family: "Roboto Condensed";
+    font-size: 12pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--raisin-black);
+    text-align: center;
+    text-decoration: none;
+    background: var(--white);
+    border: solid 1px var(--raisin-black);
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 4px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--rainydays-blue);
+    border-radius: 5px;
+}
+
+/*CATEGORIES*/
 
 .women-container,
 .men-container {
@@ -73,7 +132,7 @@
 .women-text,
 .men-text {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -85,73 +144,28 @@
 
 .women-image,
 .men-image {
-    width: 95%;
+    width: 90%;
     border-radius: 12px;
+    left: 50%;
 }
 
 .women-image {
     margin-bottom: 16px;
 }
 
-.featured-container {
+/*MOTIVATION*/
+
+.motivation-container {
     text-align: center;
-    background-color: #6ca9b330;
+    background: #6ca9b330;
+    padding: 8px 0;
     margin: 32px 0;
-    padding: 16px 0;
+    line-height: 150%;
 }
 
-.featured-heading {
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 16px;
+.highlighted {
+    font-size: 14pt;
+    font-weight: 400;
     text-transform: uppercase;
-    font-size: 16pt;
-    font-weight: bold;
-    letter-spacing: 3px;
+    color: var(--rainydays-blue);
 }
-
-
-.featured-gallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 8px;
-    width: fit-content;
-}
-
-.featured-product {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    text-align: left;
-}
-
-.featured-gallery img {
-    width: 99%;
-    object-fit: fill;
-}
-
-.product-name {
-    margin-bottom: 1px;
-}
-
-.upper {
-    text-transform: uppercase;
-}
-
-.description {
-    font-size: 10pt;
-    height: auto;
-    margin-top: 0.2rem;
-}
-
-.featured-gallery p {
-    margin-left: 8px;
-}
-
-.price {
-    margin-bottom: 0;
-}
-

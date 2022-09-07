@@ -10,7 +10,7 @@
     }
 
     html {
-        background-color: var(--white);
+        background: var(--white);
     }
     
     
@@ -27,7 +27,7 @@
     .menu label {display: none;}
 
     .header-wrapper {
-        background-color: var(--rainydays-blue);
+        background: var(--rainydays-blue);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -105,7 +105,7 @@
         object-position: 0 30%;
     }
 
-    .inspiration {
+    .motivation-container {
         font-size: 16pt;
         margin: 24px 0px;
     }
@@ -119,10 +119,6 @@
         font-size: 24pt;
         font-weight: 600;
         margin-bottom: 40px;
-    }
-
-    .description {
-        font-size: 12pt;
     }
 
     footer {
@@ -144,16 +140,16 @@
     main {
         margin-left: 20%;
         margin-right: 20%;
-        background-color: var(--white);
+        background: var(--white);
         padding: 1px 0;
     }
 
     .index-main {
-        background-color: #6ca9b330;
+        background: #6ca9b330;
     }
 
     html {
-        background-color: #f1f1f1;
+        background: #f1f1f1;
     }
 
     .hamitems a,
@@ -167,16 +163,12 @@
         object-position: 0 25%;
     }
 
-    .inspiration {
-        background-color: initial;
+    .motivation-container {
+        background: initial;
     }
 
     .product-name {
         font-size: 18pt;
-    }
-
-    .description {
-        font-size: 14pt;
     }
 
     .price {
