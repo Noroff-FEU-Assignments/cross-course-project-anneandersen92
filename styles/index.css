@@ -72,12 +72,12 @@
     display: flex;
     overflow-x: scroll;
     white-space: nowrap;
-    gap: 20px;
+    gap: 16px;
     padding-left: 16px;
 }
 
 .featured-slider img {
-    height: 200px;
+    height: 250px;
     background: white;
     border-radius: 12px;
     padding: 16px;
