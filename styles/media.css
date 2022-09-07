@@ -105,21 +105,6 @@
         object-position: 0 30%;
     }
 
-    .promo-heading {
-        padding: 12px 32px;
-        font-size: 16pt;
-    }
-    
-    .promo-info {
-        font-size: 16pt;
-        padding: 12px 32px;
-    }
-    
-    .promo-container button {
-        font-size: 16pt;
-        padding: 12px 32px;
-    }
-
     .inspiration {
         font-size: 16pt;
         margin: 24px 0px;
