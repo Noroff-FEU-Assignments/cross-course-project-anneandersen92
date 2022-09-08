@@ -43,7 +43,6 @@ p {
     font-weight: 300;
 }
 
-button,
 #button {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 14pt;
@@ -181,10 +180,9 @@ header {
 /*footer*/
 footer {
     background: var(--rainydays-blue);
-    padding-top: 56px;
-    padding-bottom: 56px;
-    margin-top: 32px;
-    bottom: 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-top: 56px;
 }
 
 footer ul {
