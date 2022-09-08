@@ -26,7 +26,7 @@
 
 .promo-heading {
     font-size: 14pt;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -37,16 +37,21 @@
 
 .promo-text a,
 .promo-text a:active {
-    color: var(--white);
     text-decoration: none;
-    font-weight: bold;
-    border: solid 1px var(--white);
-    padding: 8px;
-    border-radius: 8px;
+    color: var(--white);
+    font-weight: 400;
+    font-style: oblique;
+    background: #22222230;
+    box-shadow: 2px 2px 8px var(--raisin-black);
+    padding: 5px 8px;
+    border-radius: 0 8px;
 }
 
 .promo-text a:hover {
-    background: #ffffff70;
+    cursor: pointer;
+    font-weight: 500;
+    background: #22222260;
+    box-shadow: 2px 2px 8px var(--raisin-black);
 }
 
 /*FEATURED*/
@@ -60,9 +65,10 @@
 }
 
 .featured-heading {
-    font-size: 14pt;
-    font-weight: bold;
-    text-transform: uppercase;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 400;
+    letter-spacing: 1px;
     margin: 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -85,18 +91,18 @@
 
 .name {
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .price {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .featured button {
-    font-family: "Roboto Condensed";
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 1px;
-    color: var(--raisin-black);
     text-align: center;
     text-decoration: none;
     background: var(--white);
@@ -168,7 +174,6 @@
 
 .highlighted {
     font-size: 14pt;
-    font-weight: 400;
     text-transform: uppercase;
     color: var(--rainydays-blue);
 }

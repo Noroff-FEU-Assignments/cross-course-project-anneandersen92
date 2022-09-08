@@ -21,27 +21,26 @@ h1,
 h2,
 .hamitems,
 a {
-    font-family: "Roboto Condensed" , Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    color: var(--raisin-black);
 }
 
 h1 {
     font-size: 48pt;
-    font-weight: bold;
-    color: var(--raisin-black);
+    font-weight: 500;
     text-shadow: 2px 2px 20px var(--white);
     text-transform: uppercase;
 }
 
 h2 {
     font-size: 20pt;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 1px;
-    color: var(--raisin-black);
 }
 
 p {
     font-size: 12pt;
-    color: var(--raisin-black);
+    font-weight: 300;
 }
 
 /* header */
@@ -120,9 +119,8 @@ header {
 .hamitems a,
 .hamitems a:visited {
     text-decoration: none;
-    color: var(--raisin-black);
     font-size: 16pt;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 4px;
 }
 
@@ -139,9 +137,9 @@ header {
 }
 
 .search-wrapper input {
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
-    font-weight: 100;
+    font-weight: 400;
     color: var(--onyx);
     padding-left: 8px;
     width: 100%;
@@ -161,9 +159,9 @@ header {
 }
 
 ::placeholder {
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
-    font-weight: 100;
+    font-weight: 400;
     color: var(--onyx);
 }
 
@@ -189,6 +187,6 @@ footer a:visited {
     text-decoration: none;
     color: var(--white);
     font-size: 12pt;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 4px;
 }
