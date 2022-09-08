@@ -1,0 +1,37 @@
+main {
+    padding: 0 16px;
+}
+
+#name {
+    margin-top: 32px;
+}
+
+#name,
+#email,
+#message {
+    width: 80%;
+    margin-bottom: 16px;
+    border: solid 1px var(--onyx);
+    border-radius: 8px;
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 11pt;
+    font-weight: 400;
+    color: var(--onyx);
+    line-height: 200%;
+    padding-left: 8px;
+    outline: none;
+}
+
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #cc7e31;
+    padding-left: 8px;
+}
+
+#message {
+    margin-bottom: 32px;
+}

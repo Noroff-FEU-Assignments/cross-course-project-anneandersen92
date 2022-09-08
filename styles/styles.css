@@ -43,6 +43,19 @@ p {
     font-weight: 300;
 }
 
+button,
+#button {
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 14pt;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    background: #cc7e31;
+    padding: 8px 24px;
+}
+
 /* header */
 .header-wrapper {
     display: flex;
@@ -170,6 +183,8 @@ footer {
     background: var(--rainydays-blue);
     padding-top: 56px;
     padding-bottom: 56px;
+    margin-top: 32px;
+    bottom: 0;
 }
 
 footer ul {
