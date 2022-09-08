@@ -175,6 +175,7 @@
 
 .highlighted {
     font-size: 14pt;
+    font-weight: 400;
     text-transform: uppercase;
     color: var(--rainydays-blue);
 }
