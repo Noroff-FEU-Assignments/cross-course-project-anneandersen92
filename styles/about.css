@@ -19,11 +19,10 @@ main img {
     background: #6ca9b340;
     padding: 8px 0;
     margin: 24px 0;
-    line-height: 1.5;
 }
 
 .highlighted {
-    font-size: 14pt;
+    font-size: 13pt;
     font-weight: 400;
     text-transform: uppercase;
     color: var(--rainydays-blue);

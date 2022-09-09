@@ -3,6 +3,21 @@ main {
     padding: 0 16px;
 }
 
+.material-icons-outlined-check {
+    font-size: 50px;
+    color: var(--crystal-blue);
+    margin-top: 32px;
+}
+
+.material-icons-outlined-check:hover{
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
 .short-text {display: none;}
 
 .order-heading {grid-area: order-heading;}
@@ -28,6 +43,7 @@ main {
     text-align: left;
     padding: 8px 5%;
     gap: 8px;
+    margin: 40px 0;
 }
 
 .order-container p {
@@ -43,4 +59,13 @@ main {
 
 .info-heading {
     font-weight: 500;
+}
+
+section a {
+    text-decoration: none;
+    outline: none;
+}
+
+section a:hover {
+    text-decoration: underline;
 }
