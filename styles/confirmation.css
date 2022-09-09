@@ -37,8 +37,8 @@ h2 {
         "info-total info-date"
         "info-payment info-email"
         "info-d-date info-d-options";
-    box-shadow: 2px 2px 20px #3a3a3d50;
     border-radius: 8px;
+    box-shadow: 2px 2px 20px #3a3a3d50;
     font-size: 11pt;
     text-align: left;
     padding: 8px 5%;

@@ -42,9 +42,7 @@
     letter-spacing: 1px;
     background: #ffffff90;
     padding: 8px 16px;
-    transition-property: background;
-    transition-property: color;
-    transition-duration: 0.5s;
+    transition: 0.6s;
 }
 
 .promo-text a:hover {
