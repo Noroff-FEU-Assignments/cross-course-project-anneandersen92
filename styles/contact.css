@@ -41,6 +41,9 @@ p {
 }
 
 input[type="submit"] {
+    -webkit-apperance: none;
+    -moz-apparance: none;
+    appearance: none;
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
     letter-spacing: 1px;
@@ -51,5 +54,4 @@ input[type="submit"] {
     border-radius: 8px;
     background: #cc7e31;
     padding: 12px 32px;
-    -webkit-apperance: none;
 }
