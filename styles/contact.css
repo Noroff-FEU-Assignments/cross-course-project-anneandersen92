@@ -39,3 +39,17 @@ p {
 #message {
     margin-bottom: 32px;
 }
+
+input[type="submit"] {
+    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    background: #cc7e31;
+    padding: 12px 32px;
+    -webkit-apperance: none;
+}
