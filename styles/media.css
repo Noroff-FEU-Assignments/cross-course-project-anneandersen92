@@ -22,7 +22,7 @@
 
     .image1 {display: none;}
 
-    .image2 {display: inline;}
+    .image2 {display: inline; outline: none;}
 
     .menu label {display: none;}
 

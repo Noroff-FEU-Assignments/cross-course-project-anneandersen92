@@ -36,6 +36,7 @@
 .promo-text a,
 .promo-text a:active {
     text-decoration: none;
+    outline: none;
     color: var(--rainydays-blue);
     font-size: 11pt;
     letter-spacing: 1px;
@@ -64,7 +65,7 @@
 
 .featured-heading {
     text-align: center;
-    font-size: 18pt;
+    font-size: 16pt;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -87,6 +88,10 @@
     padding: 12px;
 }
 
+.featured a {
+    outline: none;
+}
+
 .name {
     text-transform: uppercase;
     font-weight: 500;
@@ -104,6 +109,7 @@
     letter-spacing: 1px;
     text-align: center;
     text-decoration: none;
+    outline: none;
     background: var(--white);
     border: solid 1px var(--raisin-black);
     border-radius: 8px;
@@ -148,6 +154,7 @@
 .women-container a,
 .men-container a {
     text-decoration: none;
+    outline: none;
 }
 
 .women-image,
@@ -159,21 +166,4 @@
 
 .women-image {
     margin-bottom: 16px;
-}
-
-/*MOTIVATION*/
-
-.motivation-container {
-    text-align: center;
-    background: #6ca9b330;
-    padding: 8px 0;
-    margin-top: 32px;
-    line-height: 150%;
-}
-
-.highlighted {
-    font-size: 14pt;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--rainydays-blue);
 }

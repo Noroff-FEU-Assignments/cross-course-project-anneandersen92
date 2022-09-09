@@ -41,17 +41,18 @@ p {
 }
 
 input[type="submit"] {
-    -webkit-apperance: none;
-    -moz-apparance: none;
-    appearance: none;
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
     letter-spacing: 1px;
     color: var(--white);
     text-align: center;
     text-transform: uppercase;
+    outline: none;
     border: none;
     border-radius: 8px;
     background: #cc7e31;
     padding: 12px 32px;
+    -webkit-apperance: none;
+    -moz-apparance: none;
+    appearance: none;
 }
