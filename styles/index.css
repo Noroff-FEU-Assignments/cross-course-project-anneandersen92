@@ -82,7 +82,7 @@
 }
 
 .featured-slider img {
-    height: 250px;
+    height: 270px;
     background: white;
     border-radius: 12px;
     padding: 12px;
@@ -119,7 +119,7 @@
 }
 
 ::-webkit-scrollbar {
-    height: 5px;
+    height: 4px;
     width: 4px;
     border-radius: 5px;
 }
@@ -130,9 +130,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--rainydays-blue);
+    background: var(--crystal-blue);
     border-radius: 5px;
 }
+
 
 /*CATEGORIES*/
 
