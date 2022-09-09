@@ -1,3 +1,46 @@
 main {
     text-align: center;
+    padding: 0 16px;
+}
+
+.short-text {display: none;}
+
+.order-heading {grid-area: order-heading;}
+.info-total {grid-area: info-total;}
+.info-date {grid-area: info-date;}
+.info-payment {grid-area: info-payment;}
+.info-email {grid-area: info-email;}
+.info-d-date {grid-area: info-d-date;}
+.info-d-options {grid-area: info-d-options;}
+
+.order-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+    grid-template-areas:
+        "order-heading order-heading"
+        "info-total info-date"
+        "info-payment info-email"
+        "info-d-date info-d-options";
+    box-shadow: 2px 2px 20px #3a3a3d50;
+    border-radius: 8px;
+    font-size: 11pt;
+    text-align: left;
+    padding: 8px 5%;
+    gap: 8px;
+}
+
+.order-container p {
+    line-height: 0.8;
+}
+
+.order-heading {
+    font-size: 16pt;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.info-heading {
+    font-weight: 500;
 }
