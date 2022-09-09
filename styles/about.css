@@ -5,19 +5,21 @@ h2 {
 p {
     padding: 0 16px;
     max-width: 100%;
+    line-height: 1.8;
 }
 
 main img {
     width: 100%;
     filter: brightness(90%);
+    margin: 8px 0;
 }
 
 .motivation-container {
     text-align: center;
-    background: #6ca9b330;
+    background: #6ca9b340;
     padding: 8px 0;
-    margin-top: 32px;
-    line-height: 150%;
+    margin: 24px 0;
+    line-height: 1.5;
 }
 
 .highlighted {

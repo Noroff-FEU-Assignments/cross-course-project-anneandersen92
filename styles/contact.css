@@ -21,7 +21,7 @@ p {
     font-size: 11pt;
     font-weight: 400;
     color: var(--onyx);
-    line-height: 200%;
+    line-height: 2;
     padding-left: 8px;
     outline: none;
 }
