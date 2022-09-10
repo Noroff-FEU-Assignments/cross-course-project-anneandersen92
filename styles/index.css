@@ -76,7 +76,7 @@
     display: flex;
     overflow-x: scroll;
     white-space: nowrap;
-    gap: 16px;
+    gap: 8px;
     padding-left: 16px;
 }
 
