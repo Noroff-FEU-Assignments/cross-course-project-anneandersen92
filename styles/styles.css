@@ -163,7 +163,8 @@ header {
     text-decoration: none;
 }
 
-::placeholder {
+::placeholder,
+::-webkit-input-placeholder {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
     font-weight: 300;
