@@ -41,7 +41,7 @@ p {
 input[type="submit"] {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
     color: var(--white);
     text-align: center;
