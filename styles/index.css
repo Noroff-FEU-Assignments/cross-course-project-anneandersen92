@@ -104,17 +104,17 @@
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
     font-weight: 500;
-    color: var(--raisin-black);
+    color: var(--rainydays-blue);
     letter-spacing: 1px;
     text-align: center;
     text-decoration: none;
     outline: none;
     background: var(--white);
-    border: solid 1px var(--raisin-black);
+    border: solid 1px var(--rainydays-blue);
     border-radius: 8px;
-    padding: 12px;
+    padding: 8px;
     width: 95%;
-    margin-bottom: 24px;
+    margin: 0 auto 24px auto;
 }
 
 ::-webkit-scrollbar {
