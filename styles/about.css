@@ -1,8 +1,11 @@
-main {padding: 0 16px;}
+h2 {
+    padding: 0 16px;
+}
 
 p {
     max-width: 100%;
     line-height: 1.8;
+    padding: 0 16px;
 }
 
 main img {

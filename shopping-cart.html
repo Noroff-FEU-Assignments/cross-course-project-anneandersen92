@@ -43,40 +43,51 @@
             </div>
         </header>
         <main> 
-            <a href="checkout.html">Checkout</a>
+            <section class="cart-main">
                 <h2>Shopping cart</h2>
-                <section class="cart-container">
-                    <div class="shop">
-                        <div class="box">
+                <div class="project">
+                    <div class="cart-products-container">
+                        <div class="cart-product">
                             <img src="images/products/womens_beige.png" alt="Atom Hoody Women's, beige">
-                            <div class="content">
-                                <p class="product-name"><span class="upper">Atom</span> Hoody</p>
-                                <p class="color">Ambient beige</p>
-                                <p class="size">Size M</p>
+                            <div class="product-content-container">
+                                <div class="product-description">
+                                    <p class="product-name"><span class="upper">Atom</span> Hoody</p>
+                                    <p class="color">Ambient beige</p>
+                                    <p class="size">Size M</p>
+                                </div>
+                                <div class="product-actions">
+                                    <span class="material-icons-outlined remove-icon">delete</span>
+                                </div>
+                            <div class="product-content-footer">
                                 <p class="unit">Quantity: <input value="1"></p>
-                                <span class="material-icons-outlined">delete</span>
                                 <p class="price">NOK 1.699</p>
                             </div>
                         </div>
-                        <div class="box">
+                        <div class="cart-product">
                             <img src="images/products/mens_yellow.png" alt="Alpha Jacket Men's, yellow">
-                            <div class="content">
-                                <p class="product-name"><span class="upper">Alpha</span> Jacket</p>
-                                <p class="color">Wildchild yellow</p>
-                                <p class="size">Size XL</p>
+                            <div class="product-content-container">
+                                <div class="product-description">
+                                    <p class="product-name"><span class="upper">Alpha</span> Jacket</p>
+                                    <p class="color">Wildchild yellow</p>
+                                    <p class="size">Size XL</p>
+                                </div>
+                                <div class="product-actions">
+                                    <span class="material-icons-outlined remove-icon">delete</span>
+                                </div>
+                            <div class="product-content-footer">
                                 <p class="unit">Quantity: <input value="2"></p>
-                                <span class="material-icons-outlined remove-icon">delete</span>
                                 <p class="price">NOK 3.998</p>
-                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="right-bar">
+                    <div class="cart-total">
                         <p><span>Total</span> <span>NOK 5.679</span></p>
                         <p><span>Shipping (Standard 5-7 business days)</span> <span>Free</span></p>
                         <a href="#"><i class="fa fa-shopping-cart"></i>Checkout</a>
                     </div>
-                </section>
+                </div>
+            </section>
+            <a href="checkout.html">Checkout</a>
         </main>
         <footer>
             <div>

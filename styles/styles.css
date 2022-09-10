@@ -6,6 +6,8 @@
     --crystal-blue: #6ca9b3;
 }
 
+* {box-sizing: border-box;}
+
 body {
     width: 100%;
     margin: -2px;
@@ -96,7 +98,7 @@ header {
 #hamburger:checked ~ .hamnav {
     display: block;
     position: fixed;
-    top: 140px;
+    top: 136px;
     left: 0%;
     width: 100%;
     height: 100%;
