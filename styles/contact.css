@@ -15,22 +15,21 @@ p {
     margin-bottom: 16px;
     border: solid 1px var(--onyx);
     border-radius: 8px;
-    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
-    font-size: 11pt;
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12pt;
     font-weight: 400;
     color: var(--onyx);
-    line-height: 2;
-    padding-left: 8px;
+    padding: 8px;
     outline: none;
 }
 
 #name::placeholder,
 #email::placeholder,
 #message::placeholder {
-    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
-    font-size: 11pt;
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12pt;
     font-weight: 400;
-    color: #cc7e31;
+    color: var(--burnt-orange);
     padding-left: 8px;
 }
 
@@ -39,7 +38,7 @@ p {
 }
 
 input[type="submit"] {
-    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
     font-weight: 400;
     letter-spacing: 1px;
@@ -49,7 +48,7 @@ input[type="submit"] {
     outline: none;
     border: none;
     border-radius: 8px;
-    background: #cc7e31;
+    background: var(--burnt-orange);
     padding: 12px 32px;
     -webkit-apperance: none;
     -moz-apparance: none;

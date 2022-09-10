@@ -93,17 +93,17 @@
 
 .name {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .price {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .featured button {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--rainydays-blue);
     letter-spacing: 1px;
     text-align: center;

@@ -52,13 +52,14 @@ h2 {
 
 .order-heading {
     font-size: 16pt;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
 
 .info-heading {
-    font-weight: 500;
+    font-weight: 400;
+    color: var(--burnt-orange);
 }
 
 section a {

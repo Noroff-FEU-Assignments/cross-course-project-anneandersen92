@@ -4,6 +4,7 @@
     --onyx: #3a3a3d;
     --rainydays-blue: #0a3641;
     --crystal-blue: #6ca9b3;
+    --burnt-orange: #cc7e31;
 }
 
 * {
@@ -143,7 +144,7 @@ header {
 .search-wrapper input {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--onyx);
     padding-left: 8px;
     width: 100%;
@@ -165,7 +166,7 @@ header {
 ::placeholder {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--onyx);
 }
 

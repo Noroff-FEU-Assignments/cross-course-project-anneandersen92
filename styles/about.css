@@ -16,7 +16,7 @@ main img {
 
 .motivation-container {
     text-align: center;
-    background: #6ca9b340;
+    background: #cc7e3140;
     padding: 8px 0;
     margin: 24px 0;
 }
@@ -25,5 +25,5 @@ main img {
     font-size: 13pt;
     font-weight: 400;
     text-transform: uppercase;
-    color: var(--rainydays-blue);
+    color: var(--burnt-orange);
 }
