@@ -43,7 +43,8 @@
     background: #ffffff90;
     padding: 8px 16px;
     transition-property: color;
-    transition: 0.6s ease;
+    transition: all 0.6s ease;
+
 }
 
 .promo-text a:hover {
