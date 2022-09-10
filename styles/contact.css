@@ -13,7 +13,7 @@ p {
 #message {
     width: 80%;
     margin-bottom: 16px;
-    border: solid 1px var(--onyx);
+    border: solid 1px var(--warm-grey);
     border-radius: 8px;
     font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
