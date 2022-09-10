@@ -1,9 +1,6 @@
-h2 {
-    padding: 0 16px;
-}
+main {padding: 0 16px;}
 
 p {
-    padding: 0 16px;
     max-width: 100%;
     line-height: 1.8;
 }
