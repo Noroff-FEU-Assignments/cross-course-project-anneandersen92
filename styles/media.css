@@ -4,6 +4,13 @@
     .short-text {display: grid;}  
 }
 
+@media only screen and (min-width: 600px) {
+    .product-list-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
 @media only screen and (min-width: 769px) {
     main {
         margin-left: 5%;
@@ -121,7 +128,7 @@
 
     footer a,
     footer a:visited {
-    font-size: 16pt;
+        font-size: 16pt;
     }
 }
 
@@ -138,7 +145,7 @@
     }
 
     html {
-        background: #f1f1f1;
+        background: #f9f9f9;
     }
 
     .hamitems a,
