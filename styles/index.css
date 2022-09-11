@@ -45,7 +45,6 @@ h1 {
     padding: 8px 16px;
     transition-property: color;
     transition: all 0.6s ease;
-
 }
 
 .promo-text a:hover {
@@ -91,33 +90,15 @@ h1 {
 
 .featured a {
     outline: none;
+    text-decoration: none;
 }
 
-.name {
+.product-name {
     text-transform: uppercase;
     font-weight: 400;
 }
 
-.price {
-    font-weight: 400;
-}
-
-.featured button {
-    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
-    font-size: 12pt;
-    font-weight: 400;
-    color: var(--rainydays-blue);
-    letter-spacing: 1px;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    background: var(--white);
-    border: solid 1px var(--rainydays-blue);
-    border-radius: 8px;
-    padding: 8px;
-    width: 95%;
-    margin: 0 auto 24px auto;
-}
+.price {font-weight: 400;}
 
 ::-webkit-scrollbar {
     height: 4px;

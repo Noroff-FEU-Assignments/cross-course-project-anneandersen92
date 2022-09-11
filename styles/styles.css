@@ -40,7 +40,7 @@ p {
     line-height: 1.5;
 }
 
-/* header */
+/* HEADER */
 .header-wrapper {
     display: flex;
     align-items: center;
@@ -92,7 +92,31 @@ header {
     left: -10000px;
 }
 
-/*menu*/
+/* CTA-BUTTON */
+.cta {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #0a364190;
+    padding: 8px;
+    margin-bottom: 24px;
+    transition-property: color;
+    transition: all 0.6s ease;
+}
+
+.cta a {
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--white);
+}
+
+.cta:hover {
+    cursor: pointer;
+    background: var(--rainydays-blue);
+}
+
+/* NAV */
 .hamnav {
     display: none;
 }
@@ -131,7 +155,7 @@ header {
     letter-spacing: 4px;
 }
 
-/*search*/
+/* SEARCH */
 .search-wrapper {
     display: flex;
     align-items: center;
@@ -173,7 +197,7 @@ header {
     opacity: 1;
 }
 
-/*footer*/
+/* FOOTER */
 footer {
     background: var(--rainydays-blue);
     padding-top: 64px;

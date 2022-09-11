@@ -1,0 +1,40 @@
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.product-list-container a {
+    outline: none;
+    text-decoration: none;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.image-container {
+    height: 300px;
+    width: 200px;
+    align-items: center;
+}
+
+.product-card img {
+    height: 100%;
+    width: auto;
+}
+
+.product-card p {}
+
+.product-name {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.details {font-size: 11pt;}
+
+.price {font-weight: 400;}

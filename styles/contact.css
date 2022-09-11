@@ -46,12 +46,11 @@ input[type="submit"] {
     letter-spacing: 1px;
     color: var(--white);
     text-align: center;
-    text-transform: uppercase;
     outline: none;
     border: none;
     border-radius: 8px;
     background: var(--burnt-orange);
-    padding: 12px 32px;
+    padding: 8px 32px;
     -webkit-apperance: none;
     -moz-apparance: none;
     appearance: none;
