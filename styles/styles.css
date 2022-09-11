@@ -19,18 +19,19 @@ body {
 }
 
 p,
-h2,
+h1,
 .hamitems,
 a {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     color: var(--raisin-black);
 }
 
-h2 {
+h1 {
     font-size: 20pt;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-bottom: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 p {

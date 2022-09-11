@@ -15,14 +15,9 @@
         margin-right: 0;
     }
 
-    html {
-        background: var(--white);
-    }
+    html {background: var(--white);}
     
-    
-    h1 {font-size: 40pt;}
-
-    h2 {font-size: 32pt}
+    h1 {font-size: 32pt}
 
     p {font-size: 16pt}
 
