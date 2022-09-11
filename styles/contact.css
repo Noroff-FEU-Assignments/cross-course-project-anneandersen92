@@ -4,13 +4,13 @@ p {
     width: 100%;
 }
 
-#name {
+.name {
     margin-top: 32px;
 }
 
-#name,
-#email,
-#message {
+.name,
+.email,
+.message {
     width: 80%;
     margin-bottom: 16px;
     border: solid 1px var(--warm-grey);
@@ -23,9 +23,9 @@ p {
     outline: none;
 }
 
-#name::placeholder,
-#email::placeholder,
-#message::placeholder {
+.name::placeholder,
+.email::placeholder,
+.message::placeholder {
     font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
     font-weight: 400;
@@ -33,11 +33,13 @@ p {
     padding-left: 8px;
 }
 
-#message {
+.message {
     margin-bottom: 32px;
 }
 
 input[type="submit"] {
+    cursor: pointer;
+    display: block;
     font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 12pt;
     font-weight: 400;
