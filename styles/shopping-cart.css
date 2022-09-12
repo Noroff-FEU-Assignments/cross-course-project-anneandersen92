@@ -1,4 +1,4 @@
-main {padding: 0 16px;}
+main {margin: 0 16px;}
 
 .products-container {
     display: grid;
@@ -151,7 +151,7 @@ main {padding: 0 16px;}
     text-decoration: none;
     outline: none;
     font-size: 12pt;
-    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .btn-checkout a {

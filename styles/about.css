@@ -1,20 +1,22 @@
-h1 {
-    padding: 0 16px;
-}
+main {margin: 0 16px;}
 
 p {
     max-width: 100%;
     line-height: 1.8;
-    padding: 0 16px;
 }
 
-main img {
-    width: 100%;
+.about-img {
+    width: 100vw;
+    margin-left: 16px;
+    transform: translateX(-16px);
     filter: brightness(90%);
     margin: 8px 0;
 }
 
 .motivation-container {
+    width: 100vw;
+    margin-left: 16px;
+    transform: translateX(-16px);
     text-align: center;
     background: #cc7e3140;
     padding: 8px 0;

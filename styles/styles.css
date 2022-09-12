@@ -99,8 +99,7 @@ header {
     border: none;
     border-radius: 8px;
     background: #0a364190;
-    padding: 8px;
-    margin-bottom: 24px;
+    padding: 12px;
     transition-property: color;
     transition: all 0.6s ease;
 }
@@ -110,6 +109,8 @@ header {
     font-weight: 400;
     letter-spacing: 1px;
     color: var(--white);
+    text-decoration: none;
+    outline: none;
 }
 
 .cta:hover {
@@ -118,6 +119,8 @@ header {
 }
 
 /* NAV */
+a[href="alpha.html"] {display: none;}
+
 .hamnav {
     display: none;
 }
