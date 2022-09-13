@@ -21,10 +21,12 @@ body {
 
 main {padding-bottom: 56px;}
 
-p,
 h1,
+p,
+a,
+button,
 .hamitems,
-a {
+::placeholder {
     font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     color: var(--raisin-black);
 }
@@ -191,7 +193,6 @@ header {
 }
 
 ::placeholder {
-    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
     font-weight: 300;
     color: var(--warm-grey);

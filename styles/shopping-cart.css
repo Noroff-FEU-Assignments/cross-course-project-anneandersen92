@@ -21,8 +21,14 @@ main {margin: 0 16px;}
 	transform: scale(1.03);
 }
 
+.product a {
+    text-decoration: none;
+    outline: none;
+}
+
+.image-container {grid-row: span 2;}
+
 .product img {
-    grid-row: span 2;
     position: relative;
     height: 140px;
 }
