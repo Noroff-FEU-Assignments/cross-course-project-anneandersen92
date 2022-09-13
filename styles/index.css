@@ -47,7 +47,6 @@ h1 {
 }
 
 .promo-text a:hover {
-    cursor: pointer;
     color: var(--white);
     background: #0a364180;
 }
