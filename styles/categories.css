@@ -77,14 +77,15 @@ h1 {
     border-radius: 8px;
 }
 
-.product-description p {line-height: 0.8;}
+.product-details p {line-height: 0.8;}
 
-.product-name {
+.upper {
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.details, .color {
+.description,
+.color {
     font-size: 10pt;
 }
 
