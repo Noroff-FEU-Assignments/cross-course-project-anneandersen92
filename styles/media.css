@@ -6,6 +6,11 @@
 
 @media only screen and (min-width: 410px) {
     .order-container {padding: 8px 48px;}
+
+    .about-img {
+        height: 250px;
+        object-fit: cover;
+    }
 }
 
 @media only screen and (min-width: 550px) {
@@ -14,6 +19,8 @@
         padding: 8px 64px;
         margin: 40px auto;
     }
+
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -35,65 +42,68 @@
     }
 
     html {background: var(--white);}
-    
-    h1 {font-size: 32pt}
-
-    p {font-size: 16pt}
-
+  
     .image1 {display: none;}
-
-    .image2 {display: inline; outline: none;}
 
     .menu label {display: none;}
 
+    .image2 {grid-area: logo;}
+    .hamnav {grid-area: hamnav;}
+    .icons {grid-area: icons;}
+
+
     .header-wrapper {
         background: var(--rainydays-blue);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 32px;
+        width: 100vw;
+        height: 100px;
+        padding: 0px 40px 24px 40px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "logo hamnav icons";
+        align-items: end;
     }
 
-    .logo {order: 1;}
-    .hamnav {order: 2;}
-    .icons {order: 3;}
-
-    .logo {
+    .image2 {
+        display: inline;
+        outline: none;
         width: auto;
-        height: 80px;
+        height: 50px;
+        justify-self: start;
+    }
+
+    .icons {
+        margin-left: inherit;
+        justify-self: end;
     }
 
     .hamnav {
         display: inline;
-        background: var(--rainydays-blue);
+        justify-self: center;
     }
 
     .hamitems {
         display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
     }
 
-    .hamitems a,
-    .hamitems a:visited {
+    .hamitems a {
         color: var(--white);
         text-decoration: none;
-        text-align: center;
-        margin-top: 40px;
-        padding: 0 8px;
+        font-size: 14pt;
+        font-weight: 400;
+        margin-top: inherit;
     }
 
-    .hamitems .active,
     .hamitems a:hover {
         text-decoration: underline 2px solid var(--white);
     }
 
-    .icons {
-        margin-left: 0;
-        margin-top: 40px;
-    }
-
     .material-icons-outlined {
-        font-size: 35px;
+        font-size: 28px;
         color: var(--white);
     }
     
@@ -106,12 +116,10 @@
         margin: 8px 24px;
     }
     
-    .search-wrapper input {
-        font-size: 14pt;
-    }
-
+    .search-wrapper input,
     ::placeholder {
         font-size: 14pt;
+        text-align: center;
     }
 
     .search-icon {
@@ -141,14 +149,9 @@
         padding-bottom: 100px;
     }
 
-    footer li {
-        margin-bottom: 48px;
-    }
+    footer li {margin-bottom: 48px;}
 
-    footer a,
-    footer a:visited {
-        font-size: 16pt;
-    }
+    footer a {font-size: 16pt;}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -159,20 +162,26 @@
         padding: 1px 0;
     }
 
-    .index-main {
-        background: #6ca9b330;
+    .index-main {background: #6ca9b330;}
+
+    html {background: #f9f9f9;}
+
+    .header-wrapper {
+        height: 120px;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
-    html {
-        background: #f9f9f9;
-    }
+    .image2 {padding-right: 16px;}
+    
+    .hamitems a {font-weight: 500;}
 
-    .hamitems a,
-    .hamitems a:visited {
-        font-size: 18pt;
-        padding: 0 24px;
+    .material-icons-outlined {font-size: 30px;}
+    
+    .search-wrapper {
+        margin-left: 20%;
+        margin-right: 20%;
     }
-
 
     .about-img,
     .motivation-container {

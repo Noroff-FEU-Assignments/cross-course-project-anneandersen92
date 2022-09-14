@@ -15,8 +15,8 @@
 }
 
 body {
-    width: 100%;
-    margin: -2px;
+    width: 100vw;
+    margin-left: 0;
 }
 
 main {padding-bottom: 56px;}
@@ -52,7 +52,7 @@ a:hover {cursor: pointer;}
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 16px;
+    padding: 16px 20px;
     padding-bottom: 0px;
 }
 
@@ -169,7 +169,7 @@ header {
     padding: 8px 16px;
     border: solid 1px var(--raisin-black);
     border-radius: 50px;
-    margin: 8px;
+    margin: 8px 16px;
 }
 
 .search-wrapper input {
