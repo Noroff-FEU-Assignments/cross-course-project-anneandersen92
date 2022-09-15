@@ -172,7 +172,7 @@ header {
     padding: 8px 16px;
     border: solid 1px var(--raisin-black);
     border-radius: 50px;
-    margin: 8px 16px;
+    margin: 8px 12px;
 }
 
 .search-wrapper input {
@@ -226,7 +226,7 @@ form ::placeholder {
     font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
     font-weight: 400;
-    color: #cc7e3190;
+    color: #cc7e3180;
     padding-left: 8px;
 }
 
