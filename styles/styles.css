@@ -226,7 +226,7 @@ form ::placeholder {
     font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
     font-weight: 400;
-    color: #cc7e3180;
+    color: var(--burnt-orange);
     padding-left: 8px;
 }
 
