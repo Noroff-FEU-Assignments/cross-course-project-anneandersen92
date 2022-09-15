@@ -11,6 +11,7 @@ p {
 .name,
 .email,
 .message {
+    min-width: 272px;
     width: 80%;
     margin-bottom: 16px;
     border: solid 1px var(--warm-grey);
