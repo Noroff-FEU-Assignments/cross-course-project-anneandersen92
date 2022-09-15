@@ -197,6 +197,16 @@
         object-position: 100% 0;
     }
 
+    .complete-purchase {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center
+    }
+
+    .payment-options {margin: 0;}
+
     .about-img-container {transform: translate(-5%);}
     
     .about-img {

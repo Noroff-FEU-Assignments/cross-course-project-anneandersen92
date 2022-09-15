@@ -44,11 +44,11 @@
         </header>
         <main>
             <h1>Checkout</h1>
-            <div class="cart-total">
+            <section class="cart-total">
                 <p class="total"><span class="upper">Total</span><span>NOK 5.679</span></p>
-                <p class="shipping"><span>Shipping (Standard 5-7 business days)</span><span>Free</span></p>
-            </div>
-            <div class="billing-details">
+                <p class="shipping"><span>Shipping (Standard 5-7 days)</span><span>Free</span></p>
+            </section>
+            <section class="billing-details">
                 <h2>Billing details</h2>
                 <form>
                     <div class="full-name">
@@ -65,16 +65,24 @@
                     <input name="email" type="email" class="email" placeholder="Email">
                     <textarea name="message" class="message" rows="6" placeholder="Message about your order (optional)" maxlength="250"></textarea>
                 </form>
-            </div>
-            <div class="payment-method">
-                <img src="images/payment/visa.jpg" alt="visa payment">
-                <img src="images/payment/mastercard.jpg" alt="mastercard payment">
-                <img src="images/payment/klarna.png" alt="klarna payment">
-            </div>
-            <div class="btn-area">
-                <button class="btn-confirm"><a href="confirmation.html">Confirm purchase</a></button>
-                <button class="btn-index"><a href="index.html">Cancel</a></button>
-            </div>
+            </section>
+            <section class="complete-purchase">
+                <div class="payment-container">
+                    <h2>Choose payment method</h2>
+                    <div class="payment-options">
+                        <input type="checkbox" id="visa" name="visa">
+                        <label for="visa" class="payment"><img src="images/payment/visa.jpg" alt="visa payment"></label>
+                        <input type="checkbox" id="mastercard" name="mastercard">
+                        <label for="mastercard" class="payment"><img src="images/payment/mastercard.jpg" alt="mastercard payment"></label>
+                        <input type="checkbox" id="klarna" name="klarna">
+                        <label for="klarna" class="payment"><img src="images/payment/klarna.png" alt="klarna payment"></label>
+                    </div>
+                </div>
+                <div class="btn-area">
+                    <button class="btn-confirm"><a href="confirmation.html">Confirm purchase</a></button>
+                    <button class="btn-index"><a href="index.html">Cancel</a></button>
+                </div>
+            </section>
         </main>
         <footer>
             <div>
