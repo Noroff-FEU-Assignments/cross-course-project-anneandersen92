@@ -20,10 +20,14 @@
 }
 
 @media only screen and (min-width: 550px) {
-    .order-container {
-        width: 520px;
-        padding: 8px 64px;
-        margin: 40px auto;
+    .promo-container img {
+        height: 400px;
+        object-position: 100% 30%;
+    }
+
+    .promo-text {
+        top: 20%;
+        left: 3%;
     }
 
     .promo-text h1 {font-size: 24pt;}
@@ -34,6 +38,12 @@
     }
 
     .featured-slider img {height: 290px;}
+
+    .order-container {
+        width: 520px;
+        padding: 8px 64px;
+        margin: 40px auto;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -49,10 +59,11 @@
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) {    
     main {
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 0;
     }
 
     .index-main {
@@ -66,20 +77,20 @@
 
     .menu label {display: none;}
 
-    .logo2 {grid-area: logo;}
-    .hamnav {grid-area: nav;}
+    .logo2 {grid-area: logo2;}
+    .hamnav {grid-area: hamnav;}
     .icons {grid-area: icons;}
 
     .header-wrapper {
         background: var(--rainydays-blue);
         width: 100vw;
         height: 100px;
-        padding: 0px 40px 24px 40px;
+        padding: 0 40px 24px 40px;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        "logo nav icons";
+        "logo2 hamnav icons";
         align-items: end;
     }
 
@@ -143,17 +154,6 @@
     .search-icon {
         font-size: 30px;
         color: var(--raisin-black);
-    }
-
-    .promo-container img {
-        height: 400px;
-        object-fit: cover;
-        object-position: 100% 30%;
-    }
-
-    .promo-text {
-        top: 20%;
-        left: 3%;
     }
 
     .promo-text h1 {
