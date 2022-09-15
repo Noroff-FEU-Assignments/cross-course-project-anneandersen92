@@ -17,6 +17,23 @@ main {margin: 0 24px;}
 
 .shipping {font-size: 11pt;}
 
+.full-name,
+.postal-info {
+    display: flex;
+    gap: 16px;
+}
+
+.payment-method img {
+    width: 100px;
+}
+
+.payment-method button {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: none;
+}
+
 .btn-area {
     display: flex;
     flex-direction: column;

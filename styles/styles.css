@@ -22,6 +22,7 @@ body {
 main {padding-bottom: 56px;}
 
 h1,
+h2,
 p,
 a,
 button,
@@ -35,8 +36,13 @@ h1 {
     font-size: 20pt;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin: 36px 0;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 500;
+    margin: 16px 0;
 }
 
 p {
@@ -197,6 +203,52 @@ header {
     color: var(--warm-grey);
     opacity: 1;
 }
+
+/* FORMS */
+form input[type=text],
+form input[type=email],
+form input[type=tel],
+form textarea {
+    width: 100%;
+    max-width: 452px;
+    margin-bottom: 16px;
+    border: solid 1px var(--warm-grey);
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 11pt;
+    font-weight: 400;
+    color: var(--onyx);
+    padding: 8px;
+    outline: none;
+}
+
+form ::placeholder {
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #cc7e3190;
+    padding-left: 8px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    display: block;
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--white);
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: var(--burnt-orange);
+    padding: 8px 32px;
+    -webkit-apperance: none;
+    -moz-apparance: none;
+    appearance: none;
+}
+
 
 /* FOOTER */
 footer {

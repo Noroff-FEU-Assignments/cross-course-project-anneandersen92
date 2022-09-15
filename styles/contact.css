@@ -4,55 +4,6 @@ p {
     width: 100%;
 }
 
-.name {
-    margin-top: 32px;
-}
+form {margin-top: 32px;}
 
-.name,
-.email,
-.message {
-    min-width: 272px;
-    width: 80%;
-    margin-bottom: 16px;
-    border: solid 1px var(--warm-grey);
-    border-radius: 8px;
-    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
-    font-size: 12pt;
-    font-weight: 400;
-    color: var(--onyx);
-    padding: 8px;
-    outline: none;
-}
-
-.name::placeholder,
-.email::placeholder,
-.message::placeholder {
-    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
-    font-size: 12pt;
-    font-weight: 400;
-    color: #cc7e3190;
-    padding-left: 8px;
-}
-
-.message {
-    margin-bottom: 32px;
-}
-
-input[type="submit"] {
-    cursor: pointer;
-    display: block;
-    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
-    font-size: 12pt;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: var(--white);
-    text-align: center;
-    outline: none;
-    border: none;
-    border-radius: 8px;
-    background: var(--burnt-orange);
-    padding: 8px 32px;
-    -webkit-apperance: none;
-    -moz-apparance: none;
-    appearance: none;
-}
+.message {margin-bottom: 32px;}

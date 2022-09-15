@@ -49,23 +49,27 @@
                 <p class="shipping"><span>Shipping (Standard 5-7 business days)</span><span>Free</span></p>
             </div>
             <div class="billing-details">
-                <p>Billing details</p>
+                <h2>Billing details</h2>
                 <form>
-                    <input name="fname" type="text" class="fname" placeholder="First name">
-                    <input name="lname" type="text" class="lname" placeholder="Last name">
+                    <div class="full-name">
+                        <input name="fname" type="text" class="fname" placeholder="First name">
+                        <input name="lname" type="text" class="lname" placeholder="Last name">
+                    </div>
                     <input name="address" type="text" class="address" placeholder="Street address">
-                    <input name="zip" type="text" class="zip" placeholder="Zip code">
                     <input name="city" type="text" class="city" placeholder="City">
-                    <input name="state" type="text" class="state" placeholder="State">
+                    <div class="postal-info">
+                        <input name="state" type="text" class="state" placeholder="State">
+                        <input name="zip" type="text" class="zip" placeholder="Zip code">
+                    </div>
                     <input name="phone" type="tel" class="phone" placeholder="Phone">
                     <input name="email" type="email" class="email" placeholder="Email">
                     <textarea name="message" class="message" rows="6" placeholder="Message about your order (optional)" maxlength="250"></textarea>
                 </form>
             </div>
-            <div>
-                <p>Visa</p>
-                <p>Mastercard</p>
-                <p>Klarna</p>
+            <div class="payment-method">
+                <button><img src="images/payment/visa.jpg" alt="visa payment"></button>
+                <button><img src="images/payment/mastercard.jpg" alt="mastercard payment"></button>
+                <button><img src="images/payment/klarna.png" alt="klarna payment"></button>
             </div>
             <div class="btn-area">
                 <button class="btn-confirm"><a href="confirmation.html">Confirm purchase</a></button>
