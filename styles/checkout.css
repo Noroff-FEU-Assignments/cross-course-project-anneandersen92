@@ -1,0 +1,18 @@
+main {margin: 0 24px;}
+
+.cart-total {
+    width: 90%;
+    margin: 56px auto;
+    border-top: solid 1px var(--rainydays-blue);
+    border-bottom: solid 1px var(--rainydays-blue);
+    padding: 4px 0;
+}
+
+.cart-total p {
+    display: flex;
+	justify-content: space-between;
+}
+
+.total {font-weight: 400;}
+
+.shipping {font-size: 11pt;}
