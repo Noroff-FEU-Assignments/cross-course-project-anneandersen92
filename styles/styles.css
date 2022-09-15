@@ -67,16 +67,13 @@ header {
     padding-bottom: 2px;
 }
 
-.logo {
+.logo1 {
     width: auto;
     height: 60px;
-}
-
-.image1 {
     outline: none;
 }
 
-.image2 {
+.logo2 {
     display: none;
 }
 
@@ -218,8 +215,7 @@ footer li {
     margin-bottom: 40px;
 }
 
-footer a,
-footer a:visited {
+footer a {
     text-decoration: none;
     outline: none;
     color: var(--white);

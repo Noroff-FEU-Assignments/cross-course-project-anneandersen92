@@ -8,8 +8,14 @@
     .order-container {padding: 8px 48px;}
 
     .about-img {
-        height: 250px;
+        height: 300px;
         object-fit: cover;
+        object-position: 100% 45%;
+    }
+
+    .women-image,
+    .men-image {
+        margin: 0 5% 5% 5%;
     }
 }
 
@@ -20,13 +26,26 @@
         margin: 40px auto;
     }
 
+    .promo-text h1 {font-size: 24pt;}
 
+    .promo-info,
+    .promo-text a {
+        font-size: 12pt;
+    }
+
+    .featured-slider img {height: 290px;}
 }
 
 @media only screen and (min-width: 600px) {
     .product-list-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+
+    .women-image,
+    .men-image {
+        width: 80%;
+        margin: 0 10% 5% 10%;
     }
 }
 
@@ -43,14 +62,13 @@
 
     html {background: var(--white);}
   
-    .image1 {display: none;}
+    .logo1 {display: none;}
 
     .menu label {display: none;}
 
-    .image2 {grid-area: logo;}
-    .hamnav {grid-area: hamnav;}
+    .logo2 {grid-area: logo;}
+    .hamnav {grid-area: nav;}
     .icons {grid-area: icons;}
-
 
     .header-wrapper {
         background: var(--rainydays-blue);
@@ -61,11 +79,11 @@
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        "logo hamnav icons";
+        "logo nav icons";
         align-items: end;
     }
 
-    .image2 {
+    .logo2 {
         display: inline;
         outline: none;
         width: auto;
@@ -112,13 +130,13 @@
     }
 
     .search-wrapper {
-        padding: 8px 24px;
-        margin: 8px 24px;
+        padding: 6px 24px;
+        margin: 10px 24px;
     }
     
     .search-wrapper input,
-    ::placeholder {
-        font-size: 14pt;
+    .search-wrapper ::placeholder {
+        font-size: 13pt;
         text-align: center;
     }
 
@@ -127,9 +145,63 @@
         color: var(--raisin-black);
     }
 
+    .promo-container img {
+        height: 400px;
+        object-fit: cover;
+        object-position: 100% 30%;
+    }
+
+    .promo-text {
+        top: 20%;
+        left: 3%;
+    }
+
+    .promo-text h1 {
+        font-size: 28pt;
+        letter-spacing: 4px;
+        padding-bottom: 8px;
+    }
+    
+    .promo-info {
+        font-size: 13pt;
+        font-weight: 400;
+        padding-bottom: 40px;
+    }
+    
+    .promo-text a {
+        font-size: 13pt;
+        padding: 8px 24px;
+    }
+
+    .featured-slider {gap: 12px;}
+
+    .featured-slider img {height: 320px;}
+
+    .gender-categories {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 16px;
+        margin: 32px 24px;
+    }
+
+    .women-image,
+    .men-image {
+        width: 100%;
+        margin: inherit;
+    }
+
+    .category-image {
+        height: 400px;
+        object-fit: cover;
+        object-position: 100% 0;
+    }
+
+    .about-img-container {transform: translate(-5%);}
+    
     .about-img {
-        margin-left: 50%;
-        transform: translateX(-50%);
+        height: 400px;
+        object-position: 100% 60%;
     }
 
     .motivation-container {
@@ -155,38 +227,88 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    main {
-        margin-left: 20%;
-        margin-right: 20%;
-        background: var(--white);
-        padding: 1px 0;
+    html {background: #f0f0f0;}
+
+    p {font-size: 14pt;}
+
+    main,
+    .index-main,
+    .search-wrapper {
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
-    .index-main {background: #6ca9b330;}
+    main,
+    .index-main {
+        background: var(--white);
+        padding: 1px 16px 56px 16px;
+    }
 
-    html {background: #f9f9f9;}
+    .index-main {padding: 1px 0 56px 0;}
 
     .header-wrapper {
         height: 120px;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
-    .image2 {padding-right: 16px;}
-    
-    .hamitems a {font-weight: 500;}
+    .logo2 {padding-right: 16px;}
 
     .material-icons-outlined {font-size: 30px;}
     
-    .search-wrapper {
-        margin-left: 20%;
-        margin-right: 20%;
+    .promo-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "text image";
+        background: #0a364180;
     }
 
-    .about-img,
+    .promo-container img {
+        grid-area: image;
+        height: 500px;
+        object-position: 65% 0;
+    }
+    
+    .promo-text {grid-area: text;}
+
+    .promo-text h1 {padding-bottom: 16px;}
+    
+    .promo-info {font-size: 14pt;}
+    
+    .promo-text a {font-size: 14pt;}
+
+    .featured-container {padding-top: 40px;}
+
+    .featured-heading {
+        font-size: 20pt;
+        padding-bottom: 32px;
+    }
+
+    .featured-slider {gap: 16px;}
+
+    .featured-slider img {height: 360px;}
+
+    .cta {margin-bottom: 40px;}
+
+    .gender-categories {gap: 24px;}
+
+    .product {transition: all 0.6s ease;}
+    
+    .product:hover {transform: scale(1.03);}
+
+    .about-img-container,
     .motivation-container {
         margin-left: 0;
         transform: translateX(0);
         width: 100%;
     }
+}
+
+@media only screen and (min-width: 1500px) {
+    .logo2 {height: 70px;}
+
+    .hamitems {gap: 24px;}
 }

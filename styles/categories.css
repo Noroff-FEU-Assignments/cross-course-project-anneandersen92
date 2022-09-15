@@ -52,15 +52,8 @@ h1 {
     width: auto;
     display: grid;
     grid-template-rows: 1fr 100px;
-    transition: all 0.6s ease;
     border-radius: 8px;
 }
-
-.product-card:hover {
-    border: none;
-	transform: scale(1.03);
-}
-
 .image-container {
     display: flex;
     align-items: center;
