@@ -43,11 +43,34 @@
             </div>
         </header>
         <main>
+            <h1>Checkout</h1>
             <div class="cart-total">
                 <p class="total"><span class="upper">Total</span><span>NOK 5.679</span></p>
                 <p class="shipping"><span>Shipping (Standard 5-7 business days)</span><span>Free</span></p>
             </div>
-            <a href="confirmation.html">Confirmation</a>
+            <div class="billing-details">
+                <p>Billing details</p>
+                <form>
+                    <input name="fname" type="text" class="fname" placeholder="First name">
+                    <input name="lname" type="text" class="lname" placeholder="Last name">
+                    <input name="address" type="text" class="address" placeholder="Street address">
+                    <input name="zip" type="text" class="zip" placeholder="Zip code">
+                    <input name="city" type="text" class="city" placeholder="City">
+                    <input name="state" type="text" class="state" placeholder="State">
+                    <input name="phone" type="tel" class="phone" placeholder="Phone">
+                    <input name="email" type="email" class="email" placeholder="Email">
+                    <textarea name="message" class="message" rows="6" placeholder="Message about your order (optional)" maxlength="250"></textarea>
+                </form>
+            </div>
+            <div>
+                <p>Visa</p>
+                <p>Mastercard</p>
+                <p>Klarna</p>
+            </div>
+            <div class="btn-area">
+                <button class="btn-confirm"><a href="confirmation.html">Confirm purchase</a></button>
+                <button class="btn-index"><a href="index.html">Cancel</a></button>
+            </div>
         </main>
         <footer>
             <div>

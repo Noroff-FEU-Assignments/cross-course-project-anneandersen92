@@ -1,8 +1,8 @@
 main {margin: 0 24px;}
 
 .cart-total {
-    width: 90%;
-    margin: 56px auto;
+    width: 100%;
+    margin: 32px auto;
     border-top: solid 1px var(--rainydays-blue);
     border-bottom: solid 1px var(--rainydays-blue);
     padding: 4px 0;
@@ -16,3 +16,38 @@ main {margin: 0 24px;}
 .total {font-weight: 400;}
 
 .shipping {font-size: 11pt;}
+
+.btn-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-confirm {
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: solid 1px var(--burnt-orange);
+    background: var(--burnt-orange);
+}
+
+.btn-index {
+    border: none;
+    background: var(--white);
+}
+
+.btn-confirm a,
+.btn-index a {
+    text-decoration: none;
+    outline: none;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.btn-confirm a {
+    color: var(--white);
+}
+
+.btn-index a {
+    color: var(--burnt-orange);
+}
