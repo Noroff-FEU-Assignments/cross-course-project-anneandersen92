@@ -41,8 +41,6 @@ h1 {
 }
 
 .promo-text a {
-    text-decoration: none;
-    outline: none;
     color: var(--rainydays-blue);
     font-size: 11pt;
     letter-spacing: 1px;
@@ -84,16 +82,16 @@ h1 {
     padding-left: 16px;
 }
 
-.featured-slider img {
+.featured {
+    padding-bottom: 32px;
+}
+
+
+.featured img {
     height: 270px;
     background: white;
     border-radius: 12px;
     padding: 8px;
-}
-
-.featured a {
-    outline: none;
-    text-decoration: none;
 }
 
 .product-name {
@@ -102,8 +100,6 @@ h1 {
 }
 
 .price {font-weight: 400;}
-
-.cta {margin-bottom: 32px;}
 
 ::-webkit-scrollbar {
     height: 4px;

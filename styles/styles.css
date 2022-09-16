@@ -7,6 +7,7 @@
     --background-grey: #f1f1f1;
     --burnt-orange: #cc7e31;
     --white: #ffffff;
+    --main-font: "Roboto", sans-serif, Verdana, Geneva, Tahoma;
 }
 
 * {
@@ -28,7 +29,7 @@ a,
 button,
 .hamitems,
 ::placeholder {
-    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    font-family: var(--main-font);
     color: var(--raisin-black);
 }
 
@@ -49,6 +50,11 @@ p {
     font-size: 12pt;
     font-weight: 300;
     line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
 }
 
 a:hover {cursor: pointer;}
@@ -76,15 +82,10 @@ header {
 .logo1 {
     width: auto;
     height: 60px;
-    outline: none;
 }
 
 .logo2 {
     display: none;
-}
-
-.icons a {
-    outline: none;
 }
 
 .material-icons-outlined {
@@ -129,16 +130,10 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-top: 56px;
-
-}
-
-.hamitems a,
-.hamitems a:visited {
-    text-decoration: none;
-    outline: none;
     font-size: 16pt;
     font-weight: 500;
     letter-spacing: 4px;
+
 }
 
 /* SEARCH */
@@ -154,7 +149,7 @@ header {
 }
 
 .search-wrapper input {
-    font-family: 'Roboto' , sans-serif, Verdana, Geneva, Tahoma;
+    font-family: var(--main-font);
     font-size: 11pt;
     font-weight: 300;
     color: var(--raisin-black);
@@ -176,7 +171,7 @@ header {
 }
 
 ::placeholder {
-    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-family: var(--main-font);
     font-size: 11pt;
     font-weight: 400;
     color: var(--warm-grey);
@@ -184,13 +179,11 @@ header {
 }
 
 /* BUTTONS */
-.cta
-.btn {
-    text-decoration: none;
-    outline: none;
+a.cta {
     width: 100%;
     border: none;
     border-radius: 8px;
+    text-align: center;
     font-size: 12pt;
     font-weight: 400;
     letter-spacing: 1px;
@@ -201,10 +194,9 @@ header {
     transition: all 0.6s ease;
 }
 
-.cta:hover {
-    cursor: pointer;
-    background: var(--rainydays-blue);
-}
+a.cta:hover {background: var(--rainydays-blue);}
+
+
 
 .btn-area {
     display: flex;
@@ -223,8 +215,6 @@ header {
 }
 
 .btn a {
-    text-decoration: none;
-    outline: none;
     font-size: 12pt;
     font-weight: 400;
     color: var(--white);
@@ -252,8 +242,6 @@ footer li {
 }
 
 footer a {
-    text-decoration: none;
-    outline: none;
     color: var(--white);
     font-size: 12pt;
     font-weight: 400;

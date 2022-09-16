@@ -49,7 +49,6 @@ label[class=payment]:hover,
 input[name=visa]:checked ~ label[for=visa],
 input[name=mastercard]:checked ~ label[for=mastercard],
 input[name=klarna]:checked ~ label[for=klarna] {
-    cursor: pointer;
     border: solid 2px var(--raisin-black);
     border-radius: 8px;
     transform: scale(1.2);

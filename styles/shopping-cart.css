@@ -15,11 +15,6 @@ main {margin: 0 24px;}
     box-shadow: 2px 2px 20px #3a3a3d30;
 }
 
-.product a {
-    text-decoration: none;
-    outline: none;
-}
-
 .image-container {grid-row: span 2;}
 
 .product img {

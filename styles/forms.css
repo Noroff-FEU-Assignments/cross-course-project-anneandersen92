@@ -9,7 +9,7 @@ form textarea {
     margin-bottom: 16px;
     border: solid 1px var(--onyx);
     border-radius: 8px;
-    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-family: var(--main-font);
     font-size: 11pt;
     font-weight: 400;
     color: var(--raisin-black);
@@ -37,7 +37,7 @@ form label {display: none;}
 .email:focus ~ label[for=email],
 .password:focus ~ label[for=password],
 .message:focus ~ label[for=message] {
-    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-family: var(--main-font);
     font-size: 10pt;
     font-weight: 400;
     color: var(--warm-grey);
@@ -50,7 +50,7 @@ form label {display: none;}
 input[type="submit"] {
     cursor: pointer;
     display: block;
-    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
+    font-family: var(--main-font);
     font-size: 12pt;
     font-weight: 400;
     letter-spacing: 1px;
