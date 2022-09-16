@@ -88,7 +88,7 @@ h1 {
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .category-header-container {
         width: 100vw;
         margin-left: 2%;
