@@ -55,38 +55,4 @@ input[name=klarna]:checked ~ label[for=klarna] {
     transform: scale(1.2);
 }
 
-.btn-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-}
-
-.btn-confirm {
-    border-radius: 8px;
-    padding: 8px;
-    border: solid 1px var(--burnt-orange);
-    background: var(--burnt-orange);
-    width: 250px;
-}
-
-.btn-index {
-    border: none;
-    background: var(--white);
-}
-
-.btn-confirm a,
-.btn-index a {
-    text-decoration: none;
-    outline: none;
-    font-size: 12pt;
-    font-weight: 400;
-}
-
-.btn-confirm a {
-    color: var(--white);
-}
-
-.btn-index a {
-    color: var(--burnt-orange);
-}
+.btn-index {border: none;}

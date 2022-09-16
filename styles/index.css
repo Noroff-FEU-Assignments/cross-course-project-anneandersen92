@@ -143,8 +143,8 @@ h1 {
     outline: none;
 }
 
-a[href="women.html"] {display: block;}
-a[href="men.html"] {display: block;}
+.women-container a[href="women.html"] {display: block;}
+.men-container a[href="men.html"] {display: block;}
 
 .women-image,
 .men-image {
