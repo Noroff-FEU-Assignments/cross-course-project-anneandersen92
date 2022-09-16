@@ -1,0 +1,11 @@
+main {margin: 0 24px;}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-container button {
+    margin-top: 16px;
+}
