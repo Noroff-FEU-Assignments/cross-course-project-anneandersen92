@@ -103,9 +103,7 @@ main {margin: 0 24px;}
     justify-content: flex-end;
 }
 
-.price {
-    text-align: right;
-}
+.price {text-align: right;}
 
 .cart-total {
     width: 100%;

@@ -184,7 +184,8 @@ header {
 }
 
 /* BUTTONS */
-.cta {
+.cta
+.btn {
     text-decoration: none;
     outline: none;
     width: 100%;
@@ -217,6 +218,7 @@ header {
     padding: 8px 24px;
     border: solid 1px var(--burnt-orange);
     background: var(--burnt-orange);
+    color: var(--white);
     width: 250px;
 }
 
