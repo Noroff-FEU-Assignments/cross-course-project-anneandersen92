@@ -1,11 +1,10 @@
-main {margin: 0 24px;}
-
-.login-container {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+main {
+    margin: 0 24px;
+    text-align: center
+    ;
 }
 
-.login-container button {
-    margin-top: 16px;
-}
+form {text-align: center;}
+
+form input[type=text],
+form input[type=password] {text-align: center;}

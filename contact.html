@@ -51,9 +51,18 @@
             </section>
             <section class="form-container">
                 <form action="contact.php" method="POST">
-                    <input name="name" type="text" class="name" placeholder="Name">
-                    <input name="email" type="email" class="email" placeholder="Email">
-                    <textarea name="message" class="message" rows="6" placeholder="Write your message here" maxlength="250"></textarea>
+                    <div class="input-label">
+                        <input name="name" type="text" class="name" placeholder="Name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-label">
+                        <input name="email" type="email" class="email" placeholder="Email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-label">
+                        <textarea name="message" class="message" rows="6" placeholder="Write your message here" maxlength="250" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
                     <input type="submit" value="Submit">
                 </form>
             </section>

@@ -45,11 +45,17 @@
         </header>
         <main>
             <h1>Sign in</h1>
-            <div class="login-container">
-                <input name="name" type="text" class="name" placeholder="Name">
-                <input name="email" type="email" class="email" placeholder="Email">
+            <form class="login-container">
+                <div class="input-label">
+                    <input name="email" type="text" class="email" placeholder="Email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-label">
+                    <input name="password" type="password" class="password" placeholder="Password" required>
+                    <label for="password">Password</label>
+                </div>
                 <button>Log in</button>
-            </div>
+            </form>
             <div>
                 <p>New to Rainydays?</p>
                 <button>Create an account</button>

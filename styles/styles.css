@@ -198,8 +198,9 @@ header {
 }
 
 ::placeholder {
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--warm-grey);
     opacity: 1;
 }
@@ -210,26 +211,51 @@ form {max-width: 501px;}
 form input[type=text],
 form input[type=email],
 form input[type=tel],
+form input[type=password],
 form textarea {
     width: 100%;
     margin-bottom: 16px;
-    border: solid 1px var(--warm-grey);
+    border: solid 1px var(--onyx);
     border-radius: 8px;
     font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
     font-size: 11pt;
     font-weight: 400;
-    color: var(--onyx);
-    padding: 8px;
+    color: var(--raisin-black);
+    padding: 16px 12px;
     outline: none;
 }
 
-form ::placeholder {
+form ::placeholder {padding-left: 12px;}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder {color: transparent;}
+
+form label {display: none;}
+
+.input-label {position: relative;}
+
+.name:focus ~ label[for=name],
+.fname:focus ~ label[for=fname],
+.lname:focus ~ label[for=lname],
+.address:focus ~ label[for=address],
+.city:focus ~ label[for=city],
+.state:focus ~ label[for=state],
+.zip:focus ~ label[for=zip],
+.phone:focus ~ label[for=phone],
+.email:focus ~ label[for=email],
+.password:focus ~ label[for=password],
+.message:focus ~ label[for=message] {
     font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma;
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: 400;
-    color: var(--burnt-orange);
-    padding-left: 8px;
+    color: var(--warm-grey);
+    display: inline;
+    position: absolute;
+    left: 12px;
+    top: 2px;
 }
+
+
 
 input[type="submit"] {
     cursor: pointer;
