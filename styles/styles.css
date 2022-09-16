@@ -181,7 +181,8 @@ header {
 }
 
 /* BUTTONS */
-.cta {
+.cta,
+.btn {
     width: 100%;
     border: none;
     border-radius: 8px;
@@ -198,7 +199,22 @@ header {
 
 .cta:hover {background: var(--rainydays-blue);}
 
+.btn {
+    width: 250px;
+    border: solid 1px var(--burnt-orange);
+    background: var(--burnt-orange);
+    padding: 12px 24px;
+}
 
+.btn:hover {
+    background: #cc7e3190;
+    border: none;
+}
+
+.btn-index {
+    background: var(--white);
+    color: var(--burnt-orange);
+}
 
 .btn-area {
     display: flex;
@@ -207,24 +223,8 @@ header {
     gap: 16px;
 }
 
-.btn {
-    border-radius: 8px;
-    padding: 8px 24px;
-    border: solid 1px var(--burnt-orange);
-    background: var(--burnt-orange);
-    color: var(--white);
-    width: 250px;
-}
 
-.btn a {
-    font-size: 12pt;
-    font-weight: 400;
-    color: var(--white);
-}
 
-.btn-index {background: var(--white);}
-
-.btn-index a {color: var(--burnt-orange);}
 
 /* FOOTER */
 footer {
