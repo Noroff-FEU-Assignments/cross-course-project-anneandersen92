@@ -7,3 +7,19 @@ p {
 form {margin-top: 32px;}
 
 .message {margin-bottom: 32px;}
+
+
+@media only screen and (min-width: 760px) {
+    main {padding: 0 16px 56px 16px}
+
+    .contact,
+    .form-container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contact,
+    .form-container {max-width: 800px;}
+}

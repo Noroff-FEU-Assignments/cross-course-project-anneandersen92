@@ -128,7 +128,19 @@ main {margin: 0 24px;}
     font-weight: 500;
 }
 
+@media only screen and (min-width: 760px) {
+    main {padding: 0 16px 56px 16px}
+
+
+    .shopping-cart {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
+    .shopping-cart {max-width: 800px;}
+    
     .product {transition: all 0.6s ease;}
 
     .product:hover {transform: scale(1.03);}
