@@ -23,7 +23,9 @@ main {margin: 0 24px;}
     gap: 16px;
     width: 100%;
     max-width: 501px;
+    justify-content: space-between;
 }
+.input-label {width: 100%;}
 
 .message {margin-bottom: 48px;}
 
@@ -54,4 +56,15 @@ input[name=klarna]:checked ~ label[for=klarna] {
     transform: scale(1.2);
 }
 
-.btn-index {border: none;}
+.btn-index {
+    background: var(--white);
+    color: var(--burnt-orange);
+    border: none;
+    width: auto;
+    padding: 12px;
+}
+
+.btn-index:hover {
+    background: inherit;
+    font-weight: 500;
+}
