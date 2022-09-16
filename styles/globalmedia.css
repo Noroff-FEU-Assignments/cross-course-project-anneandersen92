@@ -1,0 +1,130 @@
+@media only screen and (min-width: 769px) {
+    main {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0;
+    }
+
+    html {background: var(--white);}
+  
+    .logo1 {display: none;}
+
+    .menu label {display: none;}
+
+    .logo2 {grid-area: logo2;}
+    .hamnav {grid-area: hamnav;}
+    .icons {grid-area: icons;}
+
+    .header-wrapper {
+        background: var(--rainydays-blue);
+        width: 100vw;
+        height: 100px;
+        padding: 0 40px 24px 40px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "logo2 hamnav icons";
+        align-items: end;
+    }
+
+    .logo2 {
+        display: inline;
+        width: auto;
+        height: 50px;
+        justify-self: start;
+    }
+
+    .icons {
+        margin-left: inherit;
+        justify-self: end;
+    }
+
+    .hamnav {
+        display: inline;
+        justify-self: center;
+    }
+
+    .hamitems {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .hamitems a {
+        color: var(--white);
+        text-decoration: none;
+        font-size: 14pt;
+        font-weight: 400;
+        margin-top: inherit;
+    }
+
+    .hamitems a:hover {
+        text-decoration: underline 2px solid var(--white);
+    }
+
+    .material-icons-outlined {
+        font-size: 28px;
+        color: var(--white);
+    }
+    
+    .material-icons-outlined:hover{
+        text-decoration: underline 2px solid var(--white);
+    }
+
+    .search-wrapper {
+        padding: 6px 24px;
+        margin: 10px 32px;
+    }
+    
+    .search-wrapper input,
+    .search-wrapper ::placeholder {
+        font-size: 13pt;
+        text-align: center;
+    }
+
+    .search-icon {
+        font-size: 30px;
+        color: var(--raisin-black);
+    }
+       
+    .cta,
+    .btn {font-size: 13pt;}
+
+    footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    footer li {margin-bottom: 48px;}
+
+    footer a {font-size: 16pt;}
+}
+
+@media only screen and (min-width: 1024px) {
+    html {background: #f0f0f0;}
+
+    p {font-size: 14pt;}
+
+    main,
+    .search-wrapper {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    main {
+        background: var(--white);
+        padding: 1px 32px 56px 32px;
+    }
+
+    .header-wrapper {
+        height: 120px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .logo2 {padding-right: 16px;}
+
+    .material-icons-outlined {font-size: 30px;}
+}

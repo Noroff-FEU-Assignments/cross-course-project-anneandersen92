@@ -1,0 +1,132 @@
+@media only screen and (min-width: 410px) {
+    .women-image,
+    .men-image {margin: 0 5%;}
+
+    .women-image {margin-bottom: 5%;}
+}
+
+@media only screen and (min-width: 550px) {
+    .promo-container img {
+        height: 400px;
+        object-position: 100% 30%;
+    }
+
+    .promo-text {
+        top: 20%;
+        left: 3%;
+    }
+
+    .promo-text h1 {font-size: 24pt;}
+
+    .promo-info,
+    .promo-text a {
+        font-size: 12pt;
+    }
+
+    .featured-slider img {height: 290px;}
+}
+
+@media only screen and (min-width: 600px) {
+    .women-image,
+    .men-image {
+        width: 80%;
+        margin: 0 10% 5% 10%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .index-main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .promo-text h1 {
+        font-size: 28pt;
+        letter-spacing: 4px;
+        padding-bottom: 8px;
+    }
+    
+    .promo-info {
+        font-size: 13pt;
+        font-weight: 400;
+        padding-bottom: 40px;
+    }
+    
+    .promo-text a {
+        font-size: 13pt;
+        padding: 8px 24px;
+    }
+
+    .featured-slider {gap: 12px;}
+
+    .featured-slider img {height: 320px;}
+
+    .gender-categories {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 16px;
+        margin: 32px 24px;
+    }
+
+    .women-image,
+    .men-image {
+        width: 100%;
+        margin: inherit;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .index-main {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .index-main {
+        background: var(--white);
+        padding: 1px 0 56px 0;
+    }
+
+    .promo-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "text image";
+        background: var(--rainydays-blue-90);
+    }
+
+    .promo-container img {
+        grid-area: image;
+        height: 500px;
+        object-position: 65% 0;
+    }
+    
+    .promo-text {grid-area: text;}
+
+    .promo-text h1 {padding-bottom: 16px;}
+    
+    .promo-info {font-size: 14pt;}
+    
+    .promo-text a {font-size: 14pt;}
+
+    .featured-container {padding-top: 40px;}
+
+    .featured-heading {
+        font-size: 20pt;
+        padding-bottom: 32px;
+    }
+
+    .featured-slider {gap: 16px;}
+
+    .featured-slider img {height: 360px;}
+
+    .gender-categories {gap: 24px;}
+}
+
+@media only screen and (min-width: 1500px) {
+    .logo2 {height: 70px;}
+
+    .hamitems {gap: 24px;}
+}
