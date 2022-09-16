@@ -1,7 +1,10 @@
+.index-main {padding-bottom: 32px;}
+
 /*PROMO*/
 
 .promo-container {
     position: relative;
+    margin-bottom: -4px;
 }
 
 .promo-container img {
@@ -60,7 +63,7 @@ h1 {
     width: 100%;
     background: #6ca9b330;
     padding-top: 24px;
-    margin-bottom: 5%;
+    margin-bottom: 32px;
 }
 
 .featured-heading {
@@ -139,6 +142,9 @@ h1 {
     text-decoration: none;
     outline: none;
 }
+
+a[href="women.html"] {display: block;}
+a[href="men.html"] {display: block;}
 
 .women-image,
 .men-image {
