@@ -80,3 +80,53 @@ h1 {
 .price {font-weight: 400;}
 
 .cta {margin: 0;}
+
+@media only screen and (min-width: 600px) {
+    .product-list-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .category-header-container {
+        width: 100vw;
+        margin-left: 2%;
+        transform: translate(-4%);
+    }
+    
+    .category-image {
+        height: 400px;
+        object-fit: cover;
+        object-position: 100% 0;
+    }
+
+    .product-list-container {gap: 24px;}
+
+    .description,
+    .color {font-size: 11pt;}
+}
+
+@media only screen and (min-width: 1024px) {
+    .categories-main {
+        background: var(--white);
+        padding: 1px 0 56px 0;
+    }
+
+    .category-header-container {
+        width: 100%;
+        margin-left: 16px;
+        transform: translate(-16px);
+        margin-bottom: 32px;
+    }
+
+    .category-heading {font-size: 40pt;}
+
+    .product-list-container {
+        gap: 32px;
+        margin: 0 32px;
+    }
+    
+    .description,
+    .color {font-size: 12pt;}
+}

@@ -87,3 +87,37 @@ input[name=xl]:checked ~ label[for=xl] {
 }
 
 .description-heading {font-weight: 500;}
+
+@media only screen and (min-width: 769px) {
+    .product-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'image info'
+        'image interaction'
+        'description description';
+        row-gap: 32px;
+        column-gap: 24px;
+        margin-top: 24px;
+    }
+
+    .image-container {grid-area: image;}
+    .product-info {grid-area: info;}
+    .interaction {grid-area: interaction;}
+    .description-container {grid-area: description;}
+
+
+    .product-info h1 {margin-top: 0;}
+
+    .product-info .price {margin-top: 56px;}
+
+    .interaction .cta {margin: 0;}
+
+    .interaction {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+    }
+}

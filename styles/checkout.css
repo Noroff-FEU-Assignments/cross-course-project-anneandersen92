@@ -68,3 +68,15 @@ input[name=klarna]:checked ~ label[for=klarna] {
     background: inherit;
     font-weight: 500;
 }
+
+@media only screen and (min-width: 769px) {    
+    .complete-purchase {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center
+    }
+
+    .payment-options {margin: 0;}
+}

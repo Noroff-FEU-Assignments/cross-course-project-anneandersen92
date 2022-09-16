@@ -31,3 +31,30 @@ p {
     text-transform: uppercase;
     color: var(--burnt-orange);
 }
+
+@media only screen and (min-width: 410px) {
+    .about-img {
+        height: 300px;
+        object-fit: cover;
+        object-position: 100% 45%;
+    }
+}
+
+@media only screen and (min-width: 769px) {    
+    .about-img-container,
+    .motivation-container {
+        margin-left: 0;
+        transform: translateX(0);
+        width: 100%;
+    }
+
+    .about-img {
+        height: 400px;
+        object-position: 100% 60%;
+    }
+
+    .highlighted {
+        font-size: 18pt;
+        font-weight: 600;
+    }
+}

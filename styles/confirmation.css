@@ -65,3 +65,21 @@ h1 {
 section a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 340px) {  
+    .full-text {display: none;}
+
+    .short-text {display: grid;}  
+}
+
+@media only screen and (min-width: 410px) {
+    .order-container {padding: 8px 48px;}
+}
+
+@media only screen and (min-width: 550px) {
+    .order-container {
+        width: 520px;
+        padding: 8px 64px;
+        margin: 40px auto;
+    }
+}
