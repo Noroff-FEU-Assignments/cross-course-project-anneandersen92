@@ -62,23 +62,24 @@ a {
 a:hover {cursor: pointer;}
 
 /* HEADER */
+header {
+    padding-bottom: 2px;
+    background: var(--white);
+    position: sticky; top: 0;
+    z-index: 1000;
+}
+
 .header-wrapper {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     padding: 16px 20px;
     padding-bottom: 0px;
+
 }
 
 .icons {
     margin-left: auto;
-}
-
-header {
-    background: var(--white);
-    position: sticky; top: 0;
-    z-index: 1000;
-    padding-bottom: 2px;
 }
 
 .logo1 {
