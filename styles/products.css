@@ -79,7 +79,7 @@ input[name=xl]:checked ~ label[for=xl] {
     background: var(--rainydays-blue);
 }
 
-.cta:hover {background: #0a364190;}
+.cta:hover {background: var(--rainydays-blue-90);}
 
 .description-container {
     background: var(--background-grey);

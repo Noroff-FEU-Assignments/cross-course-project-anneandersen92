@@ -12,7 +12,7 @@ main {margin: 0 24px;}
     position: relative;
     padding: 16px;
     border-radius: 16px;
-    box-shadow: 2px 2px 20px #3a3a3d30;
+    box-shadow: 2px 2px 20px var(--box-shadow);
 }
 
 .image-container {grid-row: span 2;}

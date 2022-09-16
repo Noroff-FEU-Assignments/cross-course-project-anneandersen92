@@ -38,7 +38,7 @@ h1 {
         "info-payment info-email"
         "info-d-date info-d-options";
     border-radius: 8px;
-    box-shadow: 2px 2px 20px #3a3a3d50;
+    box-shadow: 2px 2px 20px var(--box-shadow);
     font-size: 11pt;
     text-align: left;
     padding: 8px 5%;
@@ -60,11 +60,6 @@ h1 {
 .info-heading {
     font-weight: 400;
     color: var(--burnt-orange);
-}
-
-section a {
-    text-decoration: none;
-    outline: none;
 }
 
 section a:hover {

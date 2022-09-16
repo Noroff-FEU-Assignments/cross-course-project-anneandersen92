@@ -52,7 +52,7 @@ h1 {
 
 .promo-text a:hover {
     color: var(--white);
-    background: #0a364180;
+    background: var(--rainydays-blue-90);
 }
 
 /*FEATURED*/
@@ -82,10 +82,7 @@ h1 {
     padding-left: 16px;
 }
 
-.featured {
-    padding-bottom: 32px;
-}
-
+.featured {padding-bottom: 24px;}
 
 .featured img {
     height: 270px;

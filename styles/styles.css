@@ -1,5 +1,6 @@
 :root {
     --rainydays-blue: #0a3641;
+    --rainydays-blue-90: #0a364190;
     --crystal-blue: #6ca9b3;
     --raisin-black: #222222;
     --onyx: #3a3a3d;
@@ -7,6 +8,7 @@
     --background-grey: #f1f1f1;
     --burnt-orange: #cc7e31;
     --white: #ffffff;
+    --box-shadow: #3a3a3d30;
     --main-font: "Roboto", sans-serif, Verdana, Geneva, Tahoma;
 }
 
@@ -179,7 +181,7 @@ header {
 }
 
 /* BUTTONS */
-a.cta {
+.cta {
     width: 100%;
     border: none;
     border-radius: 8px;
@@ -188,13 +190,13 @@ a.cta {
     font-weight: 400;
     letter-spacing: 1px;
     color: var(--white);
-    background: #0a364190;
+    background: var(--rainydays-blue-90);
     padding: 12px;
     transition-property: color;
     transition: all 0.6s ease;
 }
 
-a.cta:hover {background: var(--rainydays-blue);}
+.cta:hover {background: var(--rainydays-blue);}
 
 
 

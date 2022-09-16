@@ -272,7 +272,7 @@
         grid-template-rows: 1fr;
         grid-template-areas: 
         "text image";
-        background: #0a364180;
+        background: var(--rainydays-blue-90);
     }
 
     .promo-container img {
