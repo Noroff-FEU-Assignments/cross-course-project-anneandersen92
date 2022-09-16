@@ -88,7 +88,7 @@ input[name=xl]:checked ~ label[for=xl] {
 
 .description-heading {font-weight: 500;}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
     .product-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
