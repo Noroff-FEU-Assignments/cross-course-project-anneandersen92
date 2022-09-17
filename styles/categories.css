@@ -110,10 +110,7 @@ h1 {
 }
 
 @media only screen and (min-width: 1024px) {
-    .categories-main {
-        background: var(--white);
-        padding: 1px 0 56px 0;
-    }
+    main {padding: 1px 0 56px 0 !important;}
 
     .category-header-container {
         width: 100%;

@@ -6,6 +6,8 @@
     .cta,
     .btn,
     p {font-size: 13pt;}
+
+    .small {font-size: 12pt;}
   
     .logo1 {display: none;}
 
@@ -100,7 +102,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    html {background: #f0f0f0;}
+    html {background: var(--background-grey);}
 
     h1 {font-size: 32pt;}
 
@@ -108,8 +110,9 @@
     .btn,
     p {font-size: 14pt;}
 
-    ::placeholder,
-    .small {font-size: 12pt;}
+    .small {font-size: 13pt;}
+
+    ::placeholder {font-size: 12pt;}
 
     main {
         margin: 0 15%;
@@ -123,7 +126,10 @@
         padding-right: 15%;
     }
 
-    .search-wrapper {margin: 10px 15%;}
+    .search-wrapper {
+        width: 427px;
+        margin: 10px auto;
+    }
 
     .logo2 {
         padding-right: 24px;

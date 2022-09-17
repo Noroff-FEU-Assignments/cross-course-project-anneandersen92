@@ -38,9 +38,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 760px) {    
-    main {padding: 0 16px 56px 16px}
-    
+@media only screen and (min-width: 760px) {
     .about {
         max-width: 750px;
         margin: 0 auto;
