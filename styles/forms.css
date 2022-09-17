@@ -65,3 +65,31 @@ input[type="submit"] {
     -moz-apparance: none;
     appearance: none;
 }
+
+@media only screen and (min-width: 1024px) {
+    form input[type=text],
+    form input[type=email],
+    form input[type=tel],
+    form input[type=password],
+    form textarea {
+        font-size: 12pt;
+    }
+
+    .name:focus ~ label[for=name],
+    .fname:focus ~ label[for=fname],
+    .lname:focus ~ label[for=lname],
+    .address:focus ~ label[for=address],
+    .city:focus ~ label[for=city],
+    .state:focus ~ label[for=state],
+    .zip:focus ~ label[for=zip],
+    .phone:focus ~ label[for=phone],
+    .email:focus ~ label[for=email],
+    .password:focus ~ label[for=password],
+    .message:focus ~ label[for=message] {
+        font-size: 11pt;
+    }
+
+    input[type="submit"] {
+        font-size: 14pt;
+    }
+}
