@@ -1,11 +1,5 @@
 @media only screen and (min-width: 760px) {
-    main {
-        margin-left: 2%;
-        margin-right: 2%;
-        margin-top: 0;
-    }
-
-    html {background: var(--white);}
+    main {margin: 0 2%;}
   
     .logo1 {display: none;}
 
@@ -64,12 +58,12 @@
         text-decoration: underline 2px solid var(--white);
     }
 
-    .material-icons-outlined {
+    .icons .material-icons-outlined {
         font-size: 28px;
         color: var(--white);
     }
     
-    .material-icons-outlined:hover{
+    .icons .material-icons-outlined:hover{
         text-decoration: underline 2px solid var(--white);
     }
 
@@ -107,13 +101,8 @@
 
     p {font-size: 14pt;}
 
-    main,
-    .search-wrapper {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
     main {
+        margin: 0 15%;
         background: var(--white);
         padding: 1px 32px 56px 32px;
     }
@@ -124,7 +113,9 @@
         padding-right: 15%;
     }
 
+    .search-wrapper {margin: 10px 15%;}
+
     .logo2 {padding-right: 16px;}
 
-    .material-icons-outlined {font-size: 30px;}
+    .icons .material-icons-outlined {font-size: 30px;}
 }

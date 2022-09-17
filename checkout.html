@@ -12,7 +12,7 @@
         <link href="styles/styles.css" rel="stylesheet">
         <link href="styles/forms.css" rel="stylesheet">
         <link href="styles/checkout.css" rel="stylesheet">
-        <link href="styles/globalmedia.css" rel="stylesheet">
+        <link href="styles/media.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -44,55 +44,57 @@
             </div>
         </header>
         <main>
-            <h1>Checkout</h1>
-            <section class="cart-total">
-                <p class="total"><span class="upper">Total</span><span>NOK 5.679</span></p>
-                <p class="shipping"><span>Shipping (Standard 5-7 days)</span><span>Free</span></p>
-            </section>
-            <section class="billing-details">
-                <h2>Billing details</h2>
-                <form>
-                    <div class="full-name">
-                        <div class="input-label">
-                            <input name="fname" type="text" class="fname" placeholder="First name" required>
-                            <label for="fname">First name</label>
+            <section class="checkout">
+                <h1>Checkout</h1>
+                <div class="cart-total">
+                    <p class="total"><span class="upper">Total</span><span>NOK 5.679</span></p>
+                    <p class="shipping"><span>Shipping (Standard 5-7 days)</span><span>Free</span></p>
+                </div>
+                <div class="billing-details">
+                    <h2>Billing details</h2>
+                    <form>
+                        <div class="full-name">
+                            <div class="input-label">
+                                <input name="fname" type="text" class="fname" placeholder="First name" required>
+                                <label for="fname">First name</label>
+                            </div>
+                            <div class="input-label">
+                                <input name="lname" type="text" class="lname" placeholder="Last name" required>
+                                <label for="lname">Last name</label>
+                            </div>
                         </div>
                         <div class="input-label">
-                            <input name="lname" type="text" class="lname" placeholder="Last name" required>
-                            <label for="lname">Last name</label>
-                        </div>
-                    </div>
-                    <div class="input-label">
-                        <input name="address" type="text" class="address" placeholder="Street address" required>
-                        <label for="address">Street address</label>
-                    </div>
-                    <div class="input-label">
-                        <input name="city" type="text" class="city" placeholder="City" required>
-                        <label for="city">City</label>
-                    </div>
-                    <div class="postal-info">
-                        <div class="input-label">
-                            <input name="state" type="text" class="state" placeholder="State">
-                            <label for="state">State</label>
+                            <input name="address" type="text" class="address" placeholder="Street address" required>
+                            <label for="address">Street address</label>
                         </div>
                         <div class="input-label">
-                            <input name="zip" type="text" class="zip" placeholder="Zip code" required>
-                            <label for="zip">Zip code</label>
+                            <input name="city" type="text" class="city" placeholder="City" required>
+                            <label for="city">City</label>
                         </div>
-                    </div>
-                    <div class="input-label">
-                        <input name="phone" type="tel" class="phone" placeholder="Phone number" required>
-                        <label for="phone">Phone number</label>
-                    </div>
-                    <div class="input-label">
-                        <input name="email" type="email" class="email" placeholder="Email" required>
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="input-label">
-                        <textarea name="message" class="message" rows="6" placeholder="Message about your order (optional)" maxlength="250"></textarea>
-                        <label for="message">Message</label>
-                    </div>
-                </form>
+                        <div class="postal-info">
+                            <div class="input-label">
+                                <input name="state" type="text" class="state" placeholder="State">
+                                <label for="state">State</label>
+                            </div>
+                            <div class="input-label">
+                                <input name="zip" type="text" class="zip" placeholder="Zip code" required>
+                                <label for="zip">Zip code</label>
+                            </div>
+                        </div>
+                        <div class="input-label">
+                            <input name="phone" type="tel" class="phone" placeholder="Phone number" required>
+                            <label for="phone">Phone number</label>
+                        </div>
+                        <div class="input-label">
+                            <input name="email" type="email" class="email" placeholder="Email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-label">
+                            <textarea name="message" class="message" rows="6" placeholder="Message about your order (optional)" maxlength="250"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                    </form>
+                </div>
             </section>
             <section class="complete-purchase">
                 <div class="payment-container">
