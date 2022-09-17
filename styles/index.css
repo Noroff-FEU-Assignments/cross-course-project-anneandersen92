@@ -78,6 +78,7 @@ h1 {
     white-space: nowrap;
     gap: 8px;
     padding-left: 16px;
+    outline: none;
 }
 
 .featured {padding-bottom: 24px;}
@@ -88,6 +89,9 @@ h1 {
     border-radius: 12px;
     padding: 8px;
 }
+
+a[href="atomwbeige.html"],
+a[href="#"] {display: block;}
 
 .product-name {
     text-transform: uppercase;
@@ -136,13 +140,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.women-container a,
-.men-container a {
-    text-decoration: none;
-    outline: none;
-}
-
-.women-container a[href="women.html"] {display: block;}
+.women-container a[href="women.html"],
 .men-container a[href="men.html"] {display: block;}
 
 .women-image,

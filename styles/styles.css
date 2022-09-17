@@ -70,6 +70,14 @@ a {
 
 a:hover {cursor: pointer;}
 
+a:focus-visible {
+    outline: solid 3px var(--raisin-black);
+    transition: none;
+}
+
+a[href="atomwbeige.html"],
+a[href="#"] {display: block;}
+
 /* HEADER */
 header {
     padding-bottom: 2px;
@@ -96,7 +104,8 @@ header {
 .material-icons-outlined {
     font-size: 26px;
     color: var(--rainydays-blue);
-    padding-left: 8px;
+    padding: 1px;
+    margin-left: 8px;
 }
 
 .material-icons-outlined:hover{
@@ -169,7 +178,10 @@ label[for=hamburger]:hover {cursor: pointer;}
     padding: 0;
 }
 
-.search-icon:hover {text-decoration: none;}
+.search-icon:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
 
 ::placeholder {
     font-family: var(--main-font);
@@ -238,3 +250,5 @@ footer a {
     font-weight: 400;
     letter-spacing: 4px;
 }
+
+footer a:focus-visible {outline: solid 3px var(--white);}

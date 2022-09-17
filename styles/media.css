@@ -61,18 +61,18 @@
         font-weight: 400;
         margin-top: inherit;
     }
-
-    .hamitems a:hover {
-        text-decoration: underline 2px solid var(--white);
-    }
-
     .icons .material-icons-outlined {
         font-size: 28px;
         color: var(--white);
     }
     
-    .icons .material-icons-outlined:hover{
+    .hamitems a:hover,
+    .icons .material-icons-outlined:hover {
         text-decoration: underline 2px solid var(--white);
+    }
+
+    header a:focus-visible {
+        outline: solid 3px var(--white);
     }
 
     .search-wrapper {
