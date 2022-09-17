@@ -1,4 +1,7 @@
-main {text-align: center;}
+main {
+    text-align: center;
+    padding-bottom: 200px;
+}
 
 .login-container {
     display: flex;
@@ -36,6 +39,10 @@ form input[type=password] {margin-bottom: 0;}
     font-weight: 500;
 }
 
+@media only screen and (min-width: 760px) {
+    .login-main {padding-bottom: 320px;}
+}
+
 @media only screen and (min-width: 1024px) {
-    .login-main {padding: 80px 32px 320px 32px;}
+    .login-main {padding-top: 80px;}
 }
