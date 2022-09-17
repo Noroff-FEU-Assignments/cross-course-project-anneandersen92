@@ -35,14 +35,10 @@ h1 {
     padding-bottom: 8px;
 }
 
-.promo-info {
-    font-size: 11pt;
-    padding-bottom: 22px;
-}
+.promo-info {padding-bottom: 22px;}
 
 .promo-text a {
     color: var(--rainydays-blue);
-    font-size: 11pt;
     letter-spacing: 1px;
     background: #ffffff90;
     padding: 8px 16px;

@@ -79,6 +79,8 @@
         padding: inherit;
     }
 
+    .small {font-size: 12pt;}
+
     .promo-container {
         width: 100%;
         display: grid;
@@ -115,10 +117,4 @@
     .featured-slider img {height: 360px;}
 
     .gender-categories {gap: 24px;}
-}
-
-@media only screen and (min-width: 1500px) {
-    .logo2 {height: 70px;}
-
-    .hamitems {gap: 24px;}
 }

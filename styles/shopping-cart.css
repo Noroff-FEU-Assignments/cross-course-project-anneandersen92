@@ -38,10 +38,7 @@
 
 .upper {text-transform: uppercase;}
 
-.color {
-    margin: 0;
-    font-size: 11pt;
-}
+.color {margin: 0;}
 
 .size {margin-top: 16px;}
 
@@ -69,8 +66,8 @@
 }
 
 .cart-icon {
-    font-size: 11pt;
     background: none;
+    font-size: 11pt;
     padding: unset;
     display: flex;
     align-items: center;
@@ -86,7 +83,6 @@
 }
 
 .quantity {
-    font-size: 11pt;
     font-weight: 400;
     padding: 0 8px;
 }
@@ -113,8 +109,6 @@
 
 .total {font-weight: 400;}
 
-.shipping {font-size: 11pt;}
-
 .btn-index {
     background: var(--white);
     color: var(--burnt-orange);
@@ -137,6 +131,9 @@
 
 @media only screen and (min-width: 760px) {    
     .shopping-cart {max-width: 650px;}
+
+    .cta,
+    .btn {width: 280px;}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -145,4 +142,7 @@
     .product {transition: all 0.6s ease;}
 
     .product:hover {transform: scale(1.03);}
+
+    .cta,
+    .btn {width: 300px;}
 }

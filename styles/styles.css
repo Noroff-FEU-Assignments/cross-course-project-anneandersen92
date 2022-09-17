@@ -30,6 +30,7 @@ main {
 h1,
 h2,
 p,
+.small,
 a,
 button,
 .hamitems,
@@ -56,6 +57,10 @@ p {
     font-size: 12pt;
     font-weight: 300;
     line-height: 1.5;
+}
+
+.small {
+    font-size: 11pt;
 }
 
 a {

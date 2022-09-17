@@ -6,13 +6,16 @@ main {text-align: center;}
     margin-top: 32px;
 }
 
-.material-icons-outlined-check:hover{
-    text-decoration: none;
-}
+.material-icons-outlined-check:hover {text-decoration: none;}
 
 h1 {
     margin-top: 32px;
     margin-bottom: 8px;
+}
+
+.confirmation-text {
+    max-width: 520px;
+    margin: 0 auto;
 }
 
 .short-text {display: none;}

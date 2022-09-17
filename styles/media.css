@@ -99,7 +99,13 @@
 @media only screen and (min-width: 1024px) {
     html {background: #f0f0f0;}
 
+    h1 {font-size: 32pt;}
+
+    .cta,
+    .btn,
     p {font-size: 14pt;}
+
+    .small {font-size: 12pt;}
 
     main {
         margin: 0 15%;
@@ -115,7 +121,16 @@
 
     .search-wrapper {margin: 10px 15%;}
 
-    .logo2 {padding-right: 16px;}
+    .logo2 {
+        padding-right: 24px;
+        height: 60px;
+    }
 
     .icons .material-icons-outlined {font-size: 30px;}
+}
+
+@media only screen and (min-width: 1500px) {
+    .logo2 {height: 70px;}
+
+    .hamitems {gap: 24px;}
 }
