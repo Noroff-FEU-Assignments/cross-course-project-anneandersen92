@@ -1,4 +1,4 @@
-main {margin-top: 25px;}
+.breaditems {padding-left: 0;}
 
 .image-container {
     display: flex;
@@ -126,6 +126,10 @@ input[name=xl]:checked ~ label[for=xl] {
 }
 
 @media only screen and (min-width: 1024px) {
+    .breaditems {
+        margin-left: 2%;
+        padding-left: 0;}
+
     .product-container {
         grid-template-columns: auto 2fr;
         gap: 48px;

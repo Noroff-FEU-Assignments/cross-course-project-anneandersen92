@@ -83,8 +83,6 @@
     cursor: pointer;
 }
 
-.cart-icon:focus-visible {outline: solid 3px var(--raisin-black);}
-
 .quantity {
     font-weight: 400;
     padding: 0 8px;

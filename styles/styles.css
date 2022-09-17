@@ -59,28 +59,20 @@ p {
     line-height: 1.5;
 }
 
-.small {
-    font-size: 11pt;
-}
+.small {font-size: 11pt;}
 
-a {
-    text-decoration: none;
-    outline: none;
-}
+a {text-decoration: none;}
+
+a:active {box-shadow: none !important;}
 
 a:hover {cursor: pointer;}
-
-a:focus-visible {
-    outline: solid 3px var(--raisin-black);
-    transition: none;
-}
 
 a[href="atomwbeige.html"],
 a[href="#"] {display: block;}
 
 /* HEADER */
 header {
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     background: var(--white);
 }
 
@@ -191,6 +183,24 @@ label[for=hamburger]:hover {cursor: pointer;}
     opacity: 1;
 }
 
+/* BREADCRUMB NAV */
+.breaditems {
+    list-style: none;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.breaditems li {
+    font-family: var(--main-font);
+    font-size: 12pt;
+}
+
+.index {text-transform: uppercase;}
+
+.current {font-weight: 600;}
+
 /* BUTTONS */
 .cta,
 .btn {
@@ -250,5 +260,3 @@ footer a {
     font-weight: 400;
     letter-spacing: 4px;
 }
-
-footer a:focus-visible {outline: solid 3px var(--white);}

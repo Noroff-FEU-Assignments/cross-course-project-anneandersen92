@@ -49,9 +49,6 @@ form label {display: none;}
     top: 2px;
 }
 
-form input:focus,
-form textarea:focus {outline: solid 1px var(--raisin-black);}
-
 input[type="submit"] {
     cursor: pointer;
     display: block;
@@ -70,8 +67,6 @@ input[type="submit"] {
     -moz-apparance: none;
     appearance: none;
 }
-
-.submit:focus {outline: solid 3px var(--raisin-black);}
 
 @media only screen and (min-width: 1024px) {
     form input[type=text],
