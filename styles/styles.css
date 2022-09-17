@@ -126,6 +126,8 @@ header {
     z-index: 10000;
 }
 
+label[for=hamburger]:hover {cursor: pointer;}
+
 .hamitems a {
     display: flex;
     flex-direction: column;
