@@ -14,7 +14,7 @@
 
 * {
     box-sizing: border-box;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -63,8 +63,6 @@ p {
 
 a {text-decoration: none;}
 
-a:active {box-shadow: none !important;}
-
 a:hover {cursor: pointer;}
 
 a[href="atomwbeige.html"],
@@ -100,9 +98,7 @@ header {
     margin-left: 8px;
 }
 
-.material-icons-outlined:hover{
-    text-decoration: underline 2px solid var(--rainydays-blue);
-}
+.material-icons-outlined:hover{text-decoration: underline 2px solid var(--rainydays-blue);}
 
 .screenreader-text {
     position: absolute;
