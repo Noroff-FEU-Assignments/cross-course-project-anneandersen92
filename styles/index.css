@@ -90,9 +90,6 @@ h1 {
     padding: 8px;
 }
 
-a[href="atomwbeige.html"],
-a[href="#"] {display: block;}
-
 .product-name {
     text-transform: uppercase;
     font-weight: 400;
