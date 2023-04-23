@@ -1,129 +1,239 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <meta name="description" content="Take a look at this seasons ALPHA jackets!">
-        <meta name="theme-color" content="#0a3641">
-        <title>Rainydays | The ALPHA Collection</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-        <link href="styles/styles.css" rel="stylesheet">
-        <link href="styles/categories.css" rel="stylesheet">
-        <link href="styles/media.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="header-wrapper">
-                <a class="logo1" href="index.html"><img class="logo1" src="images/logo.png" alt="The Rainydays logo"></a>
-                <a class="logo2" href="index.html"><img class="logo2" src="images/logo_inverted.jpg" alt="The Rainydays logo"></a>
-                <div class="icons">
-                    <a href="login.html"><span class="material-icons-outlined" title="User account" aria-label="user account icon">person</span></a>
-                        <span class="screenreader-text">User account</span>
-                    <a href="shopping-cart.html"><span class="material-icons-outlined" title="Shopping cart" aria-label="shopping cart icon">shopping_cart</span></a>
-                        <span class="screenreader-text">Shopping cart</span>
-                </div>
-                <div class="menu">
-                    <label for="hamburger"><span class="material-icons-outlined" title="Menu" aria-label="menu icon">menu</span></label>
-                    <input type="checkbox" id="hamburger">
-                    <nav class="hamnav">
-                        <div class="hamitems">
-                            <a href="women.html">Women</a>
-                            <a href="men.html">Men</a>
-                            <a href="about.html">About</a>
-                            <a href="contact.html">Contact</a>
-                        </div>
-                    </nav>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Take a look at this seasons ALPHA jackets!"
+    />
+    <meta name="theme-color" content="#0a3641" />
+    <title>Rainydays | The ALPHA Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/categories.css" rel="stylesheet" />
+    <link href="styles/media.css" rel="stylesheet" />
+    <!-- Hotjar Tracking Code for my site -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3462588, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <a class="logo1" href="index.html"
+          ><img class="logo1" src="images/logo.png" alt="The Rainydays logo"
+        /></a>
+        <a class="logo2" href="index.html"
+          ><img
+            class="logo2"
+            src="images/logo_inverted.jpg"
+            alt="The Rainydays logo"
+        /></a>
+        <div class="icons">
+          <a href="login.html"
+            ><span
+              class="material-icons-outlined"
+              title="User account"
+              aria-label="user account icon"
+              >person</span
+            ></a
+          >
+          <span class="screenreader-text">User account</span>
+          <a href="shopping-cart.html"
+            ><span
+              class="material-icons-outlined"
+              title="Shopping cart"
+              aria-label="shopping cart icon"
+              >shopping_cart</span
+            ></a
+          >
+          <span class="screenreader-text">Shopping cart</span>
+        </div>
+        <div class="menu">
+          <label for="hamburger"
+            ><span
+              class="material-icons-outlined"
+              title="Menu"
+              aria-label="menu icon"
+              >menu</span
+            ></label
+          >
+          <input type="checkbox" id="hamburger" />
+          <nav class="hamnav">
+            <div class="hamitems">
+              <a href="women.html">Women</a>
+              <a href="men.html">Men</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
             </div>
-            <div class="search-wrapper">
-                <input type="text" placeholder="Search">
-                <span class="material-icons-outlined search-icon" title="Search" aria-label="search icon">search</span>
-            </div>
-        </header>
-        <main>
-            <section class="category-header-container">
-                <img class="category-image" src="images/header_alpha.webp" alt="Man mountain climbing in a Rainydays Alpha jacket">
-                <h1 class="category-heading alpha-heading"><span class="the">The</span><br><span class="upper">Alpha</span> Collection</h1>
-            </section>
-            <div class="breadcrumb-nav">
-                <ul class="breaditems">
-                    <li class="index"><a href="index.html">Rainydays /</a></li>
-                    <li class="current">The <span class="upper">Alpha</span> Collection</li>
-                </ul>
-            </div>
-            <section class="product-list-container">
-                <div class="product-card">
-                    <div class="image-container">
-                        <a href="#"><img src="images/products/womens_blue.png" alt="Alpha jacket, women, blue"></a>
-                    </div>
-                    <div class="product-details">
-                        <a href="#"><p class="name"><span class="upper">Alpha</span> jacket women</p></a>
-                        <p class="description">Waterproof jacket</p>
-                        <p class="color">Reflection blue</p>
-                    </div>
-                    <p class="price">NOK 1.999</p>
-                    <a href="#" class="cta" aria-label="view product">View</a>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <a href="#"><img src="images/products/mens_grey.png" alt="Alpha jacket, men, dark grey"></a>
-                    </div>
-                    <div class="product-details">
-                        <a href="#"><p class="name"><span class="upper">Alpha</span> jacket men</p></a>
-                        <p class="description">Waterproof jacket</p>
-                        <p class="color">Glitch grey</p>
-                    </div>
-                    <p class="price">NOK 1.999</p>
-                    <a href="#" class="cta" aria-label="view product">View</a>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <a href="#"><img src="images/products/womens_green.png" alt="Alpha jacket, women, dark green"></a>
-                    </div>
-                    <div class="product-details">
-                        <a href="#"><p class="name"><span class="upper">Alpha</span> jacket women</p></a>
-                        <p class="description">Waterproof jacket</p>
-                        <p class="color">Tatsu green</p>
-                    </div>
-                    <p class="price">NOK 1.999</p>
-                    <a href="#" class="cta" aria-label="view product">View</a>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <a href="#"><img src="images/products/mens_green.png" alt="Alpha jacket, men, dark green"></a>
-                    </div>
-                    <div class="product-details">
-                        <a href="#"><p class="name"><span class="upper">Alpha</span> jacket men</p></a>
-                        <p class="description">Waterproof jacket</p>
-                        <p class="color">Tatsu green</p>
-                    </div>
-                    <p class="price">NOK 1.999</p>
-                    <a href="#" class="cta" aria-label="view product">View</a>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <a href="#"><img src="images/products/mens_yellow.png" alt="Alpha jacket, men, yellow"></a>
-                    </div>
-                    <div class="product-details">
-                        <a href="#"><p class="name"><span class="upper">Alpha</span> jacket men</p></a>
-                        <p class="description">Waterproof jacket</p>
-                        <p class="color">Wildchild yellow</p>
-                    </div>
-                    <p class="price">NOK 1.999</p>
-                    <a href="#" class="cta" aria-label="view product">View</a>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
-                </ul>
-            </div>
-        </footer>
-    </body>
+          </nav>
+        </div>
+      </div>
+      <div class="search-wrapper">
+        <input type="text" placeholder="Search" />
+        <span
+          class="material-icons-outlined search-icon"
+          title="Search"
+          aria-label="search icon"
+          >search</span
+        >
+      </div>
+    </header>
+    <main>
+      <section class="category-header-container">
+        <img
+          class="category-image"
+          src="images/header_alpha.webp"
+          alt="Man mountain climbing in a Rainydays Alpha jacket"
+        />
+        <h1 class="category-heading alpha-heading">
+          <span class="the">The</span><br /><span class="upper">Alpha</span>
+          Collection
+        </h1>
+      </section>
+      <div class="breadcrumb-nav">
+        <ul class="breaditems">
+          <li class="index"><a href="index.html">Rainydays /</a></li>
+          <li class="current">
+            The <span class="upper">Alpha</span> Collection
+          </li>
+        </ul>
+      </div>
+      <section class="product-list-container">
+        <div class="product-card">
+          <div class="image-container">
+            <a href="#"
+              ><img
+                src="images/products/womens_blue.png"
+                alt="Alpha jacket, women, blue"
+            /></a>
+          </div>
+          <div class="product-details">
+            <a href="#"
+              ><p class="name">
+                <span class="upper">Alpha</span> jacket women
+              </p></a
+            >
+            <p class="description">Waterproof jacket</p>
+            <p class="color">Reflection blue</p>
+          </div>
+          <p class="price">NOK 1.999</p>
+          <a href="#" class="cta" aria-label="view product">View</a>
+        </div>
+        <div class="product-card">
+          <div class="image-container">
+            <a href="#"
+              ><img
+                src="images/products/mens_grey.png"
+                alt="Alpha jacket, men, dark grey"
+            /></a>
+          </div>
+          <div class="product-details">
+            <a href="#"
+              ><p class="name">
+                <span class="upper">Alpha</span> jacket men
+              </p></a
+            >
+            <p class="description">Waterproof jacket</p>
+            <p class="color">Glitch grey</p>
+          </div>
+          <p class="price">NOK 1.999</p>
+          <a href="#" class="cta" aria-label="view product">View</a>
+        </div>
+        <div class="product-card">
+          <div class="image-container">
+            <a href="#"
+              ><img
+                src="images/products/womens_green.png"
+                alt="Alpha jacket, women, dark green"
+            /></a>
+          </div>
+          <div class="product-details">
+            <a href="#"
+              ><p class="name">
+                <span class="upper">Alpha</span> jacket women
+              </p></a
+            >
+            <p class="description">Waterproof jacket</p>
+            <p class="color">Tatsu green</p>
+          </div>
+          <p class="price">NOK 1.999</p>
+          <a href="#" class="cta" aria-label="view product">View</a>
+        </div>
+        <div class="product-card">
+          <div class="image-container">
+            <a href="#"
+              ><img
+                src="images/products/mens_green.png"
+                alt="Alpha jacket, men, dark green"
+            /></a>
+          </div>
+          <div class="product-details">
+            <a href="#"
+              ><p class="name">
+                <span class="upper">Alpha</span> jacket men
+              </p></a
+            >
+            <p class="description">Waterproof jacket</p>
+            <p class="color">Tatsu green</p>
+          </div>
+          <p class="price">NOK 1.999</p>
+          <a href="#" class="cta" aria-label="view product">View</a>
+        </div>
+        <div class="product-card">
+          <div class="image-container">
+            <a href="#"
+              ><img
+                src="images/products/mens_yellow.png"
+                alt="Alpha jacket, men, yellow"
+            /></a>
+          </div>
+          <div class="product-details">
+            <a href="#"
+              ><p class="name">
+                <span class="upper">Alpha</span> jacket men
+              </p></a
+            >
+            <p class="description">Waterproof jacket</p>
+            <p class="color">Wildchild yellow</p>
+          </div>
+          <p class="price">NOK 1.999</p>
+          <a href="#" class="cta" aria-label="view product">View</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
