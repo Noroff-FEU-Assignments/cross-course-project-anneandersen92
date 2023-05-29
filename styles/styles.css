@@ -240,7 +240,6 @@ label[for=hamburger]:hover {
     color: var(--white);
     background: var(--rainydays-blue-90);
     padding: 12px;
-    transition-property: color;
     transition: all 0.6s ease;
 }
 
