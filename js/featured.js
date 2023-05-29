@@ -20,4 +20,4 @@ function createHtml(product) {
                                     <button class="cta" aria-label="view product">View</button>
                                 </div>
                                 </a>`;
-}   
+}
