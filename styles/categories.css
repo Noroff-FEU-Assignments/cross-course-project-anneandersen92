@@ -70,11 +70,6 @@ h1 {
     line-height: 0.8;
 }
 
-.upper {
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
 .description,
 .color {
     font-size: 10pt;

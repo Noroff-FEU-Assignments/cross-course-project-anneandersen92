@@ -1,4 +1,4 @@
-import { productList } from "./data/productList.js";
+import { productList } from "../data/productList.js";
 
 const productListContainer = document.querySelector(".product-list-container");
 const womenProducts = document.querySelector(".women-products");
@@ -20,7 +20,7 @@ for (let i = 0; i <productList.length; i++) {
 }
 
 function createHtml(product) {
-    productListContainer.innerHTML += `<a href="product.html?id=${product.id}&name=${product.collection}" class="product-card">
+    productListContainer.innerHTML += `<a href="product.html?id=${product.id}" class="product-card">
                                             <div class="image-container">
                                                 <img src="${product.imageUrl}" alt="${product.altText}">
                                             </div>
