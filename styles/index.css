@@ -38,7 +38,9 @@ h1 {
     padding-bottom: 8px;
 }
 
-.promo-info {padding-bottom: 22px;}
+.promo-info {
+    padding-bottom: 22px;
+}
 
 .promo-text a {
     color: var(--rainydays-blue);
@@ -81,7 +83,9 @@ h1 {
     outline: none;
 }
 
-.featured {padding-bottom: 24px;}
+.featured {
+    padding-bottom: 24px;
+}
 
 .featured img {
     height: 270px;
@@ -90,12 +94,9 @@ h1 {
     padding: 8px;
 }
 
-.product-name {
-    text-transform: uppercase;
+.price {
     font-weight: 400;
 }
-
-.price {font-weight: 400;}
 
 ::-webkit-scrollbar {
     height: 4px;

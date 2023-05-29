@@ -1,4 +1,6 @@
-form {max-width: 750px;}
+form {
+    max-width: 750px;
+}
 
 form input[type=text],
 form input[type=email],
@@ -17,16 +19,26 @@ form textarea {
     outline: none;
 }
 
-form textarea {resize: vertical;}
+form textarea {
+    resize: vertical;
+}
 
-form ::placeholder {padding-left: 12px;}
+form ::placeholder {
+    padding-left: 12px;
+}
 
 form input:focus::placeholder,
-form textarea:focus::placeholder {color: transparent;}
+form textarea:focus::placeholder {
+    color: transparent;
+}
 
-form label {display: none;}
+form label {
+    display: none;
+}
 
-.input-label {position: relative;}
+.input-label {
+    position: relative;
+}
 
 .name:focus ~ label[for=name],
 .fname:focus ~ label[for=fname],

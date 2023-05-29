@@ -11,7 +11,9 @@
 	justify-content: space-between;
 }
 
-.total {font-weight: 400;}
+.total {
+    font-weight: 400;
+}
 
 .full-name,
 .postal-info {
@@ -21,11 +23,17 @@
     max-width: 750px;
     justify-content: space-between;
 }
-.input-label {width: 100%;}
+.input-label {
+    width: 100%;
+}
 
-.message {margin-bottom: 24px;}
+.message {
+    margin-bottom: 24px;
+}
 
-.payment-container h2 {text-align: center;}
+.payment-container h2 {
+    text-align: center;
+}
 
 .payment-options {
     display: flex;
@@ -41,7 +49,9 @@
     transition: all 0.6s ease
 }
 
-input[type=checkbox] {display: none;}
+input[type=checkbox] {
+    display: none;
+}
 
 label[class=payment]:hover,
 input[name=visa]:checked ~ label[for=visa],
@@ -66,7 +76,9 @@ input[name=klarna]:checked ~ label[for=klarna] {
 }
 
 @media only screen and (min-width: 550px) {
-    main {padding: 0 16px 56px 16px}
+    main {
+        padding: 0 16px 56px 16px
+    }
 
     .checkout {
         max-width: 600px;
@@ -75,15 +87,23 @@ input[name=klarna]:checked ~ label[for=klarna] {
 }
 
 @media only screen and (min-width: 760px) {    
-    .checkout {max-width: 650px;}
+    .checkout {
+        max-width: 650px;
+    }
 
     .cta,
-    .btn {width: 280px;}
+    .btn {
+        width: 280px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-    .checkout {max-width: 700px;}
+    .checkout {
+        max-width: 700px;
+    }
 
     .cta,
-    .btn {width: 300px;}
+    .btn {
+        width: 300px;
+    }
 }

@@ -1,4 +1,6 @@
-main {text-align: center;}
+main {
+    text-align: center;
+}
 
 .material-icons-outlined-check {
     font-size: 50px;
@@ -6,7 +8,9 @@ main {text-align: center;}
     margin-top: 32px;
 }
 
-.material-icons-outlined-check:hover {text-decoration: none;}
+.material-icons-outlined-check:hover {
+    text-decoration: none;
+}
 
 h1 {
     margin-top: 32px;
@@ -18,7 +22,9 @@ h1 {
     margin: 0 auto;
 }
 
-.short-text {display: none;}
+.short-text {
+    display: none;
+}
 
 .order-heading {grid-area: order-heading;}
 .info-total {grid-area: info-total;}
@@ -67,13 +73,19 @@ section a:hover {
 }
 
 @media only screen and (max-width: 340px) {  
-    .full-text {display: none;}
+    .full-text {
+        display: none;
+    }
 
-    .short-text {display: grid;}  
+    .short-text {
+        display: grid;
+    }
 }
 
 @media only screen and (min-width: 410px) {
-    .order-container {padding: 8px 48px;}
+    .order-container {
+        padding: 8px 48px;
+    }
 }
 
 @media only screen and (min-width: 550px) {
@@ -91,5 +103,7 @@ section a:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-    .confirmation {padding-bottom: 150px;}
+    .confirmation {
+        padding-bottom: 150px;
+    }
 }

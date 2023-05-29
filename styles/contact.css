@@ -1,11 +1,19 @@
-.breaditems {padding-left: 0;}
+.breaditems {
+    padding-left: 0;
+}
 
-.form-container {margin-top: 32px;}
+.form-container {
+    margin-top: 32px;
+}
 
-.message {margin-bottom: 32px;}
+.message {
+    margin-bottom: 32px;
+}
 
 @media only screen and (min-width: 760px) {
-    main {padding: 0 16px 56px 16px}
+    main {
+        padding: 0 16px 56px 16px
+    }
 
     .breadcrumb-nav {
         max-width: 750px;
@@ -20,9 +28,13 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    main {padding-bottom: 64.5px !important;}
+    main {
+        padding-bottom: 64.5px !important;
+    }
 
-    .breadcrumb-nav {max-width: 980px;}
+    .breadcrumb-nav {
+        max-width: 980px;
+    }
 
     h1 {grid-area: heading;}
     .form-container {grid-area: form;}
@@ -76,7 +88,9 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .contact-us {column-gap: 40px;}
+    .contact-us {
+        column-gap: 40px;
+    }
     
     .info-container {
         width: 370px;

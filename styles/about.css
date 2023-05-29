@@ -3,7 +3,9 @@ p {
     line-height: 1.8;
 }
 
-.breaditems {padding-left: 0;}
+.breaditems {
+    padding-left: 0;
+}
 
 .about-img-container {
     width: 100vw;
@@ -65,7 +67,11 @@ p {
 }
 
 @media only screen and (min-width: 1024px) {    
-    .breaditems {padding-left: 0;}
+    .breaditems {
+        padding-left: 0;
+    }
     
-    .about {max-width: 800px;}
+    .about {
+        max-width: 800px;
+    }
 }

@@ -13,7 +13,9 @@
     box-shadow: 2px 2px 20px var(--box-shadow);
 }
 
-.image-container {grid-row: span 2;}
+.image-container {
+    grid-row: span 2;
+}
 
 .product img {
     position: relative;
@@ -36,11 +38,17 @@
     font-weight: 400;;
 }
 
-.upper {text-transform: uppercase;}
+.upper {
+    text-transform: uppercase;
+}
 
-.color {margin: 0;}
+.color {
+    margin: 0;
+}
 
-.size {margin-top: 16px;}
+.size {
+    margin-top: 16px;
+}
 
 .product-actions {
     display: flex;
@@ -93,7 +101,9 @@
     justify-content: flex-end;
 }
 
-.price {text-align: right;}
+.price {
+    text-align: right;
+}
 
 .cart-total {
     width: 100%;
@@ -108,7 +118,9 @@
 	justify-content: space-between;
 }
 
-.total {font-weight: 400;}
+.total {
+    font-weight: 400;
+}
 
 .btn-index {
     background: var(--white);
@@ -122,7 +134,9 @@
 }
 
 @media only screen and (min-width: 550px) {
-    main {padding: 0 16px 56px 16px}
+    main {
+        padding: 0 16px 56px 16px
+    }
 
     .shopping-cart {
         max-width: 600px;
@@ -131,19 +145,31 @@
 }
 
 @media only screen and (min-width: 760px) {    
-    .shopping-cart {max-width: 650px;}
+    .shopping-cart {
+        max-width: 650px;
+    }
 
     .cta,
-    .btn {width: 280px;}
+    .btn {
+        width: 280px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-    .shopping-cart {max-width: 700px;}
+    .shopping-cart {
+        max-width: 700px;
+    }
     
-    .product {transition: all 0.6s ease;}
+    .product {
+        transition: all 0.6s ease;
+    }
 
-    .product:hover {transform: scale(1.03);}
+    .product:hover {
+        transform: scale(1.03);
+    }
 
     .cta,
-    .btn {width: 300px;}
+    .btn {
+        width: 300px;
+    }
 }

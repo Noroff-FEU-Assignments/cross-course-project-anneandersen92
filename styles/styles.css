@@ -59,14 +59,28 @@ p {
     line-height: 1.5;
 }
 
-.small {font-size: 11pt;}
+.small {
+    font-size: 11pt;
+}
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
-a:hover {cursor: pointer;}
+a:hover {
+    cursor: pointer;
+}
 
 a[href="atomwbeige.html"],
-a[href="#"] {display: block;}
+a[href="#"] {
+    display: block;
+}
+
+.product-name {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 
 /* HEADER */
 header {
@@ -82,14 +96,18 @@ header {
     padding-bottom: 0px;
 }
 
-.icons {margin-left: auto;}
+.icons {
+    margin-left: auto;
+}
 
 .logo1 {
     width: auto;
     height: 60px;
 }
 
-.logo2 {display: none;}
+.logo2 {
+    display: none;
+}
 
 .material-icons-outlined {
     font-size: 26px;
@@ -98,7 +116,9 @@ header {
     margin-left: 8px;
 }
 
-.material-icons-outlined:hover{text-decoration: underline 2px solid var(--rainydays-blue);}
+.material-icons-outlined:hover{
+    text-decoration: underline 2px solid var(--rainydays-blue);
+}
 
 .screenreader-text {
     position: absolute;
@@ -106,9 +126,13 @@ header {
 }
 
 /* NAV */
-.hamnav {display: none;}
+.hamnav {
+    display: none;
+}
 
-#hamburger {display: none;}
+#hamburger {
+    display: none;
+}
 
 #hamburger:checked ~ .hamnav {
     display: block;
@@ -123,7 +147,9 @@ header {
     z-index: 10000;
 }
 
-label[for=hamburger]:hover {cursor: pointer;}
+label[for=hamburger]:hover {
+    cursor: pointer;
+}
 
 .hamitems a {
     display: flex;
@@ -193,9 +219,13 @@ label[for=hamburger]:hover {cursor: pointer;}
     font-size: 12pt;
 }
 
-.index {text-transform: uppercase;}
+.index {
+    text-transform: uppercase;
+}
 
-.current {font-weight: 600;}
+.current {
+    font-weight: 600;
+}
 
 /* BUTTONS */
 .cta,
@@ -214,7 +244,9 @@ label[for=hamburger]:hover {cursor: pointer;}
     transition: all 0.6s ease;
 }
 
-.cta:hover {background: var(--rainydays-blue);}
+.cta:hover {
+    background: var(--rainydays-blue);
+}
 
 .btn {
     width: 250px;
@@ -248,7 +280,9 @@ footer ul {
     padding-left: 0;
 }
 
-footer li {margin-bottom: 40px;}
+footer li {
+    margin-bottom: 40px;
+}
 
 footer a {
     color: var(--white);

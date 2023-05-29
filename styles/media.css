@@ -1,17 +1,29 @@
 @media only screen and (min-width: 760px) {
-    main {margin: 0 2%;}
+    main {
+        margin: 0 2%;
+    }
 
-    h1 {font-size: 28pt;}
+    h1 {
+        font-size: 28pt;
+    }
 
     .cta,
     .btn,
-    p {font-size: 13pt;}
+    p {
+        font-size: 13pt;
+    }
 
-    .small {font-size: 12pt;}
+    .small {
+        font-size: 12pt;
+    }
   
-    .logo1 {display: none;}
+    .logo1 {
+        display: none;
+    }
 
-    .menu label {display: none;}
+    .menu label {
+        display: none;
+    }
 
     .logo2 {grid-area: logo2;}
     .hamnav {grid-area: hamnav;}
@@ -87,30 +99,46 @@
         color: var(--raisin-black);
     }
 
-    .breaditems li {font-size: 13pt;}
+    .breaditems li {
+        font-size: 13pt;
+    }
 
     footer {
         padding-top: 100px;
         padding-bottom: 100px;
     }
 
-    footer li {margin-bottom: 48px;}
+    footer li {
+        margin-bottom: 48px;
+    } 
 
-    footer a {font-size: 14pt;}
+    footer a {
+        font-size: 14pt;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-    html {background: var(--background-grey);}
+    html {
+        background: var(--background-grey);
+    }
 
-    h1 {font-size: 32pt;}
+    h1 {
+        font-size: 32pt;
+    }
 
     .cta,
     .btn,
-    p {font-size: 14pt;}
+    p {
+        font-size: 14pt;
+    }
 
-    .small {font-size: 13pt;}
+    .small {
+        font-size: 13pt;
+    }
 
-    ::placeholder {font-size: 12pt;}
+    ::placeholder {
+        font-size: 12pt;
+    }
 
     main {
         margin: 0 15%;
@@ -129,18 +157,26 @@
         margin: 10px auto;
     }
 
-    .breaditems li {font-size: 14pt;}
+    .breaditems li {
+        font-size: 14pt;
+    }
 
     .logo2 {
         padding-right: 24px;
         height: 60px;
     }
 
-    .icons .material-icons-outlined {font-size: 30px;}
+    .icons .material-icons-outlined {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
-    .logo2 {height: 70px;}
+    .logo2 {
+        height: 70px;
+    }
 
-    .hamitems {gap: 24px;}
+    .hamitems {
+        gap: 24px;
+    }
 }
