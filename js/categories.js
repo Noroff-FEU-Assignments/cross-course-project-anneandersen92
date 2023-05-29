@@ -22,7 +22,7 @@ for (let i = 0; i <productList.length; i++) {
 function createHtml(product) {
     productListContainer.innerHTML += `<a href="product.html?id=${product.id}&name=${product.collection}" class="product-card">
                                             <div class="image-container">
-                                                <img src="${product.imageUrl}" alt="Atom hoody, women, beige">
+                                                <img src="${product.imageUrl}" alt="${product.altText}">
                                             </div>
                                             <div class="product-details">
                                                 <p class="name"><span class="product-name">${product.collection}</span> ${product.style} ${product.gender}</p>

@@ -10,6 +10,7 @@ export var productList = [
         sizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
         descripton: "Summer weather is warm, until it isn't. So compact and light, there is no reason to leave it behind, our lightest Atom is there for you when the temperature drops. Strategically placed at the chest and back, the Coreloft™ insulation is efficient, light, and compressible. The Tyono™ 20 outer balances airflow with wind resistance and has a DWR finish to repel moisture. Stretch fleece side panels ventilate and an uninsulated hood adds coverage and buttons out of the way when not in use.",
         imageUrl: "..//images/products/womens_beige.png",
+        altText: "Atom hoody, beige, women",
         featured: true,
     },
     {
@@ -23,6 +24,7 @@ export var productList = [
         sizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
         descripton: "Summer weather is warm, until it isn't. So compact and light, there is no reason to leave it behind, our lightest Atom is there for you when the temperature drops. Strategically placed at the chest and back, the Coreloft™ insulation is efficient, light, and compressible. The Tyono™ 20 outer balances airflow with wind resistance and has a DWR finish to repel moisture. Stretch fleece side panels ventilate and an uninsulated hood adds coverage and buttons out of the way when not in use.",
         imageUrl: "..//images/products/womens_black.png",
+        altText: "Atom hoody, black, women",
         featured: false,
     },
     {
@@ -36,6 +38,7 @@ export var productList = [
         sizes: ["XS", "S", "M", "L", "XL"],
         descripton: "Our most versatile Alpha - artfully designed for unforgiving environments, shifting conditions, and the realities of alpine travel. GORE-TEX PRO Most Rugged reinforces high-wear areas, while ultralight, highly abrasion-resistant GORE-TEX with Hadron™ face fabric zones shed grams and improve breathability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector can aid search and rescue, and pit zippers add ventilation.",
         imageUrl: "..//images/products/womens_blue.png",
+        altText: "Alpha jacket, blue, women",
         featured: true,
     },
     {
@@ -49,6 +52,7 @@ export var productList = [
         sizes: ["XS", "S", "M", "L", "XL"],
         descripton: "Our most versatile Alpha - artfully designed for unforgiving environments, shifting conditions, and the realities of alpine travel. GORE-TEX PRO Most Rugged reinforces high-wear areas, while ultralight, highly abrasion-resistant GORE-TEX with Hadron™ face fabric zones shed grams and improve breathability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector can aid search and rescue, and pit zippers add ventilation.",
         imageUrl: "..//images/products/womens_green.png",
+        altText: "Alpha jacket, green, women",
         featured: true,
     },
     {
@@ -62,6 +66,7 @@ export var productList = [
         sizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
         descripton: "A proven hoody for cold, dry conditions, the Thorium delivers serious warmth and handles a wide range of environments. Packed with 750 fill-power Responsible Down Standard certified grey goose down, it offers outstanding thermal performance for its weight. Down Composite Mapping™ strategically places Coreloft™ synthetic insulation in areas prone to moisture. The light, durable Arato™ 30 nylon shell has a DWR treatment for water repellency, the liner's bio-derived material reduces petroleum use, and the insulated adjustable hood fits over a helmet.",
         imageUrl: "..//images/products/womens_birch.png",
+        altText: "Thorium hoody, light beige, women",
         featured: false,
     },
     {
@@ -75,6 +80,7 @@ export var productList = [
         sizes: ["XS", "S", "M", "L", "XL"],
         descripton: "Steeped in the alpine, this versatile hoody has warmed climbers, hikers, backcountry skiers and downtown commuters. Worn as a midlayer or standalone, it performs across a range of conditions and output levels. Coreloft™ Compact insulation retains warmth even if wet and has loft retention that withstands years of packing and unpacking. The water resistant Tyono™ 20 face fabric is soft, breathable and durable, stretch side panels improve ventilation and freedom, and the insulated StormHood™ adds warmth",
         imageUrl: "..//images/products/womens_petrol.png",
+        altText: "Nuclei hoody, blue, women",
         featured: true,
     },
     {
@@ -88,6 +94,7 @@ export var productList = [
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
         descripton: "Winter climbing midlayer, standalone at camp, packable warmth for backcountry rest periods - the Cerium is alpine proven. Driven by our obsessive attention to detail, we refined the design, sourced sustainable materials, and kept its exceptional warmth-to-weight ratio. Responsibly-sourced 850 fill down - with Coreloft™ synthetic utilized in areas prone to moisture - provides premium insulation. The outer - recycled 15D Arato™ nylon - is light and durable, a bio-derived liner reduces petroleum use, and an insulated StormHood™ extends protection.",
         imageUrl: "..//images/products/mens_black.png",
+        altText: "Cerium hoody, black, men",
         featured: true,
     },
     {
@@ -101,6 +108,7 @@ export var productList = [
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
         descripton: "Alpine proven as a midlayer and standalone, this versatile hoody has warmed climbers and backcountry travelers for years. Built to handle a range of conditions and output levels, the latest-generation Atom LT’s Coreloft™ Compact insulation retains its warmth even if wet and has loft retention to withstand years of packing and unpacking. The water resistant Tyono™ 20 face fabric is breathable and durable, stretch side panels improve fit and freedom, and the insulated StormHood™ adds warmth.",
         imageUrl: "..//images/products/mens_dark-blue.png",
+        altText: "Atom hoody, blue, men",
         featured: true,
     },
     {
@@ -114,6 +122,7 @@ export var productList = [
         sizes: ["S", "M", "L", "XL"],
         descripton: "Our most versatile Alpha - artfully designed for unforgiving environments, shifting conditions, and the realities of alpine travel. GORE-TEX PRO Most Rugged reinforces high-wear areas, while ultralight, highly abrasion-resistant GORE-TEX with Hadron™ face fabric zones shed grams and improve breathability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector can aid search and rescue, and pit zippers add ventilation.",
         imageUrl: "..//images/products/mens_yellow.png",
+        altText: "Alpha jacket, yellow, men",
         featured: true,
     },
     {
@@ -127,6 +136,7 @@ export var productList = [
         sizes: ["S", "M", "L", "XL"],
         descripton: "Our most versatile Alpha - artfully designed for unforgiving environments, shifting conditions, and the realities of alpine travel. GORE-TEX PRO Most Rugged reinforces high-wear areas, while ultralight, highly abrasion-resistant GORE-TEX with Hadron™ face fabric zones shed grams and improve breathability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector can aid search and rescue, and pit zippers add ventilation.",
         imageUrl: "..//images/products/mens_green.png",
+        altText: "Alpha jacket, green, men",
         featured: false,
     },
     {
@@ -140,6 +150,7 @@ export var productList = [
         sizes: ["S", "M", "L", "XL"],
         descripton: "Our most versatile Alpha - artfully designed for unforgiving environments, shifting conditions, and the realities of alpine travel. GORE-TEX PRO Most Rugged reinforces high-wear areas, while ultralight, highly abrasion-resistant GORE-TEX with Hadron™ face fabric zones shed grams and improve breathability. The StormHood™ delivers protection without impacting vision, a RECCO® reflector can aid search and rescue, and pit zippers add ventilation.",
         imageUrl: "..//images/products/mens_grey.png",
+        altText: "Alpha jacket, grey, men",
         featured: false,
     },
     {
@@ -153,6 +164,7 @@ export var productList = [
         sizes: ["S", "M", "L", "XL"],
         descripton: "Packable, breathable, durable waterproof protection across the spectrum of alpine environments and activities, the Beta AR Jacket is created to deliver performance versatility. The GORE-TEX PRO with Most Rugged Technology - a next-gen material we developed in collaboration with Gore - delivers maximum durability. The helmet compatible DropHood™ has an internal collar for added protection and an embedded RECCO® reflector improves searchability in emergency situations.",
         imageUrl: "..//images/products/mens_black-2.png",
+        altText: "Beta jacket, black, men",
         featured: false,
     },
 ];
