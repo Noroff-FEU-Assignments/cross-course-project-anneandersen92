@@ -1,4 +1,4 @@
-var products = [
+export var products = [
     {
         id: 1,
         gender: "women",
