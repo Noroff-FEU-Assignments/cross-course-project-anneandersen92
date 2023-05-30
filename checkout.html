@@ -115,48 +115,32 @@
         <div class="billing-details">
           <h2>Billing details</h2>
           <form>
-            <div class="full-name">
-              <div class="input-label">
-                <input
-                  name="fname"
-                  type="text"
-                  class="fname"
-                  placeholder="First name"
-                  required
-                  aria-label="first name"
-                />
-                <label for="fname">First name</label>
-              </div>
-              <div class="input-label">
-                <input
-                  name="lname"
-                  type="text"
-                  class="lname"
-                  placeholder="Last name"
-                  required
-                  aria-label="last name"
-                />
-                <label for="lname">Last name</label>
+            <div class="input-label">
+              <input
+                type="text"
+                id="name"
+                placeholder="First and last name"
+                aria-label="first and last name name"
+              />
+              <label for="name">Name</label>
+              <div class="form-error" id="name-error">
+                Please enter your name
               </div>
             </div>
             <div class="input-label">
               <input
-                name="address"
                 type="text"
-                class="address"
+                id="address"
                 placeholder="Street address"
-                required
                 aria-label="address"
               />
               <label for="address">Street address</label>
             </div>
             <div class="input-label">
               <input
-                name="city"
                 type="text"
-                class="city"
+                id="city"
                 placeholder="City"
-                required
                 aria-label="city"
               />
               <label for="city">City</label>
@@ -164,9 +148,8 @@
             <div class="postal-info">
               <div class="input-label">
                 <input
-                  name="state"
                   type="text"
-                  class="state"
+                  id="state"
                   placeholder="State"
                   aria-label="state"
                 />
@@ -174,11 +157,9 @@
               </div>
               <div class="input-label">
                 <input
-                  name="zip"
                   type="text"
-                  class="zip"
+                  id="zip"
                   placeholder="Zip code"
-                  required
                   aria-label="zip code"
                 />
                 <label for="zip">Zip code</label>
@@ -186,30 +167,25 @@
             </div>
             <div class="input-label">
               <input
-                name="phone"
                 type="tel"
-                class="phone"
+                id="phone"
                 placeholder="Phone number"
-                required
                 aria-label="phone number"
               />
               <label for="phone">Phone number</label>
             </div>
             <div class="input-label">
               <input
-                name="email"
                 type="email"
-                class="email"
+                id="email"
                 placeholder="Email"
-                required
                 aria-label="email"
               />
               <label for="email">Email</label>
             </div>
             <div class="input-label">
               <textarea
-                name="message"
-                class="message"
+                id="message"
                 rows="6"
                 placeholder="Message about your order (optional)"
                 aria-label="message area"
