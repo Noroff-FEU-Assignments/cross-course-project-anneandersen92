@@ -1,13 +1,13 @@
-import { productList } from "../data/productList.js";
+import { products } from "../data/products.js";
 
-const productListContainer = document.querySelector(".product-list-container");
+const productsContainer = document.querySelector(".products-container");
 const womenProducts = document.querySelector(".women-products");
 const menProducts = document.querySelector(".men-products");
 const alphaProducts = document.querySelector(".alpha-products");
 
-for (let i = 0; i <productList.length; i++) {
+for (let i = 0; i <products.length; i++) {
     
-    const product = productList [i];
+    const product = products [i];
 
     if (womenProducts && product.gender === "women") {
         createHtml(product);
@@ -20,7 +20,7 @@ for (let i = 0; i <productList.length; i++) {
 }
 
 function createHtml(product) {
-    productListContainer.innerHTML += `<a href="product.html?id=${product.id}" class="product-card">
+    productsContainer.innerHTML += `<a href="product.html?id=${product.id}" class="product-card">
                                             <div class="image-container">
                                                 <img src="${product.imageUrl}" alt="${product.altText}">
                                             </div>

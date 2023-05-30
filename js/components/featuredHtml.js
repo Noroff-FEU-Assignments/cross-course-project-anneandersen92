@@ -1,10 +1,10 @@
-import { productList } from "../data/productList.js";
+import { products } from "../data/products.js";
 
 const featured = document.querySelector(".featured-slider");
 
-for (let i = 0; i <productList.length; i++) {
+for (let i = 0; i <products.length; i++) {
     
-    const product = productList [i];
+    const product = products [i];
 
     if (product.featured === true) {
         createHtml(product);
@@ -12,7 +12,7 @@ for (let i = 0; i <productList.length; i++) {
 }
 
 function createHtml(product) {
-    featured.innerHTML += `<a href="product.html?id=${product.id}" class="featured">
+    featured.innerHTML += `<a href="product.html?id=${product.id}" class="product-card">
                                 <img src="${product.imageUrl}" alt="${product.altText}">
                                 <p><span class="product-name">${product.collection}</span> ${product.style} ${product.gender}</p>
                                 <p class="price">NOK ${product.price}</p>
