@@ -249,6 +249,7 @@ label[for=hamburger]:hover {
 
 .cta:hover {
     background: var(--rainydays-blue);
+    cursor: pointer;
 }
 
 .btn {
