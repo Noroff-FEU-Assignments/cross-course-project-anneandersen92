@@ -1,14 +1,15 @@
 form {
     max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 form input[type=text],
 form input[type=email],
-form input[type=tel],
 form input[type=password],
 form textarea {
     width: 100%;
-    margin-bottom: 16px;
     border: solid 1px var(--onyx);
     border-radius: 8px;
     font-family: var(--main-font);
@@ -40,15 +41,13 @@ form label {
     position: relative;
 }
 
-#name:focus ~ label[for=name],
-#address:focus ~ label[for=address],
-#city:focus ~ label[for=city],
-#state:focus ~ label[for=state],
-#zip:focus ~ label[for=zip],
-#phone:focus ~ label[for=phone],
-#email:focus ~ label[for=email],
-#password:focus ~ label[for=password],
-#message:focus ~ label[for=message] {
+#name:focus~label[for=name],
+#address:focus~label[for=address],
+#zip:focus~label[for=zip],
+#city:focus~label[for=city],
+#email:focus~label[for=email],
+#password:focus~label[for=password],
+#message:focus~label[for=message] {
     font-family: var(--main-font);
     font-size: 10pt;
     font-weight: 400;
@@ -78,24 +77,30 @@ input[type="submit"] {
     appearance: none;
 }
 
+.form-error {
+    display: none;
+    font-family: var(--main-font);
+    font-size: 10pt;
+    color: red;
+    padding-left: 12px;
+}
+
 @media only screen and (min-width: 1024px) {
+
     form input[type=text],
     form input[type=email],
-    form input[type=tel],
     form input[type=password],
     form textarea {
         font-size: 12pt;
     }
 
-    #name:focus ~ label[for=name],
-    #address:focus ~ label[for=address],
-    #city:focus ~ label[for=city],
-    #state:focus ~ label[for=state],
-    #zip:focus ~ label[for=zip],
-    #phone:focus ~ label[for=phone],
-    #email:focus ~ label[for=email],
-    #password:focus ~ label[for=password],
-    #message:focus ~ label[for=message] {
+    #name:focus~label[for=name],
+    #address:focus~label[for=address],
+    #zip:focus~label[for=zip],
+    #city:focus~label[for=city],
+    #email:focus~label[for=email],
+    #password:focus~label[for=password],
+    #message:focus~label[for=message] {
         font-size: 11pt;
     }
 

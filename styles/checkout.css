@@ -15,14 +15,6 @@
     font-weight: 400;
 }
 
-.full-name,
-.postal-info {
-    display: flex;
-    gap: 16px;
-    width: 100%;
-    max-width: 750px;
-    justify-content: space-between;
-}
 .input-label {
     width: 100%;
 }
