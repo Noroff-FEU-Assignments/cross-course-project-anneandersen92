@@ -19,7 +19,7 @@ function validateForm() {
         nameError.style.display = "block";
     }
 
-    if (checkLength(address.value, 10)) {
+    if (checkLength(address.value, 9)) {
         addressError.style.display = "none";
     } else {
         addressError.style.display = "block";

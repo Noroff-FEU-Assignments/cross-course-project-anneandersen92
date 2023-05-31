@@ -43,6 +43,7 @@
 
 .confirmation-message {
     text-align: center;
+    display: none;
 }
 
 .material-icons-outlined-check {
