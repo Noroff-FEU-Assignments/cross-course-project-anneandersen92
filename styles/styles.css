@@ -120,7 +120,7 @@ header {
     margin-left: 8px;
 }
 
-.material-icons-outlined:hover{
+.material-icons-outlined:hover {
     text-decoration: underline 2px solid var(--rainydays-blue);
 }
 
@@ -138,7 +138,7 @@ header {
     display: none;
 }
 
-#hamburger:checked ~ .hamnav {
+#hamburger:checked~.hamnav {
     display: block;
     position: fixed;
     top: 131px;
@@ -261,6 +261,7 @@ label[for=hamburger]:hover {
 .btn:hover {
     background: #cc7e3190;
     border: solid 1px #cc7e3190;
+    cursor: pointer;
 }
 
 .btn-area {

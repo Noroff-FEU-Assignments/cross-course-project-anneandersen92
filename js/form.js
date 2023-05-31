@@ -25,7 +25,7 @@ function validateForm() {
         addressError.style.display = "block";
     }
 
-    if (checkLength(zip.value, 5)) {
+    if (zip.value.length === 5) {
         zipError.style.display = "none";
     } else {
         zipError.style.display = "block";

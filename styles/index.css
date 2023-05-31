@@ -71,7 +71,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0;
-    padding-bottom: 24px;
 }
 
 .featured-slider {
@@ -79,7 +78,7 @@ h1 {
     overflow-x: scroll;
     white-space: nowrap;
     gap: 16px;
-    padding: 0 24px;
+    padding: 16px 24px;
     outline: none;
 }
 
@@ -87,7 +86,7 @@ h1 {
     padding-bottom: 24px;
 }
 
-.featured img {
+.featured-slider img {
     height: 270px;
     background: white;
     border-radius: 12px;
@@ -139,7 +138,9 @@ h1 {
 }
 
 .women-container a[href="women.html"],
-.men-container a[href="men.html"] {display: block;}
+.men-container a[href="men.html"] {
+    display: block;
+}
 
 .women-image,
 .men-image {

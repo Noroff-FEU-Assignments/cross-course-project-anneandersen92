@@ -119,14 +119,14 @@
               <input type="text" id="name" placeholder="Name" aria-label="Name"/>
               <label for="name">Name</label>
               <div class="form-error" id="name-error">
-                Please enter first and last name (required)
+                Please enter first and last name
               </div>
             </div>
             <div class="input-label">
               <input type="text" id="address" placeholder="Address" aria-label="address"/>
               <label for="address">Address</label>
               <div class="form-error" id="address-error">
-                Please enter your street address (min 20 characters)
+                Please enter your street address (min 10 characters)
               </div>
             </div>
             <div class="input-label">
@@ -154,43 +154,11 @@
               <textarea id="message" rows="6" placeholder="Message about your order (optional)" aria-label="message area"></textarea>
               <label for="message">Message</label>
             </div>
-            <button class="submit-btn">Submit</button>
+            <div class="btn-area">
+              <button class="btn btn-confirm" aria-label="confirm purchase">Confirm purchase</button>
+              <a href="index.html" class="btn btn-index" aria-label="cancel purchase">Cancel</a>
+            </div>
           </form>
-        </div>
-      </section>
-      <section class="complete-purchase">
-        <div class="payment-container">
-          <h2>Choose payment method</h2>
-          <div class="payment-options">
-            <input type="checkbox" id="visa" name="visa" />
-            <label for="visa" class="payment"
-              ><img src="images/payment/visa.jpg" alt="Visa payment"
-            /></label>
-            <input type="checkbox" id="mastercard" name="mastercard" />
-            <label for="mastercard" class="payment"
-              ><img
-                src="images/payment/mastercard.jpg"
-                alt="Mastercard payment"
-            /></label>
-            <input type="checkbox" id="klarna" name="klarna" />
-            <label for="klarna" class="payment"
-              ><img src="images/payment/klarna.png" alt="Klarna payment"
-            /></label>
-          </div>
-        </div>
-        <div class="btn-area">
-          <a
-            href="confirmation.html"
-            class="btn btn-confirm"
-            aria-label="confirm purchase"
-            >Confirm purchase</a
-          >
-          <a
-            href="index.html"
-            class="btn btn-index"
-            aria-label="cancel purchase"
-            >Cancel</a
-          >
         </div>
       </section>
     </main>
