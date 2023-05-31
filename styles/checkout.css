@@ -19,8 +19,9 @@
     width: 100%;
 }
 
-.message {
-    margin-bottom: 24px;
+.btn-area {
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .btn-index {
@@ -34,6 +35,120 @@
 .btn-index:hover {
     background: inherit;
     font-weight: 500;
+    border: none;
+}
+
+
+/** CONFIRMATION **/
+
+.confirmation-message {
+    text-align: center;
+}
+
+.material-icons-outlined-check {
+    font-size: 50px;
+    color: var(--crystal-blue);
+}
+
+.material-icons-outlined-check:hover {
+    text-decoration: none;
+}
+
+.confirmation-message h2 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.confirmation-text {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.short-text {
+    display: none;
+}
+
+.order-heading {
+    grid-area: order-heading;
+}
+
+.info-total {
+    grid-area: info-total;
+}
+
+.info-date {
+    grid-area: info-date;
+}
+
+.info-payment {
+    grid-area: info-payment;
+}
+
+.info-email {
+    grid-area: info-email;
+}
+
+.info-d-date {
+    grid-area: info-d-date;
+}
+
+.info-d-options {
+    grid-area: info-d-options;
+}
+
+.order-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+    grid-template-areas:
+        "order-heading order-heading"
+        "info-total info-date"
+        "info-payment info-email"
+        "info-d-date info-d-options";
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px var(--box-shadow);
+    font-size: 11pt;
+    text-align: left;
+    padding: 8px 5%;
+    gap: 8px;
+    margin: 40px 0;
+}
+
+.order-container p {
+    line-height: 0.8;
+}
+
+.order-heading {
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.info-heading {
+    font-weight: 400;
+    color: var(--burnt-orange);
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 340px) {
+    .full-text {
+        display: none;
+    }
+
+    .short-text {
+        display: grid;
+    }
+}
+
+@media only screen and (min-width: 410px) {
+    .order-container {
+        padding: 8px 48px;
+    }
 }
 
 @media only screen and (min-width: 550px) {
@@ -44,6 +159,10 @@
     .checkout {
         max-width: 600px;
         margin: 0 auto;
+    }
+
+    .order-container {
+        padding: 8px 64px;
     }
 }
 
@@ -56,6 +175,10 @@
     .btn {
         width: 280px;
     }
+
+    .material-icons-outlined-check {
+        font-size: 70px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -66,5 +189,9 @@
     .cta,
     .btn {
         width: 300px;
+    }
+
+    .order-container {
+        padding: 8px 120px;
     }
 }

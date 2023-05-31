@@ -41,51 +41,8 @@ form input[type=password] {
     font-weight: 500;
 }
 
-.login-image {
-    display: none;
-}
-
 @media only screen and (min-width: 768px) {
     main {
         padding-bottom: 250px !important;
     }
-}
-
-@media only screen and (min-width: 1024px) { 
-    .h1 {grid-area: h1;}
-    .login-container {grid-area: login;}
-    .login-image {grid-area: image;}
-
-    .login {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        grid-template-rows: 100%;
-        grid-template-areas: 
-        'h1 h1'
-        'login image';
-        gap: 24px;
-        justify-items: center;
-        align-items: center;
-        max-width: 700px;
-        margin: 0 auto;
-    }
-
-    h1 {
-        grid-column: span 2;
-    }
-
-    .login-container {
-        width: 100%;
-    }
-
-    .login-image {
-        display: inline;
-        height: 349px;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 8px;
-        filter: brightness(90%);
-    }
-
-
 }

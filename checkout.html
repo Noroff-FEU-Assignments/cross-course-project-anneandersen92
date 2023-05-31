@@ -2,22 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <meta name="theme-color" content="#0a3641" />
     <title>Rainydays | Checkout</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
     <link href="styles/styles.css" rel="stylesheet" />
     <link href="styles/forms.css" rel="stylesheet" />
     <link href="styles/checkout.css" rel="stylesheet" />
@@ -42,44 +33,16 @@
   <body>
     <header>
       <div class="header-wrapper">
-        <a class="logo1" href="index.html"
-          ><img class="logo1" src="images/logo.png" alt="The Rainydays logo"
-        /></a>
-        <a class="logo2" href="index.html"
-          ><img
-            class="logo2"
-            src="images/logo_inverted.jpg"
-            alt="The Rainydays logo"
-        /></a>
+        <a class="logo1" href="index.html"><img class="logo1" src="images/logo.png" alt="The Rainydays logo"/></a>
+        <a class="logo2" href="index.html"><img class="logo2" src="images/logo_inverted.jpg" alt="The Rainydays logo"/></a>
         <div class="icons">
-          <a href="login.html"
-            ><span
-              class="material-icons-outlined"
-              title="User account"
-              aria-label="user account icon"
-              >person</span
-            ></a
-          >
+          <a href="login.html"><span class="material-icons-outlined" title="User account" aria-label="user account icon">person</span></a>
           <span class="screenreader-text">User account</span>
-          <a href="cart.html"
-            ><span
-              class="material-icons-outlined"
-              title="Shopping cart"
-              aria-label="shopping cart icon"
-              >shopping_cart</span
-            ></a
-          >
+          <a href="cart.html"><span class="material-icons-outlined" title="Shopping cart" aria-label="shopping cart icon">shopping_cart</span></a>
           <span class="screenreader-text">Shopping cart</span>
         </div>
         <div class="menu">
-          <label for="hamburger"
-            ><span
-              class="material-icons-outlined"
-              title="Menu"
-              aria-label="menu icon"
-              >menu</span
-            ></label
-          >
+          <label for="hamburger"><span class="material-icons-outlined" title="Menu" aria-label="menu icon">menu</span></label>
           <input type="checkbox" id="hamburger" />
           <nav class="hamnav">
             <div class="hamitems">
@@ -93,26 +56,21 @@
       </div>
       <div class="search-wrapper">
         <input type="text" placeholder="Search" />
-        <span
-          class="material-icons-outlined search-icon"
-          title="Search"
-          aria-label="search icon"
-          >search</span
-        >
+        <span class="material-icons-outlined search-icon" title="Search" aria-label="search icon">search</span>
       </div>
     </header>
     <main>
-      <section class="checkout">
+      <div class="checkout">
         <h1>Checkout</h1>
-        <div class="cart-total">
+        <section class="cart-total">
           <p class="total">
             <span class="product-name">Total</span><span>NOK 5.679</span>
           </p>
           <p class="small shipping">
             <span>Shipping (Standard 5-7 days)</span><span>Free</span>
           </p>
-        </div>
-        <div>
+        </section>
+        <section>
           <h2>Shipping details</h2>
           <form class="checkout-form">
             <div class="input-label">
@@ -159,8 +117,58 @@
               <a href="index.html" class="btn btn-index" aria-label="cancel purchase">Cancel</a>
             </div>
           </form>
-        </div>
-      </section>
+        </section>
+        <section class="confirmation-message">
+          <div class="confirmation">
+            <span
+              class="material-icons-outlined material-icons-outlined-check"
+              title="Confirmation"
+              aria-label="confirmation icon"
+              >check_circle</span
+            >
+            <h2>Thank you for your order!</h2>
+            <p class="confirmation-text">
+              Your order is received, and a confirmation has been sent to your
+              email.
+            </p>
+          </div>
+          <div class="order-container">
+            <p class="order-heading">Order #973628</p>
+            <div class="info-total">
+              <p class="info-heading">Order total</p>
+              <p class="info-var">NOK 5.697</p>
+            </div>
+            <div class="info-date">
+              <p class="info-heading">Order date</p>
+              <p class="info-var">03-04-2022</p>
+            </div>
+            <div class="info-payment">
+              <p class="info-heading full-text">Payment method</p>
+              <p class="info-heading short-text">Payment</p>
+              <p class="info-var">Credit card</p>
+            </div>
+            <div class="info-email">
+              <p class="info-heading">Email</p>
+              <p class="info-var">name@gmail.com</p>
+            </div>
+            <div class="info-d-date">
+              <p class="info-heading full-text">Expected delivery</p>
+              <p class="info-heading short-text">Exp. delivery</p>
+              <p class="info-var">8.apr - 12.apr</p>
+            </div>
+            <div class="info-d-options">
+              <p class="info-heading">Delivery options</p>
+              <p class="info-var">Standard delivery</p>
+            </div>
+          </div>
+          <div>
+            <p class="confirmation-text">
+              If you have any questions about your order or the delivery process,
+              please do not hesetate to <a href="contact.html">contact</a> us.
+            </p>
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
       <div>
