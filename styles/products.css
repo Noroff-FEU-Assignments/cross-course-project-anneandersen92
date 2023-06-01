@@ -50,34 +50,6 @@
     gap: 12px;
 }
 
-.size-bar label {
-    width: 40px;
-    height: 35px;
-    border: solid 1px var(--raisin-black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--main-font);
-    font-size: 12pt;
-}
-
-input[type=checkbox] {
-    display: none;
-}
-
-label[class=size]:hover,
-input[name=xs]:checked ~ label[for=xs],
-input[name=s]:checked ~ label[for=s],
-input[name=m]:checked ~ label[for=m],
-input[name=l]:checked ~ label[for=l],
-input[name=xl]:checked ~ label[for=xl] {
-    cursor: pointer;
-    transform: scale(1.1);
-    border: none;
-    background-color: var(--burnt-orange);
-    color: var(--white);
-}
-
 .cta {
     margin: 32px 0;
     background: var(--rainydays-blue);
@@ -101,19 +73,30 @@ input[name=xl]:checked ~ label[for=xl] {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 120px auto;
-        grid-template-areas: 
-        'image info'
-        'image interaction'
-        'description description';
+        grid-template-areas:
+            'image info'
+            'image interaction'
+            'description description';
         row-gap: 32px;
         column-gap: 24px;
         margin-top: 24px;
     }
 
-    .image-container {grid-area: image;}
-    .product-info {grid-area: info;}
-    .interaction {grid-area: interaction;}
-    .description-container {grid-area: description;}
+    .image-container {
+        grid-area: image;
+    }
+
+    .product-info {
+        grid-area: info;
+    }
+
+    .interaction {
+        grid-area: interaction;
+    }
+
+    .description-container {
+        grid-area: description;
+    }
 
     .image-container {
         background: var(--background-grey);
@@ -122,7 +105,7 @@ input[name=xl]:checked ~ label[for=xl] {
     .image-container img {
         padding: 5%;
     }
-    
+
     .product-info h1 {
         margin-top: 0;
     }
@@ -146,7 +129,8 @@ input[name=xl]:checked ~ label[for=xl] {
 @media only screen and (min-width: 1024px) {
     .breaditems {
         margin-left: 2%;
-        padding-left: 0;}
+        padding-left: 0;
+    }
 
     .product-container {
         grid-template-columns: auto 2fr;

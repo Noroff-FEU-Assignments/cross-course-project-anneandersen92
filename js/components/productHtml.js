@@ -5,9 +5,9 @@ const womenProducts = document.querySelector(".women-products");
 const menProducts = document.querySelector(".men-products");
 const alphaProducts = document.querySelector(".alpha-products");
 
-for (let i = 0; i <products.length; i++) {
-    
-    const product = products [i];
+for (let i = 0; i < products.length; i++) {
+
+    const product = products[i];
 
     if (womenProducts && product.gender === "women") {
         createHtml(product);
@@ -16,7 +16,7 @@ for (let i = 0; i <products.length; i++) {
     } else if (alphaProducts && product.collection === "alpha") {
         createHtml(product);
     }
-    
+
 }
 
 function createHtml(product) {
