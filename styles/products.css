@@ -76,6 +76,7 @@
         grid-template-areas:
             'image info'
             'image interaction'
+            'image price'
             'description description';
         row-gap: 32px;
         column-gap: 24px;
@@ -92,6 +93,10 @@
 
     .interaction {
         grid-area: interaction;
+    }
+
+    .price {
+        grid-area: price;
     }
 
     .description-container {
