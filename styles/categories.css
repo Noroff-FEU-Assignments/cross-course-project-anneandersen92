@@ -50,6 +50,7 @@ h1 {
     grid-template-rows: 1fr 100px;
     border-radius: 8px;
 }
+
 .image-container {
     display: flex;
     align-items: center;
@@ -70,9 +71,12 @@ h1 {
     line-height: 0.8;
 }
 
-.description,
 .color {
     font-size: 10pt;
+}
+
+.color::first-letter {
+    text-transform: capitalize;
 }
 
 .price {
@@ -84,7 +88,7 @@ h1 {
 }
 
 @media only screen and (min-width: 600px) {
-    .product-list-container {
+    .products-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -96,18 +100,17 @@ h1 {
         margin-left: 2%;
         transform: translate(-4%);
     }
-    
+
     .category-image {
         height: 400px;
         object-fit: cover;
         object-position: 100% 0;
     }
 
-    .product-list-container {
+    .products-container {
         gap: 24px;
     }
 
-    .description,
     .color {
         font-size: 11pt;
     }
@@ -132,12 +135,11 @@ h1 {
         padding-left: 48px;
     }
 
-    .product-list-container {
+    .products-container {
         gap: 32px;
         margin: 0 32px;
     }
-    
-    .description,
+
     .color {
         font-size: 12pt;
     }

@@ -1,10 +1,10 @@
-import { products } from "../data/products.js";
+import { products } from "../data/productList.js";
 
 const featured = document.querySelector(".featured-slider");
 
-for (let i = 0; i <products.length; i++) {
-    
-    const product = products [i];
+for (let i = 0; i < products.length; i++) {
+
+    const product = products[i];
 
     if (product.featured === true) {
         createHtml(product);
@@ -19,5 +19,5 @@ function createHtml(product) {
                                 <div class="btn-area">
                                     <button class="cta" aria-label="view product">View</button>
                                 </div>
-                                </a>`;
+                            </a>`;
 }

@@ -1,4 +1,4 @@
-import { products } from "../data/products.js";
+import { products } from "../data/productList.js";
 
 const productsContainer = document.querySelector(".products-container");
 const womenProducts = document.querySelector(".women-products");
@@ -26,7 +26,6 @@ function createHtml(product) {
                                             </div>
                                             <div class="product-details">
                                                 <p class="name"><span class="product-name">${product.collection}</span> ${product.style} ${product.gender}</p>
-                                                <p class="description">${product.descriptonShort}</p>
                                                 <p class="color">${product.color}</p>
                                             </div>
                                             <p class="price">NOK ${product.price}</p>
