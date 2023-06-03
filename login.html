@@ -65,16 +65,24 @@
         <h1>Sign in</h1>
         <form class="login-container">
           <div class="input-label">
-            <input name="email" type="text" class="email" placeholder="Email" aria-label="email"/>
+            <input type="email" id="email" placeholder="Email" aria-label="email"/>
             <label for="email">Email</label>
+            <div class="form-error" id="email-error">
+              Please enter valid email
+            </div>
           </div>
           <div class="input-label">
-            <input name="password" type="password" class="password" placeholder="Password" required aria-label="password"/>
+            <input name="password" type="password" id="password" placeholder="Password" required aria-label="password"/>
             <label for="password">Password</label>
+            <div class="form-error" id="password-error">
+              Incorrect password
+            </div>
           </div>
-          <a href="#" class="btn btn-login" aria-label="log in">Log in</a>
-          <a href="#" class="btn btn-signup" aria-label="create an account">Create an account</a>
-          <a href="#" class="btn btn-reset" aria-label="reset password">Reset password</a>
+          <div class="btn-area">
+            <button class="btn btn-login" aria-label="log in">Log in</button>
+            <a href="#" class="btn btn-signup" aria-label="create an account">Create an account</a>
+            <a href="#" class="btn btn-reset" aria-label="reset password">Reset password</a>
+          </div>
         </form>
       </div>
     </main>
@@ -86,5 +94,6 @@
         </ul>
       </div>
     </footer>
+    <script src="js/forms/loginForm.js" type="module"></script>
   </body>
 </html>

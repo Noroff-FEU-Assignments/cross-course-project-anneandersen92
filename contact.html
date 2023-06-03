@@ -73,20 +73,31 @@
           <p class="info-text">Fill in the form, and we will get back to you within 2 business days.</p>
         </section>
         <section class="form-container">
-          <form action="contact.php" method="POST">
+          <form class="contact-form">
             <div class="input-label">
-              <input name="name" type="text" class="name" placeholder="Name" aria-label="name"/>
+              <input type="text" id="name" placeholder="Name" aria-label="name"/>
               <label for="name">Name</label>
+              <div class="form-error" id="name-error">
+                Please enter first and last name
+              </div>
             </div>
             <div class="input-label">
-              <input name="email" type="email" class="email" placeholder="Email" aria-label="email"/>
+              <input type="email" id="email" placeholder="Email" aria-label="email"/>
               <label for="email">Email</label>
+              <div class="form-error" id="email-error">
+                Please enter valid email
+              </div>
             </div>
             <div class="input-label">
-              <textarea name="message" class="message" rows="6" placeholder="Write your message here" aria-label="message area"></textarea>
+              <textarea id="message" rows="6" placeholder="Write your message here" aria-label="message area"></textarea>
               <label for="message">Message</label>
+              <div class="form-error" id="message-error">
+                Please enter message (min 50 characters)
+              </div>
             </div>
-            <input type="submit" value="Submit" class="submit" aria-label="submit form"/>
+            <div class="btn-area">
+              <button class="btn btn-confirm" aria-label="confirm purchase">Submit</button>
+            </div>
           </form>
         </section>
       </div>
@@ -99,5 +110,6 @@
         </ul>
       </div>
     </footer>
+    <script src="js/forms/contactForm.js" type="module"></script>
   </body>
 </html>

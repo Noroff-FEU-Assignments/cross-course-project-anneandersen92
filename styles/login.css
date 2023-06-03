@@ -22,6 +22,10 @@ form input[type=password] {
     margin-bottom: 0;
 }
 
+.btn-area {
+    width: 100%;
+}
+
 .btn-login {
     width: 100%;
     margin-bottom: 32px;
