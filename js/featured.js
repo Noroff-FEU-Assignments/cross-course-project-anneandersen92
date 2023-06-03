@@ -1,4 +1,4 @@
-import { products } from "../data/productList.js";
+import { products } from "./data/productList.js";
 
 const featured = document.querySelector(".featured-slider");
 
