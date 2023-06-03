@@ -9,7 +9,6 @@ function displayFooter() {
 }
 
 function createFooter() {
-
     footer.innerHTML = footer.innerHTML = `
         <div>
             <ul>
@@ -18,5 +17,3 @@ function createFooter() {
             </ul>
         </div>`
 }
-
-console.log(createFooter);
