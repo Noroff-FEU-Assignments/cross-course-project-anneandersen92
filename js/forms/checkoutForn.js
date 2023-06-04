@@ -68,7 +68,6 @@ function submitForm(event) {
     if (checkLength(name.value, 0) && checkLength(address.value, 9) && (zip.value.length === 5) && checkLength(city.value, 0) && validateEmail(email.value)) {
         confirmationMessage.style.display = "block";
         h1.style.display = "none";
-        cartTotal.style.display = "none";
         shippingDetails.style.display = "none";
         document.title = "Order complete";
         form.reset();

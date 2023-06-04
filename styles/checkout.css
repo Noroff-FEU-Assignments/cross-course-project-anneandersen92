@@ -43,11 +43,11 @@
     margin-bottom: 8px;
 }
 
-.confirmation-message a {
+.contact {
     font-style: italic;
 }
 
-.confirmation-message a:hover {
+.contact:hover {
     text-decoration: underline;
 }
 
