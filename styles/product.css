@@ -103,6 +103,10 @@ input[id=xl]:checked~label[for=xl] {
     background: var(--rainydays-blue-90);
 }
 
+.clicked {
+    background: var(--rainydays-blue-90);
+}
+
 .description-container {
     background: var(--background-grey);
     padding: 8px 16px;
