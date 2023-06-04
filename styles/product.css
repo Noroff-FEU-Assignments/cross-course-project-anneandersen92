@@ -65,6 +65,35 @@ h1 {
     gap: 12px;
 }
 
+.size-bar label {
+    width: 40px;
+    height: 35px;
+    border: solid 1px var(--raisin-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--main-font);
+    font-size: 12pt;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+label[class=size]:hover,
+input[name=xs]:checked~label[for=xs],
+input[name=s]:checked~label[for=s],
+input[name=m]:checked~label[for=m],
+input[name=l]:checked~label[for=l],
+input[name=xl]:checked~label[for=xl] {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: none;
+    background-color: var(--burnt-orange);
+    color: var(--white);
+}
+
+
 .cta {
     margin: 32px 0;
     background: var(--rainydays-blue);

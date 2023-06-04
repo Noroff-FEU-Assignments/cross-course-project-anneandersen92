@@ -103,17 +103,22 @@ header {
 .icons {
     margin-left: auto;
     display: flex;
-    align-items: baseline;
+    align-items: end;
 }
 
 .count {
+    display: none;
+    position: relative;
+    font-size: 11px;
     border-radius: 50%;
     background: var(--crystal-blue);
     width: 16px;
     height: 16px;
     line-height: 16px;
-    display: block;
-
+    text-align: center;
+    color: white;
+    font-family: var(--main-font);
+    font-weight: 500;
 }
 
 .logo1 {

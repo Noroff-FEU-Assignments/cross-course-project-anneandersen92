@@ -15,17 +15,16 @@ function createHeader() {
             <a class="logo2" href="index.html"><img class="logo2" src="images/logo_inverted.jpg" alt="The Rainydays logo"/></a>
             <div class="icons">
                 <a href="login.html">
-                    <span class="material-icons-outlined" title="User account" aria-label="user account icon">person</span>
+                    <i class="material-icons-outlined" title="User account" aria-label="user account icon">person</i>
                 </a>
                 <span class="screenreader-text">User account</span>
                 <a href="cart.html">
-                    <span class="count"></span>
-                    <span class="material-icons-outlined cart-icon" title="Shopping cart" aria-label="shopping cart icon">shopping_cart</span>
+                    <i class="material-icons-outlined cart-icon" title="Shopping cart" aria-label="shopping cart icon">shopping_cart</i>
                 </a>
                 <span class="screenreader-text">Shopping cart</span>
             </div>
             <div class="menu">
-                <label for="hamburger"><span class="material-icons-outlined" title="Menu" aria-label="menu icon">menu</span></label>
+                <label for="hamburger"><i class="material-icons-outlined" title="Menu" aria-label="menu icon">menu</i></label>
                 <input type="checkbox" id="hamburger" />
                 <nav class="hamnav">
                     <div class="hamitems">

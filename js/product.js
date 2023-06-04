@@ -30,7 +30,16 @@ productContainer.innerHTML = `
         <p class="price">NOK ${details.price}</p>
     </div>
     <div class="size-bar">
-        ${generateSizes(allSizes)}
+        <input type="checkbox" id="xs" name="xs">
+        <label for="xs" class="size">XS</label>
+        <input type="checkbox" id="s" name="s">
+        <label for="s" class="size">S</label>
+        <input type="checkbox" id="m" name="m">
+        <label for="m" class="size">M</label>
+        <input type="checkbox" id="l" name="l">
+        <label for="l" class="size">L</label>
+        <input type="checkbox" id="xl" name="xl">
+        <label for="xl" class="size">XL</label>
     </div>
     <div class="btn-area">
         <button class="cta add-to-cart" aria-label="add product to cart">Add to cart</button>
@@ -43,14 +52,10 @@ productContainer.innerHTML = `
     </div>`;
 
 const current = document.querySelector(".current");
-
 current.innerHTML = `${details.collection} ${details.style}`
-
 document.title = `${details.collection} ${details.style}`;
 
-
 const addToCartButton = document.querySelector(".add-to-cart")
-const cartIcon = document.querySelector(".cart-icon");
 
 addToCartButton.onclick = function () {
     addToCartButton.innerHTML = "Item added to cart";
@@ -62,4 +67,5 @@ addToCartButton.onclick = function () {
         addToCartButton.innerHTML = "Add to cart";
         addToCartButton.classList.remove("clicked");
     }, delay);
+
 };
