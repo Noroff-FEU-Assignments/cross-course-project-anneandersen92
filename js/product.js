@@ -4,16 +4,6 @@ const id = new URLSearchParams(window.location.search).get("id");
 
 const productContainer = document.querySelector(".product-container");
 const details = (products[id]);
-const allSizes = ["XS", "S", "M", "L", "XL"];
-
-function generateSizes(sizes) {
-    return sizes.map(size => {
-        let hello = details.sizes.some(s => s.size === size && s.quantity > 0);
-        return `<div class="${hello}" data-value="${size}">
-                    <p>${size}</p>
-                </div>`
-    })
-};
 
 productContainer.innerHTML = `
     <div class="image-container">
@@ -30,15 +20,15 @@ productContainer.innerHTML = `
         <p class="price">NOK ${details.price}</p>
     </div>
     <div class="size-bar">
-        <input type="checkbox" id="xs" name="xs">
+        <input type="radio" id="xs" name="size">
         <label for="xs" class="size">XS</label>
-        <input type="checkbox" id="s" name="s">
+        <input type="radio" id="s" name="size">
         <label for="s" class="size">S</label>
-        <input type="checkbox" id="m" name="m">
+        <input type="radio" id="m" name="size">
         <label for="m" class="size">M</label>
-        <input type="checkbox" id="l" name="l">
+        <input type="radio" id="l" name="size">
         <label for="l" class="size">L</label>
-        <input type="checkbox" id="xl" name="xl">
+        <input type="radio" id="xl" name="size">
         <label for="xl" class="size">XL</label>
     </div>
     <div class="btn-area">
@@ -51,8 +41,11 @@ productContainer.innerHTML = `
         </div>
     </div>`;
 
+const gender = document.querySelector(".gender");
 const current = document.querySelector(".current");
+
 current.innerHTML = `${details.collection} ${details.style}`
+gender.innerHTML = `<a href="${details.gender}.html">${details.gender}</a> /`
 document.title = `${details.collection} ${details.style}`;
 
 const addToCartButton = document.querySelector(".add-to-cart")

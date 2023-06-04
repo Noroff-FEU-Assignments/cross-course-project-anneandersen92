@@ -2,6 +2,7 @@
     padding-left: 0;
 }
 
+.gender::first-letter,
 .current::first-letter {
     text-transform: capitalize;
 }
@@ -76,16 +77,16 @@ h1 {
     font-size: 12pt;
 }
 
-input[type=checkbox] {
+input[type=radio] {
     display: none;
 }
 
 label[class=size]:hover,
-input[name=xs]:checked~label[for=xs],
-input[name=s]:checked~label[for=s],
-input[name=m]:checked~label[for=m],
-input[name=l]:checked~label[for=l],
-input[name=xl]:checked~label[for=xl] {
+input[id=xs]:checked~label[for=xs],
+input[id=s]:checked~label[for=s],
+input[id=m]:checked~label[for=m],
+input[id=l]:checked~label[for=l],
+input[id=xl]:checked~label[for=xl] {
     cursor: pointer;
     transform: scale(1.1);
     border: none;
@@ -93,17 +94,12 @@ input[name=xl]:checked~label[for=xl] {
     color: var(--white);
 }
 
-
 .cta {
     margin: 32px 0;
     background: var(--rainydays-blue);
 }
 
 .cta:hover {
-    background: var(--rainydays-blue-90);
-}
-
-.clicked {
     background: var(--rainydays-blue-90);
 }
 
