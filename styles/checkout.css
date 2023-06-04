@@ -1,0 +1,89 @@
+.input-label {
+    width: 100%;
+}
+
+.btn-area {
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.btn-index {
+    background: var(--white);
+    color: var(--burnt-orange);
+    border: none;
+    width: auto;
+    padding: 12px;
+}
+
+.btn-index:hover {
+    background: inherit;
+    font-weight: 500;
+    border: none;
+}
+
+
+/** CONFIRMATION **/
+
+.confirmation-message {
+    text-align: center;
+    display: none;
+}
+
+.material-icons-outlined-check {
+    font-size: 50px;
+    color: var(--crystal-blue);
+}
+
+.material-icons-outlined-check:hover {
+    text-decoration: none;
+}
+
+.confirmation-message h2 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.contact {
+    font-style: italic;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 550px) {
+    main {
+        padding: 0 16px 56px 16px
+    }
+
+    .checkout {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .checkout {
+        max-width: 650px;
+    }
+
+    .cta,
+    .btn {
+        width: 280px;
+    }
+
+    .material-icons-outlined-check {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .checkout {
+        max-width: 700px;
+    }
+
+    .cta,
+    .btn {
+        width: 300px;
+    }
+}

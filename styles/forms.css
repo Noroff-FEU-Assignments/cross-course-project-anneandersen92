@@ -1,0 +1,110 @@
+form {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form textarea {
+    width: 100%;
+    border: solid 1px var(--onyx);
+    border-radius: 8px;
+    font-family: var(--main-font);
+    font-size: 11pt;
+    font-weight: 400;
+    color: var(--raisin-black);
+    padding: 16px 12px;
+    outline: none;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form ::placeholder {
+    padding-left: 12px;
+}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder {
+    color: transparent;
+}
+
+form label {
+    display: none;
+}
+
+.input-label {
+    position: relative;
+}
+
+#name:focus~label[for=name],
+#address:focus~label[for=address],
+#zip:focus~label[for=zip],
+#city:focus~label[for=city],
+#email:focus~label[for=email],
+#password:focus~label[for=password],
+#message:focus~label[for=message] {
+    font-family: var(--main-font);
+    font-size: 10pt;
+    font-weight: 400;
+    color: var(--warm-grey);
+    display: inline;
+    position: absolute;
+    left: 12px;
+    top: 2px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    display: block;
+    font-family: var(--main-font);
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--white);
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: var(--burnt-orange);
+    padding: 8px 32px;
+    -webkit-apperance: none;
+    -moz-apparance: none;
+    appearance: none;
+}
+
+.form-error {
+    display: none;
+    font-family: var(--main-font);
+    font-size: 10pt;
+    color: red;
+    padding-left: 12px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    form input[type=text],
+    form input[type=email],
+    form input[type=password],
+    form textarea {
+        font-size: 12pt;
+    }
+
+    #name:focus~label[for=name],
+    #address:focus~label[for=address],
+    #zip:focus~label[for=zip],
+    #city:focus~label[for=city],
+    #email:focus~label[for=email],
+    #password:focus~label[for=password],
+    #message:focus~label[for=message] {
+        font-size: 11pt;
+    }
+
+    input[type="submit"] {
+        font-size: 14pt;
+    }
+}

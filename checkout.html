@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="theme-color" content="#0a3641" />
+    <title>Rainydays | Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/forms.css" rel="stylesheet" />
+    <link href="styles/checkout.css" rel="stylesheet" />
+    <link href="styles/media.css" rel="stylesheet" />
+    <!-- Hotjar Tracking Code for my site -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3462588, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header class="header">
+    </header>
+    <main>
+      <div class="checkout">
+        <h1>Checkout</h1>
+        <section class="shipping-details">
+          <h2>Shipping details</h2>
+          <form class="checkout-form">
+            <div class="input-label">
+              <input type="text" id="name" placeholder="Name" aria-label="name"/>
+              <label for="name">Name</label>
+              <div class="form-error" id="name-error">
+                Please enter first and last name
+              </div>
+            </div>
+            <div class="input-label">
+              <input type="text" id="address" placeholder="Address" aria-label="address"/>
+              <label for="address">Address</label>
+              <div class="form-error" id="address-error">
+                Please enter your street address (min 10 characters)
+              </div>
+            </div>
+            <div class="input-label">
+              <input type="text" id="zip" placeholder="Zip code" aria-label="zip code"/>
+              <label for="zip">Zip code</label>
+              <div class="form-error" id="zip-error">
+                Please enter valid zip code (5 digits)
+              </div>
+            </div>
+            <div class="input-label">
+              <input type="text" id="city" placeholder="City" aria-label="city"/>
+              <label for="city">City</label>
+              <div class="form-error" id="city-error">
+                Please enter city
+              </div>
+            </div>
+            <div class="input-label">
+              <input type="email" id="email" placeholder="Email" aria-label="email"/>
+              <label for="email">Email</label>
+              <div class="form-error" id="email-error">
+                Please enter valid email
+              </div>
+            </div>
+            <div class="input-label">
+              <textarea id="message" rows="6" placeholder="Message about your order (optional)" aria-label="message area"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="btn-area">
+              <button class="btn btn-confirm" aria-label="confirm purchase">Confirm purchase</button>
+              <a href="index.html" class="btn btn-index" aria-label="cancel purchase">Cancel</a>
+            </div>
+          </form>
+        </section>
+        <section class="confirmation-message">
+          <div class="confirmation">
+            <span class="material-icons-outlined material-icons-outlined-check" title="Confirmation" aria-label="confirmation icon">check_circle</span>
+            <h2>Thank you for your order!</h2>
+            <p>Your order is received, and a confirmation has been sent to your
+              email.</p>
+            <p>If you have any questions, please do not hesetate to <a class="contact" href="contact.html">contact</a> us.
+            </p>
+            <div class="btn-area">
+              <a href="index.html" class="btn">Continue shopping</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+    </footer>
+    <script src="js/forms/checkoutForn.js" type="module"></script>
+    <script src="js/components/header.js" type="module"></script>
+    <script src="js/components/footer.js" type="module"></script>
+  </body>
+</html>

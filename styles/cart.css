@@ -1,0 +1,174 @@
+.cart-items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 1rem;
+    position: relative;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 20px var(--box-shadow);
+}
+
+.image-container {
+    grid-row: span 2;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item img {
+    position: relative;
+    height: 140px;
+}
+
+.item-info-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name,
+.size {
+    margin: 0;
+    font-weight: 400;
+    ;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.color {
+    margin: 0;
+}
+
+.size {
+    margin-top: 16px;
+}
+
+.item-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.remove-item {
+    background: none;
+    font-size: 11pt;
+    border: none;
+    color: var(--burnt-orange);
+}
+
+.remove-item:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.item-info-footer {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+.item-info-footer p {
+    font-weight: 400;
+    margin: unset;
+    padding: 16px 0;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantity-input {
+    border: none;
+    width: 60px;
+    text-align: center;
+}
+
+.price-container {
+    display: grid;
+    justify-content: flex-end;
+}
+
+.price {
+    text-align: right;
+}
+
+.cart-total {
+    width: 100%;
+    margin: 56px auto;
+    border-top: solid 1px var(--rainydays-blue);
+    border-bottom: solid 1px var(--rainydays-blue);
+}
+
+.cart-total p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-weight: 400;
+}
+
+.btn-index {
+    background: var(--white);
+    color: var(--burnt-orange);
+    border: solid 1px var(--burnt-orange);
+}
+
+.btn-index:hover {
+    background: inherit;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 550px) {
+    main {
+        padding: 0 16px 56px 16px
+    }
+
+    .shopping-cart {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .shopping-cart {
+        max-width: 650px;
+    }
+
+    .cta,
+    .btn {
+        width: 280px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .shopping-cart {
+        max-width: 700px;
+    }
+
+    .cart-item {
+        transition: all 0.6s ease;
+    }
+
+    .cart.item:hover {
+        transform: scale(1.03);
+    }
+
+    .cta,
+    .btn {
+        width: 300px;
+    }
+}

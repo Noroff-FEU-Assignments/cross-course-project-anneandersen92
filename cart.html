@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="theme-color" content="#0a3641" />
+    <title>Rainydays | Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/cart.css" rel="stylesheet" />
+    <link href="styles/media.css" rel="stylesheet" />
+    <!-- Hotjar Tracking Code for my site -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3462588, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header class="header">
+    </header>
+    <main>
+      <section class="shopping-cart">
+        <h1>Shopping cart</h1>
+        <div class="cart-items-container">
+          <div class="cart-item">
+            <div class="image-container">
+              <img src="images/products/womens_beige.png" alt="Atom Hoody, women, beige"/>
+            </div>
+            <div class="item-info-container">
+              <div class="item-description">
+                <p><span class="item-name">Atom</span> Hoody</p>
+                <p class="small color">Ambient beige</p>
+                <p class="size">Size M</p>
+              </div>
+              <div class="item-actions">
+                <button class="cart-icon remove-item" title="Remove from cart" aria-label="remove from cart icon"><span class="material-icons-outlined remove-item cart-icon">close</span></button>
+              </div>
+            </div>
+            <div class="item-info-footer">
+              <div class="quantity-container">
+                <input class="quantity-input small" type="number" value="1">
+              </div>
+              <div class="price-container">
+                <p class="price">NOK 2499</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-total">
+          <p class="total">
+            <span>Total</span>
+            <span class="total-price">NOK 2499</span>
+          </p>
+          <p class="small shipping">
+            <span>Shipping (Standard 5-7 days)</span><span>Free</span>
+          </p>
+        </div>
+      </section>
+      <section class="btn-area">
+        <a href="checkout.html" class="btn btn-checkout" aria-label="procees to checkout">Proceed to checkout</a>
+        <a href="index.html" class="btn btn-index" aria-label="continue shopping">Continue shopping</a>
+      </section>
+    </main>
+    <footer class="footer">
+    </footer>
+    <script src="js/components/header.js" type="module"></script>
+    <script src="js/components/footer.js" type="module"></script>
+    <script src="js/cart.js" type="module" async></script>
+  </body>
+</html>

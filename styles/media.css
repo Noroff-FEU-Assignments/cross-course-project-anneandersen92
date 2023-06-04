@@ -1,0 +1,182 @@
+@media only screen and (min-width: 760px) {
+    main {
+        margin: 0 2%;
+    }
+
+    h1 {
+        font-size: 28pt;
+    }
+
+    .cta,
+    .btn,
+    p {
+        font-size: 13pt;
+    }
+
+    .small {
+        font-size: 12pt;
+    }
+  
+    .logo1 {
+        display: none;
+    }
+
+    .menu label {
+        display: none;
+    }
+
+    .logo2 {grid-area: logo2;}
+    .hamnav {grid-area: hamnav;}
+    .icons {grid-area: icons;}
+
+    .header-wrapper {
+        background: var(--rainydays-blue);
+        width: 100vw;
+        height: 100px;
+        padding: 0 40px 24px 40px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "logo2 hamnav icons";
+        align-items: end;
+    }
+
+    .logo2 {
+        display: inline;
+        width: auto;
+        height: 50px;
+        justify-self: start;
+    }
+
+    .icons {
+        margin-left: inherit;
+        justify-self: end;
+    }
+
+    .hamnav {
+        display: inline;
+        justify-self: center;
+    }
+
+    .hamitems {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .hamitems a {
+        color: var(--white);
+        text-decoration: none;
+        font-size: 14pt;
+        font-weight: 400;
+        margin-top: inherit;
+    }
+    .icons .material-icons-outlined {
+        font-size: 28px;
+        color: var(--white);
+    }
+    
+    .hamitems a:hover,
+    .icons .material-icons-outlined:hover {
+        text-decoration: underline 2px solid var(--white);
+    }
+
+    .search-wrapper {
+        padding: 6px 24px;
+        margin: 10px 32px;
+    }
+    
+    .search-wrapper input,
+    .search-wrapper ::placeholder {
+        font-size: 13pt;
+        text-align: center;
+    }
+
+    .search-icon {
+        font-size: 30px;
+        color: var(--raisin-black);
+    }
+
+    .breaditems li {
+        font-size: 13pt;
+    }
+
+    footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    footer li {
+        margin-bottom: 48px;
+    } 
+
+    footer a {
+        font-size: 14pt;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        background: var(--background-grey);
+    }
+
+    h1 {
+        font-size: 32pt;
+    }
+
+    .cta,
+    .btn,
+    p {
+        font-size: 14pt;
+    }
+
+    .small {
+        font-size: 13pt;
+    }
+
+    ::placeholder {
+        font-size: 12pt;
+    }
+
+    main {
+        margin: 0 15%;
+        background: var(--white);
+        padding: 1px 32px 56px 32px;
+    }
+
+    .header-wrapper {
+        height: 120px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .search-wrapper {
+        width: 427px;
+        margin: 10px auto;
+    }
+
+    .breaditems li {
+        font-size: 14pt;
+    }
+
+    .logo2 {
+        padding-right: 24px;
+        height: 60px;
+    }
+
+    .icons .material-icons-outlined {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .logo2 {
+        height: 70px;
+    }
+
+    .hamitems {
+        gap: 24px;
+    }
+}
