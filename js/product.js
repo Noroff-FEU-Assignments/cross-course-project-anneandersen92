@@ -60,5 +60,4 @@ addToCartButton.onclick = function () {
         addToCartButton.innerHTML = "Add to cart";
         addToCartButton.classList.remove("clicked");
     }, delay);
-
 };
