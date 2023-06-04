@@ -16,6 +16,8 @@
 
 .image-container {
     grid-row: span 2;
+    display: flex;
+    align-items: center;
 }
 
 .cart-item img {

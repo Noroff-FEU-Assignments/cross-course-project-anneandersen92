@@ -34,11 +34,9 @@ function removeCartItem(event) {
 
 function quantityChanged(event) {
     const input = event.target;
-
     if (isNaN(input.value) || input.value <= 0) {
         input.value = 1;
     }
-
     updateCartTotal();
 }
 
@@ -46,47 +44,12 @@ function addToCartClicked(event) {
     const addToCart = event.target;
     const product = addToCart.parentElement.parentElement;
     const productName = product.getElementsByClassName("name")[0].innerText;
-    const price = product.getElementsByClassName("price")[0].innerText.replace("NOK", "").replace(".", "");
+    const price = product.getElementsByClassName("price")[0].innerText.replace("NOK", "");
     const image = product.getElementsByClassName("image")[0].src;
+    const color = product.getElementsByClassName("color")[0].innerText;
 
-    addItemToCart(productName, price, image);
-}
-
-function addItemToCart(productName, price, image) {
-    let cartItem = document.createElement("div");
-    cartItem.classList.add("cart-item");
-    let cartItems = document.getElementsByClassName("cart-items-container")[0];
-
-    console.log(cartItems);
-
-    cartItem.innerHTML = `
-        <div class="image-container">
-            <a href="atomwbeige.html"><img src="images/products/womens_beige.png" alt="Atom Hoody, women, beige"/></a>
-        </div>
-        <div class="item-info-container">
-            <div class="item-description">
-            <a href="atomwbeige.html"><p><span class="item-name">Atom</span> Hoody</p></a>
-            <p class="small color">Ambient beige</p>
-            <p class="size">Size M</p>
-            </div>
-            <div class="item-actions">
-            <button class="cart-icon remove-item" title="Remove from cart" aria-label="remove from cart icon"><span class="material-icons-outlined cart-icon">close</span></button>
-            </div>
-        </div>
-        <div class="item-info-footer">
-            <div class="quantity-container">
-            <button class="cart-icon subtract-icon" title="Subtract item" aria-label="subtract item icon"><span class="material-icons-outlined cart-icon">remove_circle_outline</span></button>
-            <input class="quantity-input small" type="number" value="2">
-            <button class="cart-icon add-icon" title="Add item" aria-label="add item"><span class="material-icons-outlined cart-icon">add_circle_outline</span></button>
-            </div>
-            <div class="price-container">
-            <p class="price">NOK 1.000</p>
-            </div>
-        </div>`;
-
-    cartItems.appendChild(cartItem);
-
-    console.log
+    addItemToCart(productName, price, image, color);
+    updateCartTotal();
 }
 
 function updateCartTotal() {
@@ -98,8 +61,7 @@ function updateCartTotal() {
         const cartItem = cartItems[i];
         const priceElement = cartItem.getElementsByClassName("price")[0];
         const quantityElement = cartItem.getElementsByClassName("quantity-input")[0];
-
-        const price = parseFloat(priceElement.innerText.replace("NOK", "").replace(".", ""));
+        const price = parseFloat(priceElement.innerText.replace("NOK", ""));
         const quantity = quantityElement.value;
         total += (price * quantity);
     }

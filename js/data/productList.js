@@ -6,7 +6,7 @@ export var products = [
         style: "hoody",
         color: "ambient beige",
         descriptionShort: ["warm and versatile", "quick dry and durable", "superlight and packable"],
-        price: 2.499,
+        price: 2499,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -26,7 +26,7 @@ export var products = [
         style: "hoody",
         color: "black",
         descriptionShort: ["warm and versatile", "quick dry and durable", "superlight and packable"],
-        price: 2.499,
+        price: 2499,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -46,7 +46,7 @@ export var products = [
         style: "jacket",
         color: "reflection blue",
         descriptionShort: ["waterproof, windproof and breathable", "provides comfort and trusted protection", "designed for activity"],
-        price: 5.999,
+        price: 5999,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -66,7 +66,7 @@ export var products = [
         style: "jacket",
         color: "tatsu green",
         descriptionShort: ["waterproof, windproof and breathable", "provides comfort and trusted protection", "designed for activity"],
-        price: 5.999,
+        price: 5999,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -86,7 +86,7 @@ export var products = [
         style: "hoody",
         color: "verra beige",
         descriptionShort: ["warm and versatile", "insulated with responsibly-sourced goose down", "compressable and lightweight"],
-        price: 3.999,
+        price: 3999,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -106,7 +106,7 @@ export var products = [
         style: "hoody",
         color: "labyrinth blue",
         descriptionShort: ["light and versatile", "works as midlayer and standalone", "warm and durable"],
-        price: 2.499,
+        price: 2499,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -126,7 +126,7 @@ export var products = [
         style: "hoody",
         color: "black",
         descriptionShort: ["light and versatile", "works as midlayer and standalone", "warm and durable"],
-        price: 3.999,
+        price: 3999,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -146,7 +146,7 @@ export var products = [
         style: "hoody",
         color: "kingfisher blue",
         descriptionShort: ["light and versatile", "works as midlayer and standalone", "warm and durable"],
-        price: 2.499,
+        price: 2499,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -166,7 +166,7 @@ export var products = [
         style: "jacket",
         color: "wildchild yellow",
         descriptionShort: ["waterproof, windproof and breathable", "provides comfort and trusted protection", "designed for activity"],
-        price: 5.999,
+        price: 5999,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -186,7 +186,7 @@ export var products = [
         style: "jacket",
         color: "tatsu green",
         descriptionShort: ["waterproof, windproof and breathable", "provides comfort and trusted protection", "designed for activity"],
-        price: 5.999,
+        price: 5999,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -206,7 +206,7 @@ export var products = [
         style: "jacket",
         color: "glitch grey",
         descriptionShort: ["waterproof, windproof and breathable", "provides comfort and trusted protection", "designed for activity"],
-        price: 5.999,
+        price: 5999,
         sizes: [
             { size: "XS" },
             { size: "S" },
@@ -226,7 +226,7 @@ export var products = [
         style: "jacket",
         color: "black",
         descriptionShort: ["waterproof, windproof and breathable", "versatile and packable", "designed for activity"],
-        price: 4.999,
+        price: 4999,
         sizes: [
             { size: "XS" },
             { size: "S" },
