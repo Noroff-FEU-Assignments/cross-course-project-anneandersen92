@@ -53,10 +53,13 @@ function addToCartClicked(event) {
 }
 
 function addItemToCart(productName, price, image) {
-    const cartItem = document.createElement("div");
+    let cartItem = document.createElement("div");
     cartItem.classList.add("cart-item");
-    const cartItems = document.getElementsByClassName("cart-items-container")[0];
-    const cartItemContent = `
+    let cartItems = document.getElementsByClassName("cart-items-container")[0];
+
+    console.log(cartItems);
+
+    cartItem.innerHTML = `
         <div class="image-container">
             <a href="atomwbeige.html"><img src="images/products/womens_beige.png" alt="Atom Hoody, women, beige"/></a>
         </div>
@@ -79,9 +82,11 @@ function addItemToCart(productName, price, image) {
             <div class="price-container">
             <p class="price">NOK 1.000</p>
             </div>
-        </div>`
-    cartItem.innerHTML = cartItemContent;
-    cartItems.append(cartItem);
+        </div>`;
+
+    cartItems.appendChild(cartItem);
+
+    console.log
 }
 
 function updateCartTotal() {
