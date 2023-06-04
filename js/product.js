@@ -44,9 +44,9 @@ productContainer.innerHTML = `
 const gender = document.querySelector(".gender");
 const current = document.querySelector(".current");
 
-gender.innerHTML = `<a href="${details.gender}.html">${details.gender}</a> / `
+gender.innerHTML = `<a href="${details.gender}.html">${details.gender}</a> /`
 current.innerHTML = `${details.collection} ${details.style}`
-document.title = ` ${details.collection} ${details.style}`;
+document.title = `${details.collection} ${details.style}`;
 
 const addToCartButton = document.querySelector(".add-to-cart")
 
