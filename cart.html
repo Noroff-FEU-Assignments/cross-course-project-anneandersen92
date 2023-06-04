@@ -35,61 +35,67 @@
     <main>
       <section class="shopping-cart">
         <h1>Shopping cart</h1>
-        <div class="products-container">
-          <div class="product">
+
+        <div class="cart-items-container">
+
+          <div class="cart-item">
             <div class="image-container">
               <a href="atomwbeige.html"><img src="images/products/womens_beige.png" alt="Atom Hoody, women, beige"/></a>
             </div>
-            <div class="content-container">
-              <div class="product-description">
-                <a href="atomwbeige.html"><p><span class="product-name">Atom</span> Hoody</p></a>
+            <div class="item-info-container">
+              <div class="item-description">
+                <a href="atomwbeige.html"><p><span class="item-name">Atom</span> Hoody</p></a>
                 <p class="small color">Ambient beige</p>
                 <p class="size">Size M</p>
               </div>
-              <div class="product-actions remove">
-                <span class="material-icons-outlined cart-icon remove-icon" title="Remove from cart" aria-label="remove from cart icon">close</span>
+              <div class="item-actions">
+                <button class="cart-icon remove-item" title="Remove from cart" aria-label="remove from cart icon"><span class="material-icons-outlined cart-icon">close</span></button>
               </div>
             </div>
-            <div class="content-footer">
+            <div class="item-info-footer">
               <div class="quantity-container">
-                <button class="cart-icon subtract-icon" title="subtract product" aria-label="subtract product icon"><span class="material-icons-outlined cart-icon subtract-icon">remove_circle_outline</span></button>
-                <p class="small quantity">1</p>
-                <button class="cart-icon add-icon" title="Add product" aria-label="add product"><span class="material-icons-outlined cart-icon add-icon">add_circle_outline</span></button>
+                <button class="cart-icon subtract-icon" title="Subtract item" aria-label="subtract item icon"><span class="material-icons-outlined cart-icon">remove_circle_outline</span></button>
+                <input class="quantity-input small" type="number" value="2">
+                <button class="cart-icon add-icon" title="Add item" aria-label="add item"><span class="material-icons-outlined cart-icon">add_circle_outline</span></button>
               </div>
               <div class="price-container">
-                <p class="price">NOK 1.699</p>
+                <p class="price">NOK 1.000</p>
               </div>
             </div>
           </div>
-          <div class="product">
+
+          <div class="cart-item">
             <div class="image-container">
-              <a href="#"><img src="images/products/mens_yellow.png" alt="Alpha Jacket, men, yellow"/></a>
+              <a href="atomwbeige.html"><img src="images/products/womens_beige.png" alt="Atom Hoody, women, beige"/></a>
             </div>
-            <div class="content-container">
-              <div class="product-description">
-                <a href="#"><p><span class="product-name">Alpha</span> Jacket</p></a>
-                <p class="small color">Wildchild yellow</p>
-                <p class="size">Size XL</p>
+            <div class="item-info-container">
+              <div class="item-description">
+                <a href="atomwbeige.html"><p><span class="item-name">Atom</span> Hoody</p></a>
+                <p class="small color">Ambient beige</p>
+                <p class="size">Size M</p>
               </div>
-              <div class="product-actions remove">
-                <span class="material-icons-outlined cart-icon remove-icon" title="Remove from cart" aria-label="remove from cart icon">close</span>
+              <div class="item-actions">
+                <button class="cart-icon remove-item" title="Remove from cart" aria-label="remove from cart icon"><span class="material-icons-outlined cart-icon">close</span></button>
               </div>
             </div>
-            <div class="content-footer">
+            <div class="item-info-footer">
               <div class="quantity-container">
-                <button class="cart-icon subtract-icon" title="subtract product" aria-label="subtract product icon"><span class="material-icons-outlined cart-icon subtract-icon">remove_circle_outline</span></button>
-                <p class="small quantity">1</p>
-                <button class="cart-icon add-icon" title="Add product" aria-label="add product"><span class="material-icons-outlined cart-icon add-icon">add_circle_outline</span></button>
+                <button class="cart-icon subtract-icon" title="Subtract item" aria-label="subtract item icon"><span class="material-icons-outlined cart-icon">remove_circle_outline</span></button>
+                <input class="quantity-input small" type="number" value="1">
+                <button class="cart-icon add-icon" title="Add item" aria-label="add item"><span class="material-icons-outlined cart-icon">add_circle_outline</span></button>
               </div>
               <div class="price-container">
-                <p class="price">NOK 3.998</p>
+                <p class="price">NOK 1.000</p>
               </div>
             </div>
           </div>
+
+
         </div>
         <div class="cart-total">
           <p class="total">
-            <span class="product-name">Total</span><span>NOK 5.679</span>
+            <span>Total</span>
+            <span class="total-price">NOK 5.679</span>
           </p>
           <p class="small shipping">
             <span>Shipping (Standard 5-7 days)</span><span>Free</span>
@@ -105,5 +111,6 @@
     </footer>
     <script src="js/components/header.js" type="module"></script>
     <script src="js/components/footer.js" type="module"></script>
+    <script src="js/cart.js" type="module" async></script>
   </body>
 </html>

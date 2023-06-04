@@ -17,7 +17,7 @@ function generateSizes(sizes) {
 
 productContainer.innerHTML = `
     <div class="image-container">
-        <img src="${details.imageUrl}" alt="${details.altText}"/>
+        <img class="image" src="${details.imageUrl}" alt="${details.altText}"/>
     </div>
     <div class="product-details">
         <h1 class="name"><span class="product-name">${details.collection}</span> ${details.style}</h1>
@@ -33,7 +33,7 @@ productContainer.innerHTML = `
         ${generateSizes(allSizes)}
     </div>
     <div class="btn-area">
-        <a href="#" class="cta" aria-label="add product to cart">Add to cart</a>
+        <button class="cta add-to-cart" aria-label="add product to cart">Add to cart</button>
     </div>
     <div class="description-container">
         <p class="description-heading">Product description</p>
