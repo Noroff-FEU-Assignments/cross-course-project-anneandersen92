@@ -158,7 +158,7 @@ header {
 #hamburger:checked~.hamnav {
     display: block;
     position: absolute;
-    top: 131px;
+    top: 145px;
     left: 0%;
     width: 100%;
     height: 100%;
