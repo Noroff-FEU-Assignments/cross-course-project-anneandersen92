@@ -60,39 +60,34 @@
     align-items: flex-start;
 }
 
+.remove-item {
+    background: none;
+    font-size: 11pt;
+    border: none;
+    color: var(--burnt-orange);
+}
+
+.remove-item:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .item-info-footer {
     display: grid;
-    align-items: flex-end;
+
     grid-template-columns: 1fr 1fr;
 }
 
-.iten-info-footer p {
+.item-info-footer p {
     font-weight: 400;
     margin: unset;
+    padding: 16px 0;
 }
 
 .quantity-container {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-.cart-icon {
-    background: none;
-    font-size: 11pt;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    outline: none;
-    color: var(--burnt-orange);
-}
-
-.cart-icon:hover {
-    text-decoration: none;
-    cursor: pointer;
 }
 
 .quantity-input {

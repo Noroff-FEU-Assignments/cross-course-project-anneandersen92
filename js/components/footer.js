@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function displayFooter() {
     createFooter();
-}
+};
 
 function createFooter() {
     footer.innerHTML = footer.innerHTML = `
@@ -16,4 +16,4 @@ function createFooter() {
             <li><a href="contact.html">Contact us</a></li>
             </ul>
         </div>`
-}
+};

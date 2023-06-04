@@ -46,7 +46,7 @@ function validateForm() {
     } else {
         emailError.style.display = "block";
     }
-}
+};
 
 function checkLength(value, len) {
     if (value.trim().length > len) {
@@ -54,13 +54,13 @@ function checkLength(value, len) {
     } else {
         return false;
     }
-}
+};
 
 function validateEmail(email) {
     const regEx = /\S+@\S+\.\S+/;
     const patternMatches = regEx.test(email);
     return patternMatches;
-}
+};
 
 function submitForm(event) {
     event.preventDefault;
@@ -73,7 +73,7 @@ function submitForm(event) {
         document.title = "Order complete";
         form.reset();
     }
-}
+};
 
 form.addEventListener("keyup", validateForm);
 form.addEventListener("submit", validateForm);

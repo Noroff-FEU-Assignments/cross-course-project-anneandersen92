@@ -17,7 +17,7 @@ for (let i = 0; i < products.length; i++) {
         createHtml(product);
     }
 
-}
+};
 
 function createHtml(product) {
     productsContainer.innerHTML += `<a href="product.html?id=${product.id}" class="product-card">
@@ -31,4 +31,4 @@ function createHtml(product) {
                                             <p class="price">NOK ${product.price}</p>
                                             <button class="cta" aria-label="view product">View</button>
                                         </a>`;
-}
+};

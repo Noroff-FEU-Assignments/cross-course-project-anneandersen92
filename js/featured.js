@@ -9,7 +9,7 @@ for (let i = 0; i < products.length; i++) {
     if (product.featured === true) {
         createHtml(product);
     }
-}
+};
 
 function createHtml(product) {
     featured.innerHTML += `<a href="product.html?id=${product.id}" class="product-card">
@@ -20,4 +20,4 @@ function createHtml(product) {
                                     <button class="cta" aria-label="view product">View</button>
                                 </div>
                             </a>`;
-}
+};

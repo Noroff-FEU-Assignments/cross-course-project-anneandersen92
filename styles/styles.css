@@ -102,6 +102,19 @@ header {
 
 .icons {
     margin-left: auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.count {
+    border-radius: 50%;
+    background: var(--crystal-blue);
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    display: block;
+
+
 }
 
 .logo1 {

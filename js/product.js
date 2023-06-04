@@ -13,7 +13,7 @@ function generateSizes(sizes) {
                     <p>${size}</p>
                 </div>`
     })
-}
+};
 
 productContainer.innerHTML = `
     <div class="image-container">
@@ -47,3 +47,19 @@ const current = document.querySelector(".current");
 current.innerHTML = `${details.collection} ${details.style}`
 
 document.title = `${details.collection} ${details.style}`;
+
+
+const addToCartButton = document.querySelector(".add-to-cart")
+const cartIcon = document.querySelector(".cart-icon");
+
+addToCartButton.onclick = function () {
+    addToCartButton.innerHTML = "Item added to cart";
+    addToCartButton.classList.add("clicked");
+
+    const delay = 3000;
+
+    setTimeout(function () {
+        addToCartButton.innerHTML = "Add to cart";
+        addToCartButton.classList.remove("clicked");
+    }, delay);
+};

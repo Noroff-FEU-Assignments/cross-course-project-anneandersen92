@@ -18,13 +18,13 @@ function validateForm() {
     } else {
         passwordError.style.display = "block";
     }
-}
+};
 
 function validateEmail(email) {
     const regEx = /\S+@\S+\.\S+/;
     const patternMatches = regEx.test(email);
     return patternMatches;
-}
+};
 
 function checkPassword(value, len) {
     if (value.trim().length === len) {
@@ -32,7 +32,7 @@ function checkPassword(value, len) {
     } else {
         return false;
     }
-}
+};
 
 function submitForm(event) {
     event.preventDefault;
@@ -40,10 +40,8 @@ function submitForm(event) {
     if (validateEmail(email.value) && checkPassword(password.value, 8)) {
         form.reset();
     }
-}
+};
 
 form.addEventListener("submit", validateForm);
 
 form.addEventListener("submit", submitForm);
-
-console.log(password);
