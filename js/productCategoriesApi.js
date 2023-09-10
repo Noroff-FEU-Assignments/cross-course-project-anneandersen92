@@ -1,9 +1,5 @@
+import { url } from "./data/api.js";
 import { displayError } from "./components/errorMessage.js";
-
-
-const consumerKey = "consumer_key=ck_c3e095fad5b4ed9cbd65cf25536f8b44c0ef549a";
-const consumerSecret = "consumer_secret=cs_fef4c836226901998fbd21cbbd809d0b7c007213";
-const url = "https://annesflower.no/rainydays/wp-json/wc/v3/products" + "?" + consumerKey + "&" + consumerSecret;
 
 const productsContainer = document.querySelector(".products-container");
 const womenProducts = document.querySelector(".women-products");
