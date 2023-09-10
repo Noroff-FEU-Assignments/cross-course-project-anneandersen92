@@ -1,11 +1,13 @@
-import { url } from "./data/api.js";
+import { url, consumerKey, consumerSecret } from "./data/api.js";
 import { displayError } from "./components/errorMessage.js";
+
+const completeUrl = url + "?" + consumerKey + "&" + consumerSecret;
 
 const featured = document.querySelector(".featured-slider");
 
 async function fetchProducts() {
     try {
-        const response = await fetch(url);
+        const response = await fetch(completeUrl);
         const products = await response.json();
 
         featured.innerHTML = "";

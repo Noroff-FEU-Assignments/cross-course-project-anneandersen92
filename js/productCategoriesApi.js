@@ -1,5 +1,7 @@
-import { url } from "./data/api.js";
+import { url, consumerKey, consumerSecret } from "./data/api.js";
 import { displayError } from "./components/errorMessage.js";
+
+const completeUrl = url + "?" + consumerKey + "&" + consumerSecret;
 
 const productsContainer = document.querySelector(".products-container");
 const womenProducts = document.querySelector(".women-products");
@@ -8,7 +10,7 @@ const alphaProducts = document.querySelector(".alpha-products");
 
 async function fetchProducts() {
     try {
-        const response = await fetch(url);
+        const response = await fetch(completeUrl);
         const products = await response.json();
 
         productsContainer.innerHTML = "";
@@ -17,11 +19,11 @@ async function fetchProducts() {
 
             const product = products[i];
 
-            if (womenProducts && product.categories[2].name.toLowerCase() === "women") {
+            if (womenProducts && product.categories[2].slug === "women") {
                 createHtml(product);
-            } else if (menProducts && product.categories[2].name.toLowerCase() === "men") {
+            } else if (menProducts && product.categories[2].slug === "men") {
                 createHtml(product);
-            } else if (alphaProducts && product.categories[0].name.toLowerCase() === "alpha") {
+            } else if (alphaProducts && product.categories[0].slug === "alpha") {
                 createHtml(product);
             }
         };
@@ -32,7 +34,7 @@ async function fetchProducts() {
                                                   <img src="${product.images[0].src}" alt="${product.images[0].alt}">
                                               </div>
                                               <div class="product-details">
-                                                  <p class="name"><span class="product-name">${product.categories[0].name}</span> ${product.categories[1].name} ${product.categories[2].name}</p>
+                                                  <p class="name"><span class="product-name">${product.categories[0].slug}</span> ${product.categories[1].slug} ${product.categories[2].slug}</p>
                                                   <p class="color">${product.default_attributes[0].option}</p>
                                               </div>
                                               <p class="price">NOK ${product.price}</p>
