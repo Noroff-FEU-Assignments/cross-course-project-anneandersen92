@@ -24,7 +24,7 @@ async function fetchProducts() {
         function createHtml(product) {
             featured.innerHTML += `<a href="product.html?id=${product.id}" class="product-card">
                                         <img src="${product.images[0].src}" alt="${product.images[0].alt}">
-                                        <p><span class="product-name">${product.categories[0].name}</span> ${product.categories[1].name} ${product.categories[2].name}</p>
+                                        <p><span class="product-name">${product.categories[0].slug}</span> ${product.categories[1].slug} ${product.categories[2].slug}</p>
                                         <p class="price">NOK ${product.price}</p>
                                         <div class="btn-area">
                                             <button class="cta" aria-label="view product">View</button>
