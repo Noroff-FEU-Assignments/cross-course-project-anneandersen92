@@ -8,10 +8,7 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
-
-console.log(id);
-
-const singleUrl = url + "/" + id + "?" + consumerKey + "&" + consumerSecret;
+const singleUrl = url + "/" + id + "?per_page=20" + "&" + consumerKey + "&" + consumerSecret;
 
 
 async function fetchProduct() {
@@ -40,15 +37,15 @@ function createHtml(details) {
                                     </div>
                                     <div class="size-bar">
                                         <input type="radio" id="xs" name="size">
-                                        <label for="xs" class="size">XS</label>
+                                        <label for="xs" class="size">${details.attributes[0].options[0]}</label>
                                         <input type="radio" id="s" name="size">
-                                        <label for="s" class="size">S</label>
+                                        <label for="s" class="size">${details.attributes[0].options[1]}</label>
                                         <input type="radio" id="m" name="size">
-                                        <label for="m" class="size">M</label>
+                                        <label for="m" class="size">${details.attributes[0].options[2]}</label>
                                         <input type="radio" id="l" name="size">
-                                        <label for="l" class="size">L</label>
+                                        <label for="l" class="size">${details.attributes[0].options[3]}</label>
                                         <input type="radio" id="xl" name="size">
-                                        <label for="xl" class="size">XL</label>
+                                        <label for="xl" class="size">${details.attributes[0].options[4]}</label>
                                     </div>
                                     <div class="btn-area">
                                         <button class="cta add-to-cart" aria-label="add product to cart">Add to cart</button>
@@ -63,11 +60,9 @@ function createHtml(details) {
     const gender = document.querySelector(".gender");
     const current = document.querySelector(".current");
 
-    console.log(details.categories[2].slug)
-
     gender.innerHTML = `<a href="${details.categories[2].slug}.html">${details.categories[2].slug}</a> /`
     current.innerHTML = `${details.categories[0].slug} ${details.categories[1].slug}`
-    document.title = `Rainydays | ${details.categories[0].slug} ${details.categories[1].slug}`;
+    document.title = `Rainydays | ${details.categories[0].name} ${details.categories[1].slug}`;
 
     const addToCartButton = document.querySelector(".add-to-cart")
 

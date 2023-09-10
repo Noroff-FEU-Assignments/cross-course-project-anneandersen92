@@ -1,7 +1,7 @@
 import { url, consumerKey, consumerSecret } from "./data/api.js";
 import { displayError } from "./components/errorMessage.js";
 
-const completeUrl = url + "?" + consumerKey + "&" + consumerSecret;
+const completeUrl = url + "?per_page=20" + "&" + consumerKey + "&" + consumerSecret;
 
 const productsContainer = document.querySelector(".products-container");
 const womenProducts = document.querySelector(".women-products");
