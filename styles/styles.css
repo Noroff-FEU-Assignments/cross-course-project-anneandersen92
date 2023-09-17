@@ -85,6 +85,35 @@ a[href="#"] {
     font-weight: 500;
 }
 
+.loader {
+    border: 12px solid var(--rainydays-blue-90);
+    border-top: 12px solid var(--rainydays-blue);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin: 32px auto;
+    grid-column-end: 3;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.error {
+    width: auto;
+    background: #fff;
+    border: 3px solid #F20732;
+    padding: 16px;
+    line-height: 0;
+    grid-column-end: span 3;
+}
 
 /* HEADER */
 header {

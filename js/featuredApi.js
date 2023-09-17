@@ -33,7 +33,7 @@ async function fetchProducts() {
         };
 
     } catch (error) {
-        productsContainer.innerHTML = displayError("An error occured when calling the API");
+        featured.innerHTML = displayError("An error occured when calling the API");
     }
 }
 
