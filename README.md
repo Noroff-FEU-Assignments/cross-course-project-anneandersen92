@@ -4,13 +4,15 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Rainydays is an interactive and dynamic web shop developed by me throughout my first year of the Front-end Development program at Noroff. The site has advanced in line with the course progression. By using HTML, CSS, JavaScript and headless WordPress I have created a functional and responsive web shop with a tidy and modern design.
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+Key features includes:
+- a home page with a 'bestsellers' section displaying products in a carousel
+- product specific pages consisting of content dynamically built using query string parameters
+- a contact page with form validation which displays an error message if requirements are not met
+- content that is managed with WordPress, and is fetched using WordPress REST API (CMS is headless)
+- a simulated purchase/cart functionality
+- a user-centric design responsive across different sized devices which also appeals to the target audience
 
 ## Built With
 
@@ -19,6 +21,7 @@ This site is built with the following:
 - HTML
 - CSS
 - JavaScript
+- Headless WordPress
 
 ## Getting Started
 
