@@ -1,6 +1,6 @@
 # Rainydays | Cross Course Project
 
-![image](images/science_museum.png)
+![image](images/rainydays.png)
 
 ## Description
 
