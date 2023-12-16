@@ -60,6 +60,6 @@ git push origin new-contribution
 
 ## Contact
 
-[My Email](mailto:anne_92@live.no?subject=OH%20Sheet%20inquiry)
+[My Email](mailto:anne_92@live.no?subject=Rainydays%20inquiry)
 
 [My LinkedIn page](https://www.linkedin.com/in/anne-andersen-7ba49b58)
