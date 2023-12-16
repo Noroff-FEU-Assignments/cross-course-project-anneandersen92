@@ -4,7 +4,7 @@
 
 ## Description
 
-Rainydays is an interactive and dynamic web shop developed by me throughout my first year of the Front-end Development program at Noroff. The site has advanced in line with the course progression. By using HTML, CSS, JavaScript and headless WordPress I have created a functional and responsive web shop with a tidy and modern design.
+[Rainydays](https://rainydays-andersen.netlify.app/) is a web shop developed by me throughout my first year of the Front-end Development program at Noroff. The site has advanced in line with the course progression. By using HTML, CSS, JavaScript and headless WordPress I have created an interactive and dynamic web shop, with a responsive, tidy, and modern design.
 
 Key features includes:
 - a home page with a 'bestsellers' section displaying products in a carousel
